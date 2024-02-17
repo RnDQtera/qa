@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.010.011 Menghapus brand</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec14eb3f-4381-49de-b902-b8e88c0ed5ca</testCaseGuid>
+</TestCaseEntity>

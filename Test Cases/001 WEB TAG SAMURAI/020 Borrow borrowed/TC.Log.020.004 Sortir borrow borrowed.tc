@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.020.004 Sortir borrow borrowed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbb2b682-3371-4ea5-9a98-32efaa97e030</testCaseGuid>
+</TestCaseEntity>

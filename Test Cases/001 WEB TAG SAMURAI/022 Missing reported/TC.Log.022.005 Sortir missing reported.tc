@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.022.005 Sortir missing reported</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd0ea677-be68-4fb2-bf05-12d471033adf</testCaseGuid>
+</TestCaseEntity>

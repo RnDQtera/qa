@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.023.003 Download missing history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>370c35bd-6bd3-42ed-8bca-ab976dc561c0</testCaseGuid>
+</TestCaseEntity>

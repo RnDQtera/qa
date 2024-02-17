@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.009.008 Menghapus kategori asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e75b25d5-e136-4750-89bb-07d704341273</testCaseGuid>
+</TestCaseEntity>

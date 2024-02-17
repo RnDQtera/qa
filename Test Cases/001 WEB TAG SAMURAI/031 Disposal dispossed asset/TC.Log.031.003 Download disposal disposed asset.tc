@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.031.003 Download disposal disposed asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc404862-c6f3-4ef3-8a38-da4b6c6e0122</testCaseGuid>
+</TestCaseEntity>

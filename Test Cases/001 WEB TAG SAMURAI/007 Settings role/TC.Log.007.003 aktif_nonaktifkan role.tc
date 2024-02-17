@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.007.003 aktif_nonaktifkan role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd7ef3f9-412d-4d15-8114-2593e0278cc2</testCaseGuid>
+</TestCaseEntity>

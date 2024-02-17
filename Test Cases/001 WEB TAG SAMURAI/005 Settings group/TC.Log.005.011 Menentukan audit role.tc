@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.005.011 Menentukan audit role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8569eae-3da9-4b3e-b53f-de07054194d2</testCaseGuid>
+</TestCaseEntity>

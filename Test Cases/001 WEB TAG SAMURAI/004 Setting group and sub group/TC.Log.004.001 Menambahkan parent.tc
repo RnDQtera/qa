@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.004.001 Menambahkan parent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3b82893-d8bc-47e8-912b-87c64c75d01a</testCaseGuid>
+</TestCaseEntity>

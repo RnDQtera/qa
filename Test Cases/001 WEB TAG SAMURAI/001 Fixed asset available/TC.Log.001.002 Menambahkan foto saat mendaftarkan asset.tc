@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.001.002 Menambahkan foto saat mendaftarkan asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae2a5ef5-27dd-43ab-8af6-45d6f3f7fd53</testCaseGuid>
+</TestCaseEntity>

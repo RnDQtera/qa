@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.003.006 Sortir transfer transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d08b3d3f-ce21-4c66-9015-0bf2a689f997</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.005.008 Menghapus role manager</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f48ac963-b802-4245-b331-7eef7e1701aa</testCaseGuid>
+</TestCaseEntity>

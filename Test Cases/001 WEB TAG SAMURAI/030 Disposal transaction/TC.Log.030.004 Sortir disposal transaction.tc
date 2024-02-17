@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.030.004 Sortir disposal transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebe57b1a-ce24-4825-a33d-eb0d65f85fec</testCaseGuid>
+</TestCaseEntity>

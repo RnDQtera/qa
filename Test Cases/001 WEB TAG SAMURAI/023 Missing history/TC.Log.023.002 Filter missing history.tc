@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.023.002 Filter missing history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d493f036-f602-476f-91cf-7f4b83850cf3</testCaseGuid>
+</TestCaseEntity>

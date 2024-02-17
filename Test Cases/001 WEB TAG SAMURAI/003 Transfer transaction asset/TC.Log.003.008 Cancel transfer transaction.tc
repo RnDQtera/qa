@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.003.008 Cancel transfer transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8a525ed-3c83-4bf5-8479-75e734df640f</testCaseGuid>
+</TestCaseEntity>

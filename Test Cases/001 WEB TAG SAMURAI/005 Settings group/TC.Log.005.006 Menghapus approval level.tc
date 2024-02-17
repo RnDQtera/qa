@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.005.006 Menghapus approval level</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e120716-baa5-4418-8a2b-1459d9fadc41</testCaseGuid>
+</TestCaseEntity>

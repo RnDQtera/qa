@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.001.010 Bulk action prelist transfer available asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1cae726-c22f-4f46-9ee4-0a82f74b3066</testCaseGuid>
+</TestCaseEntity>

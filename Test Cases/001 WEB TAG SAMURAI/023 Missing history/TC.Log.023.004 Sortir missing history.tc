@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.023.004 Sortir missing history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b68d4a8-7d72-4ec1-bd63-1f98da0f6b40</testCaseGuid>
+</TestCaseEntity>

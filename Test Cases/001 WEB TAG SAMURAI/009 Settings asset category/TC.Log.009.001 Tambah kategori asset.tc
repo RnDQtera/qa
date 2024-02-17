@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.009.001 Tambah kategori asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d06a2c63-0cf1-4cb1-a25c-3439f420b6cf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.003.002 Melihat log transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db0ad97c-44ef-484f-89df-472dc2b5bb75</testCaseGuid>
+</TestCaseEntity>

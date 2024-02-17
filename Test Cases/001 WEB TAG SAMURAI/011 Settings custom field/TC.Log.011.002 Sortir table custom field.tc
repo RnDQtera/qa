@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.011.002 Sortir table custom field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f75fca25-75e7-406f-9e7d-03deab1bac12</testCaseGuid>
+</TestCaseEntity>

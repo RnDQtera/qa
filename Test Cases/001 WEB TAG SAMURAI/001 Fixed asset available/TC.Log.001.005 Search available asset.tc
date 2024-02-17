@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.001.005 Search available asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be6794b3-538c-420a-8ab1-065736d184bc</testCaseGuid>
+</TestCaseEntity>

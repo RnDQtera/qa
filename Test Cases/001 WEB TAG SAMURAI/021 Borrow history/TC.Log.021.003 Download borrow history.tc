@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.021.003 Download borrow history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61a7faf5-c19a-4aad-9ddd-6f9479c299e0</testCaseGuid>
+</TestCaseEntity>

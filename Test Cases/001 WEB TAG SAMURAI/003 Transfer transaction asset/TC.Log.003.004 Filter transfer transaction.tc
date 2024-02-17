@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.003.004 Filter transfer transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0d6d444-f594-4d2c-be4e-01307eae7326</testCaseGuid>
+</TestCaseEntity>

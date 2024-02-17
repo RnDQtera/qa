@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.019.003 Download borrow transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc85e877-0a7f-4acb-9042-141e1f42ba75</testCaseGuid>
+</TestCaseEntity>

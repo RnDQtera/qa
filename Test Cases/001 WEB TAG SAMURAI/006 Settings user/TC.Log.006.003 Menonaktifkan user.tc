@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.006.003 Menonaktifkan user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a5f4a80-d73f-4e0f-8768-f7de43e85f88</testCaseGuid>
+</TestCaseEntity>

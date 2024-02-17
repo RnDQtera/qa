@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.030.008 Melihat detail asset disposal transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4d1c858-cac0-480b-b20f-8eb89151a759</testCaseGuid>
+</TestCaseEntity>

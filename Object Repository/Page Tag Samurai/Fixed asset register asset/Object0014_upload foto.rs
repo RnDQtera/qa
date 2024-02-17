@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Object0014_upload foto</name>
+   <tag></tag>
+   <elementGuidId>8209d948-a2b8-42f9-af3f-bda5b896e77e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-trigger.d-flex.align-items-center.justify-content-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[10]/div/div[2]/div/div[6]/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>efb3a15a-80ba-4ed6-884e-44f9a55cafa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-trigger d-flex align-items-center justify-content-center</value>
+      <webElementGuid>d00dd621-daff-4507-a1cf-c9d19b2f5969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;p-dialog-mask p-component-overlay p-component-overlay-enter&quot;]/div[@class=&quot;p-dialog p-component p-ripple-disabled&quot;]/div[@class=&quot;p-dialog-content&quot;]/div[@class=&quot;row col-12 d-flex&quot;]/div[@class=&quot;form-group col-6&quot;]/div[1]/div[@class=&quot;d-flex col-12&quot;]/div[@class=&quot;input-trigger d-flex align-items-center justify-content-center&quot;]</value>
+      <webElementGuid>df51bed0-2edc-4a46-a566-f5c766e9d575</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div[2]/div/div[6]/div/div/div</value>
+      <webElementGuid>cd456805-9b72-4e33-8ee9-b3e64e772d19</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

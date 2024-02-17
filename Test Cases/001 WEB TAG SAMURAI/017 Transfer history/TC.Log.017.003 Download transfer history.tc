@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.017.003 Download transfer history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b41e0fa0-84d7-4a36-9351-8cfb97b20b68</testCaseGuid>
+</TestCaseEntity>

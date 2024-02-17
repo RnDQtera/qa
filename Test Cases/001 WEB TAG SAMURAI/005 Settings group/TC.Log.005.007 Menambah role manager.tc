@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.005.007 Menambah role manager</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86b3f297-f736-4849-b475-c665e639ce4e</testCaseGuid>
+</TestCaseEntity>

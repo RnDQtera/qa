@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.025.002 Filter assign transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7ba99a1-07cb-4e82-99b8-ede9c0de01cb</testCaseGuid>
+</TestCaseEntity>
