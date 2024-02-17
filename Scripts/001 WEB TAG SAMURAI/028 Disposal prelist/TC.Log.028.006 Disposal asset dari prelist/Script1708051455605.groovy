@@ -23,39 +23,39 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0566_menu disposal fixed asset'))
+WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset disposal prelist/Object0565_titik 3 disposal prelist'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0565_titik 3 disposal prelist'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset disposal prelist/Object0564_prelist disposal'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0564_prelist disposal'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset disposal prelist/Object0567_dropdown reason req disposal'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0567_dropdown reason req disposal'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset disposal prelist/Object0568_checkbox reason req disposal'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0568_checkbox reason req disposal'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset disposal prelist/Object0569_dropdown metode req disposal'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0569_dropdown metode req disposal'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset disposal prelist/Object0570_checkbox metode req disposal'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0570_checkbox metode req disposal'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset disposal prelist/Object0571_submit req disposal'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0571_submit req disposal'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

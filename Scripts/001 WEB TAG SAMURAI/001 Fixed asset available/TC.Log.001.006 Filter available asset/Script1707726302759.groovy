@@ -23,35 +23,35 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu available asset/Object0060_button menu available asset'))
+WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter available asset/Object0057_button filter asset'))
+WebUI.click(findTestObject('Filter available asset/Object0057_button filter asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter available asset/Object0059_dropdown filter asset name'))
+WebUI.click(findTestObject('Filter available asset/Object0059_dropdown filter asset name'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter available asset/Object0058_checkbox filter asset name i4'))
+WebUI.click(findTestObject('Filter available asset/Object0058_checkbox filter asset name i4'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter available asset/Object0056_apply filter avail asset'))
+WebUI.click(findTestObject('Filter available asset/Object0056_apply filter avail asset'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

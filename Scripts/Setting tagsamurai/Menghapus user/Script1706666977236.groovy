@@ -21,29 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting user/Object0228_Menu user'))
+WebUI.click(findTestObject('Setting user/Object0228_Menu user'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting user/Object0193_Button Search user'))
+WebUI.click(findTestObject('Setting user/Object0193_Button Search user'))
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting user/Object0202_Ketik search user'), 'sultan')
+WebUI.setText(findTestObject('Setting user/Object0202_Ketik search user'), 'sultan')
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Setting user/Object0202_Ketik search user'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Setting user/Object0202_Ketik search user'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0225_Titik 3 user'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0225_Titik 3 user'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0227_Hapus user'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0227_Hapus user'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0216_Button yes delete'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0216_Button yes delete'))
 

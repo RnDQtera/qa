@@ -23,31 +23,31 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset borrow prelist/Object0076_bt menu borrow'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Menu fixed asset borrow prelist/Object0076_bt menu borrow'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset borrow prelist/Object0077_bt search borrow prelist'))
+WebUI.click(findTestObject('Menu fixed asset borrow prelist/Object0077_bt search borrow prelist'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu fixed asset borrow prelist/Object0078_ketik search borrow prelist'), 'kursi')
+WebUI.setText(findTestObject('Menu fixed asset borrow prelist/Object0078_ketik search borrow prelist'), 'kursi')
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Menu fixed asset borrow prelist/Object0078_ketik search borrow prelist'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Menu fixed asset borrow prelist/Object0078_ketik search borrow prelist'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

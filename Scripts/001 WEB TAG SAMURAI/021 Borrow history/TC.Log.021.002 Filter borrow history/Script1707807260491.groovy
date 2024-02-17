@@ -23,35 +23,35 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset borrow prelist/Object0076_bt menu borrow'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset borrow history/Object0093_borrow history'))
+WebUI.delay(10)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Menu fixed asset borrow prelist/Object0076_bt menu borrow'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter borrow history/Object0101_bt filter borrow history'))
-
-WebUI.click(findTestObject('Page Tag Samurai/Filter borrow history/Object0103_dropdown status borrow history'))
+WebUI.click(findTestObject('Menu fixed asset borrow history/Object0093_borrow history'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter borrow history/Object0102_checkbox i1 status borrow history'))
+WebUI.click(findTestObject('Filter borrow history/Object0101_bt filter borrow history'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter borrow history/Object0100_apply filter borrow history'))
+WebUI.click(findTestObject('Filter borrow history/Object0103_dropdown status borrow history'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Filter borrow history/Object0102_checkbox i1 status borrow history'))
+
+WebUI.click(findTestObject('Filter borrow history/Object0100_apply filter borrow history'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

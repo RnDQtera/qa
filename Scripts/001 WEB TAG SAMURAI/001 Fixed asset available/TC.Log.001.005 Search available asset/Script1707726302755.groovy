@@ -23,29 +23,29 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu available asset/Object0060_button menu available asset'))
+WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu available asset/Object0061_button search avail asset'))
+WebUI.click(findTestObject('Menu available asset/Object0061_button search avail asset'))
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu available asset/Object0064ketik search avail asset'), 'kursi')
+WebUI.setText(findTestObject('Menu available asset/Object0064ketik search avail asset'), 'kursi')
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Menu available asset/Object0064ketik search avail asset'), Keys.chord(
+WebUI.sendKeys(findTestObject('Menu available asset/Object0064ketik search avail asset'), Keys.chord(
         Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

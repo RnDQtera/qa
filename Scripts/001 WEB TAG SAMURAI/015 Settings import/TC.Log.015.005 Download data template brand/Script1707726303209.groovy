@@ -25,29 +25,29 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting import download template file/Object0265_menu import (1)'))
+WebUI.click(findTestObject('Setting import download template file/Object0265_menu import (1)'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting import download template file/Object0264_dropdown data template'))
+WebUI.click(findTestObject('Setting import download template file/Object0264_dropdown data template'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting import download template file/Object0270_pilihan 5 data template'))
+WebUI.click(findTestObject('Setting import download template file/Object0270_pilihan 5 data template'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting import download template file/Object0263_download data template import'))
+WebUI.click(findTestObject('Setting import download template file/Object0263_download data template import'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

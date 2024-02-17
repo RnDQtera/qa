@@ -25,37 +25,37 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting accounting depreciation setting/Object0431_menu setting accounting'))
+WebUI.click(findTestObject('Setting accounting depreciation setting/Object0431_menu setting accounting'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Bulk action setting accounting depreciation setting/Object0447_select all deprecation group'))
+WebUI.click(findTestObject('Bulk action setting accounting depreciation setting/Object0447_select all deprecation group'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Bulk action setting accounting depreciation setting/Object0445_bt bulk action'))
+WebUI.click(findTestObject('Bulk action setting accounting depreciation setting/Object0445_bt bulk action'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Bulk action setting accounting depreciation setting/Object0446_pilihan bulk action 1'), 
+WebUI.click(findTestObject('Bulk action setting accounting depreciation setting/Object0446_pilihan bulk action 1'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Bulk action setting accounting depreciation setting/Object0444_apply bulk action'), 
+WebUI.click(findTestObject('Bulk action setting accounting depreciation setting/Object0444_apply bulk action'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page Tag Samurai/Bulk action setting accounting depreciation setting/Object0448_ya hapus bulk action'))
+WebUI.click(findTestObject('Bulk action setting accounting depreciation setting/Object0448_ya hapus bulk action'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

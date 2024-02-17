@@ -23,27 +23,27 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.delay(8)
 
-WebUI.doubleClick(findTestObject('Page Tag Samurai/Menu available asset/Object0060_button menu available asset'))
+WebUI.doubleClick(findTestObject('Menu available asset/Object0060_button menu available asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu available asset/Object0062_change log avail asset'))
+WebUI.click(findTestObject('Menu available asset/Object0062_change log avail asset'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

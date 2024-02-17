@@ -23,33 +23,33 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset borrow prelist/Object0076_bt menu borrow'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset borrow borrowed/Object0087_menu borrow borrowed'))
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Menu fixed asset borrow prelist/Object0076_bt menu borrow'))
+
+WebUI.click(findTestObject('Menu fixed asset borrow borrowed/Object0087_menu borrow borrowed'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset borrow borrowed/Object0088_search borrow borrowed'))
+WebUI.click(findTestObject('Menu fixed asset borrow borrowed/Object0088_search borrow borrowed'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu fixed asset borrow borrowed/Object0086_ketik search borrow borrowed'), 'returned')
+WebUI.setText(findTestObject('Menu fixed asset borrow borrowed/Object0086_ketik search borrow borrowed'), 'returned')
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Menu fixed asset borrow borrowed/Object0086_ketik search borrow borrowed'), 
+WebUI.sendKeys(findTestObject('Menu fixed asset borrow borrowed/Object0086_ketik search borrow borrowed'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

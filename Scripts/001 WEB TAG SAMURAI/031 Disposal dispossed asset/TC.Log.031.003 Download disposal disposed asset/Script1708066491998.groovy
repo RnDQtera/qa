@@ -23,27 +23,27 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0566_menu disposal fixed asset'))
+WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset disposal disposed asset/Object0599_menu disposed asset'))
+WebUI.click(findTestObject('Menu fixed asset disposal disposed asset/Object0599_menu disposed asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset disposal disposed asset/Object0602_download disposed asset'))
+WebUI.click(findTestObject('Menu fixed asset disposal disposed asset/Object0602_download disposed asset'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

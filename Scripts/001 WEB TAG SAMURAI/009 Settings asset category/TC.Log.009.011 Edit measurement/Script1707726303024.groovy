@@ -25,42 +25,42 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0401_menu kategori asset'))
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0401_menu kategori asset'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories measurement/Object0413_menu measurement'))
+WebUI.click(findTestObject('Setting asset-categories measurement/Object0413_menu measurement'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting asset-categories measurement/Object0434_titik 3 measurement'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0434_titik 3 measurement'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting asset-categories measurement/Object0429_edit measurement'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0429_edit measurement'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu titik 3 setting asset-categories measurement/Object0432_ketik edit measurement'), 
+WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0432_ketik edit measurement'), 
     'Edited unit')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting asset-categories measurement/Object0433_submit edit measurement'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0433_submit edit measurement'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

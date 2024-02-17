@@ -25,43 +25,43 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0250_menu role'))
+WebUI.click(findTestObject('Setting role/Object0250_menu role'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0255_tambah role'))
+WebUI.click(findTestObject('Setting role/Object0255_tambah role'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting role/Object0248_ketik nama role baru'), 'A tester role web')
+WebUI.setText(findTestObject('Setting role/Object0248_ketik nama role baru'), 'A tester role web')
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0251_pilih group role'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0241_checkbox all group role'))
-
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0238_apply buttong group role'))
+WebUI.click(findTestObject('Setting role/Object0251_pilih group role'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0252_pilihan global setting manage all'))
+WebUI.click(findTestObject('Setting role/Object0241_checkbox all group role'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0254_submit tambah role'))
+WebUI.click(findTestObject('Setting role/Object0238_apply buttong group role'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Setting role/Object0252_pilihan global setting manage all'))
+
+WebUI.click(findTestObject('Setting role/Object0254_submit tambah role'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

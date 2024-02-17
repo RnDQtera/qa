@@ -25,33 +25,33 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting accounting depreciation setting/Object0431_menu setting accounting'))
+WebUI.click(findTestObject('Setting accounting depreciation setting/Object0431_menu setting accounting'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter setting accounting depreciation setting/Object0450_bt filter deprecation setting'))
+WebUI.click(findTestObject('Filter setting accounting depreciation setting/Object0450_bt filter deprecation setting'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter setting accounting depreciation setting/Object0451_dropdown filter durasi'))
+WebUI.click(findTestObject('Filter setting accounting depreciation setting/Object0451_dropdown filter durasi'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter setting accounting depreciation setting/Object0452_pilihan filter durasi 1 deprecation group'))
+WebUI.click(findTestObject('Filter setting accounting depreciation setting/Object0452_pilihan filter durasi 1 deprecation group'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter setting accounting depreciation setting/Object0449_apply filter deprecation group'))
+WebUI.click(findTestObject('Filter setting accounting depreciation setting/Object0449_apply filter deprecation group'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

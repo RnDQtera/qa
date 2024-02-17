@@ -25,46 +25,46 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting custom field/Object0336_menu custom field'))
+WebUI.click(findTestObject('Setting custom field/Object0336_menu custom field'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting custom field/Object0369_titik 3'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0369_titik 3'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting custom field/Object0364_edit custom field'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0364_edit custom field'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting custom field/Object0361_clear field edit custom field'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0361_clear field edit custom field'))
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu titik 3 setting custom field/Object0366_ketik edit nama custom field'), 
+WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0366_ketik edit nama custom field'), 
     'Edited')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting custom field/Object0365_edit tidak dibutuhkan custom field'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0365_edit tidak dibutuhkan custom field'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting custom field/Object0363_dropdown edit custom field'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0363_dropdown edit custom field'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting custom field/Object0367_pilihan 1 dropdown custom field'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0367_pilihan 1 dropdown custom field'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting custom field/Object0358_apply edit custom field'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0358_apply edit custom field'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

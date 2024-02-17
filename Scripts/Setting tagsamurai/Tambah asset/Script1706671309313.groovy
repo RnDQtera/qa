@@ -21,17 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Fixed asset register asset/Object0008_Tambah asset button'))
+WebUI.click(findTestObject('Fixed asset register asset/Object0008_Tambah asset button'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Fixed asset register asset/Object0010_Pilih kategori'))
+WebUI.click(findTestObject('Fixed asset register asset/Object0010_Pilih kategori'))
 

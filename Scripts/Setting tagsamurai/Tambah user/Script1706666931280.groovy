@@ -21,31 +21,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting user/Object0228_Menu user'))
+WebUI.click(findTestObject('Setting user/Object0228_Menu user'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting user/Object0212_Tambah user'))
+WebUI.click(findTestObject('Setting user/Object0212_Tambah user'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting user/Object0200_First name user'), "sultaz")
+WebUI.setText(findTestObject('Setting user/Object0200_First name user'), "sultaz")
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting user/Object0203_Last name user'), "dures")
+WebUI.setText(findTestObject('Setting user/Object0203_Last name user'), "dures")
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting user/Object0196_Divisi'), 'dagang')
+WebUI.setText(findTestObject('Setting user/Object0196_Divisi'), 'dagang')
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting user/Object0198_Email user'), 'sultan001@gmail.com')
+WebUI.setText(findTestObject('Setting user/Object0198_Email user'), 'sultan001@gmail.com')
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting user/Object0194_Button tambah user'))
+WebUI.click(findTestObject('Setting user/Object0194_Button tambah user'))
 

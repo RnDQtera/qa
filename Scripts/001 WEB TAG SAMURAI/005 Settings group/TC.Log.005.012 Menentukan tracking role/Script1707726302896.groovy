@@ -25,31 +25,31 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group audit role/Object0385_menu audit role'))
+WebUI.click(findTestObject('Menu setting group audit role/Object0385_menu audit role'))
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group tracking role/Object0394_menu tracking role'))
+WebUI.click(findTestObject('Menu setting group tracking role/Object0394_menu tracking role'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group tracking role/Object0395_tambah tracking role'))
+WebUI.click(findTestObject('Menu setting group tracking role/Object0395_tambah tracking role'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group tracking role/Object0393_checkbox tracking role 1'))
+WebUI.click(findTestObject('Menu setting group tracking role/Object0393_checkbox tracking role 1'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

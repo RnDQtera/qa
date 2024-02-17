@@ -25,29 +25,29 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting group parent/Object0171_parent index 8'))
+WebUI.click(findTestObject('Setting group parent/Object0171_parent index 8'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting group parent/Object0179_titik 3 index 8'))
+WebUI.click(findTestObject('Setting group parent/Object0179_titik 3 index 8'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting group parent/Object0166_hapus group parent'))
+WebUI.click(findTestObject('Setting group parent/Object0166_hapus group parent'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting group parent/Object0180_ya hapus group parent'))
+WebUI.click(findTestObject('Setting group parent/Object0180_ya hapus group parent'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

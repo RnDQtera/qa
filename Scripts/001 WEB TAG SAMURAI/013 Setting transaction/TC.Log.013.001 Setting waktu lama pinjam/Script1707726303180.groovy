@@ -25,33 +25,33 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting transactions borrowing or assignment/Object0232_menu Setting transaction'))
+WebUI.click(findTestObject('Setting transactions borrowing or assignment/Object0232_menu Setting transaction'))
 
 WebUI.delay(12)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting transactions borrowing or assignment/Object0230_ketik default borrowing time'), '5')
+WebUI.setText(findTestObject('Setting transactions borrowing or assignment/Object0230_ketik default borrowing time'), '5')
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting transactions borrowing or assignment/Object0231_ketik max borrowing time'), '7')
+WebUI.setText(findTestObject('Setting transactions borrowing or assignment/Object0231_ketik max borrowing time'), '7')
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting transactions borrowing or assignment/Object0229_ketik confirm email timeout'), '1')
+WebUI.setText(findTestObject('Setting transactions borrowing or assignment/Object0229_ketik confirm email timeout'), '1')
 
 WebUI.delay(3)
 
-WebUI.doubleClick(findTestObject('Page Tag Samurai/Setting transactions borrowing or assignment/Object0233_save borrowing time'))
+WebUI.doubleClick(findTestObject('Setting transactions borrowing or assignment/Object0233_save borrowing time'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

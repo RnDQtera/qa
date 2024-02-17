@@ -25,25 +25,25 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting accounting depreciation setting/Object0431_menu setting accounting'))
+WebUI.click(findTestObject('Setting accounting depreciation setting/Object0431_menu setting accounting'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting accounting depreciation setting/Object0438_download deprecation group'))
+WebUI.click(findTestObject('Setting accounting depreciation setting/Object0438_download deprecation group'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

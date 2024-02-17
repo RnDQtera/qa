@@ -23,33 +23,33 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0566_menu disposal fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset disposal reported/Object0574_menu disposal reported'))
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset disposal reported/Object0579_bt filter disposal reported'))
+WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
+
+WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal reported/Object0574_menu disposal reported'))
+
+WebUI.click(findTestObject('Filter fixed asset disposal reported/Object0579_bt filter disposal reported'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset disposal reported/Object0580_dropdown nama filter disposal reported'))
+WebUI.click(findTestObject('Filter fixed asset disposal reported/Object0580_dropdown nama filter disposal reported'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset disposal reported/Object0581_apply filter disposal reported'))
+WebUI.click(findTestObject('Filter fixed asset disposal reported/Object0581_apply filter disposal reported'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

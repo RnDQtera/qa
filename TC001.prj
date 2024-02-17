@@ -4,10 +4,10 @@
    <name>TC001</name>
    <tag></tag>
    <UUID>90333beb-963f-4cfa-b37f-858096f115f4</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\aplikasi internal\Katalon Studio\TC001\TC001.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\user\Katalon Studio\qa-tagsamurai\TC001.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

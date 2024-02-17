@@ -23,31 +23,31 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0104_menu transfer'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset transfer transaction/Object0120_menu transaction'))
+WebUI.click(findTestObject('1 Object0104_menu transfer'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset transfer transaction/Object0117_bt search tf ts'))
+WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset transfer transaction/Object0120_menu transaction'))
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu fixed asset transfer transaction/Object0119_ketik search tf ts'), 'kursi')
+WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Menu fixed asset transfer transaction/Object0119_ketik search tf ts'), Keys.chord(
+WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset transfer transaction/Object0117_bt search tf ts'))
+
+WebUI.setText(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset transfer transaction/Object0119_ketik search tf ts'), 'kursi')
+
+WebUI.sendKeys(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset transfer transaction/Object0119_ketik search tf ts'), Keys.chord(
         Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

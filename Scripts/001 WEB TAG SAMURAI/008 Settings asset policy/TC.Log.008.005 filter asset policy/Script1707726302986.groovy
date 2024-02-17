@@ -25,25 +25,25 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset policy/Object0296_menu asset policy'))
+WebUI.click(findTestObject('Setting asset policy/Object0296_menu asset policy'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset policy/Object0294_filter asset'))
+WebUI.click(findTestObject('Setting asset policy/Object0294_filter asset'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

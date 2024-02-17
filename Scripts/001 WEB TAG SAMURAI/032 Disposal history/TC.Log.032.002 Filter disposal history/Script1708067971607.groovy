@@ -23,35 +23,35 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0566_menu disposal fixed asset'))
+WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset disposal history/Object0611_menu disposal history'))
+WebUI.click(findTestObject('Menu fixed asset disposal history/Object0611_menu disposal history'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset disposal history/Object0616_bt filter disposal history'))
+WebUI.click(findTestObject('Filter fixed asset disposal history/Object0616_bt filter disposal history'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset disposal history/Object0617_dropdown filter status disposal history'))
+WebUI.click(findTestObject('Filter fixed asset disposal history/Object0617_dropdown filter status disposal history'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset disposal history/Object0618_checkbox filter status disposal history'))
+WebUI.click(findTestObject('Filter fixed asset disposal history/Object0618_checkbox filter status disposal history'))
 
 WebUI.delay(8)
 
-WebUI.doubleClick(findTestObject('Page Tag Samurai/Filter fixed asset disposal history/Object0619_apply filter disposal history'))
+WebUI.doubleClick(findTestObject('Filter fixed asset disposal history/Object0619_apply filter disposal history'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

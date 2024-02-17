@@ -23,35 +23,35 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0104_menu transfer'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset transfer transaction/Object0120_menu transaction'))
+WebUI.click(findTestObject('1 Object0104_menu transfer'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter transfer transaction/Object0122_bt filter tf ts'))
+WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset transfer transaction/Object0120_menu transaction'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter transfer transaction/Object0124_dropdown status filter tf ts'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Filter transfer transaction/Object0122_bt filter tf ts'))
+
+WebUI.click(findTestObject('Filter transfer transaction/Object0124_dropdown status filter tf ts'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter transfer transaction/Object0123_checkbox status filter tf ts'))
+WebUI.click(findTestObject('Filter transfer transaction/Object0123_checkbox status filter tf ts'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter transfer transaction/Object0121_apply filter tf ts'))
+WebUI.click(findTestObject('Filter transfer transaction/Object0121_apply filter tf ts'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

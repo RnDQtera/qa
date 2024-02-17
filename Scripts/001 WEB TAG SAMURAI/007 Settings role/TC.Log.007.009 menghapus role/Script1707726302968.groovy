@@ -25,45 +25,45 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0250_menu role'))
+WebUI.click(findTestObject('Setting role/Object0250_menu role'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0246_filter role'))
+WebUI.click(findTestObject('Setting role/Object0246_filter role'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0245_dropdown filter role'))
+WebUI.click(findTestObject('Setting role/Object0245_dropdown filter role'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0243_checkbox filter role 2'))
+WebUI.click(findTestObject('Setting role/Object0243_checkbox filter role 2'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0239_apply filter role'))
+WebUI.click(findTestObject('Setting role/Object0239_apply filter role'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting role/Object0261_titik 3'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting role/Object0261_titik 3'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting role/Object0247_hapus role'))
+WebUI.click(findTestObject('Setting role/Object0247_hapus role'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting role/Object0262_ya hapus role'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting role/Object0262_ya hapus role'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

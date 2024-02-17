@@ -23,34 +23,34 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0504_menu assign fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset assign history/Object0551_menu assign history'))
+WebUI.delay(10)
+
+WebUI.click(findTestObject('1 Object0504_menu assign fixed asset'))
+
+WebUI.click(findTestObject('Menu fixed asset assign history/Object0551_menu assign history'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset assign history/Object0543_bt search assign history'))
+WebUI.click(findTestObject('Menu fixed asset assign history/Object0543_bt search assign history'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu fixed asset assign history/Object0544_ketik search assign history'), 
+WebUI.setText(findTestObject('Menu fixed asset assign history/Object0544_ketik search assign history'), 
     'kursi')
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Menu fixed asset assign history/Object0544_ketik search assign history'), 
+WebUI.sendKeys(findTestObject('Menu fixed asset assign history/Object0544_ketik search assign history'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

@@ -25,41 +25,41 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0401_menu kategori asset'))
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0401_menu kategori asset'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter asset-categories asset name/Object0411_bt filter kategori asset'))
+WebUI.click(findTestObject('Filter asset-categories asset name/Object0411_bt filter kategori asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter asset-categories asset name/Object0410_dropdown filter kategori asset'))
+WebUI.click(findTestObject('Filter asset-categories asset name/Object0410_dropdown filter kategori asset'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter asset-categories asset name/Object0409_checkbox acc code i1'))
+WebUI.click(findTestObject('Filter asset-categories asset name/Object0409_checkbox acc code i1'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter asset-categories asset name/Object0408_apply filter kategori asset'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
+WebUI.click(findTestObject('Filter asset-categories asset name/Object0408_apply filter kategori asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting asset-categories asset name/Object0417_detail kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0417_detail kategori asset'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

@@ -25,31 +25,31 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting group parent/Object0170_parent index 7'))
+WebUI.click(findTestObject('Setting group parent/Object0170_parent index 7'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting group parent/Object0178_titik 3 index 7'))
+WebUI.click(findTestObject('Setting group parent/Object0178_titik 3 index 7'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting group parent/Object0175_tambah child index 7'))
+WebUI.click(findTestObject('Setting group parent/Object0175_tambah child index 7'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting group parent/Object0167_ketik child index 7'), 'tester sub')
+WebUI.setText(findTestObject('Setting group parent/Object0167_ketik child index 7'), 'tester sub')
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting group parent/Object0174_submit tambah child index 7'))
+WebUI.click(findTestObject('Setting group parent/Object0174_submit tambah child index 7'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

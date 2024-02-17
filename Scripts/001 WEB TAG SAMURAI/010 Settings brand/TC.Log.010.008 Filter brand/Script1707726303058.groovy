@@ -25,35 +25,35 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting brand/Object0306_menu brand'))
+WebUI.click(findTestObject('Setting brand/Object0306_menu brand'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter setting brands/Object0314_bt filter brand'))
+WebUI.click(findTestObject('Filter setting brands/Object0314_bt filter brand'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter setting brands/Object0313_dropdown filter model type'))
+WebUI.click(findTestObject('Filter setting brands/Object0313_dropdown filter model type'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter setting brands/Object0315_pilihan 1 model type brand'))
+WebUI.click(findTestObject('Filter setting brands/Object0315_pilihan 1 model type brand'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter setting brands/Object0312_apply filter brand'))
+WebUI.click(findTestObject('Filter setting brands/Object0312_apply filter brand'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

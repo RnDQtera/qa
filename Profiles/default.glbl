@@ -34,4 +34,24 @@
       <initValue>'Dagang'</initValue>
       <name>DIVISI</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://localhost:9001'</initValue>
+      <name>localhost</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Texting for notes'</initValue>
+      <name>Notes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'employee1@mailnesia.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Moderator12@'</initValue>
+      <name>pw</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

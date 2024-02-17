@@ -25,29 +25,29 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting custom field/Object0336_menu custom field'))
+WebUI.click(findTestObject('Setting custom field/Object0336_menu custom field'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting custom field/Object0339_search custom field'))
+WebUI.click(findTestObject('Setting custom field/Object0339_search custom field'))
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting custom field/Object0335_ketik search custom field'), 'warna')
+WebUI.setText(findTestObject('Setting custom field/Object0335_ketik search custom field'), 'warna')
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Setting custom field/Object0335_ketik search custom field'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Setting custom field/Object0335_ketik search custom field'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

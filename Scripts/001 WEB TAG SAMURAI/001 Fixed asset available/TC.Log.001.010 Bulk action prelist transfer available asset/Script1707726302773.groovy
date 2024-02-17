@@ -23,39 +23,39 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu available asset/Object0060_button menu available asset'))
+WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Bulk option available asset/Object0054_checkbox i1 avail asset'))
+WebUI.click(findTestObject('Bulk option available asset/Object0054_checkbox i1 avail asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Bulk option available asset/Object0052_button bulk action avail asset'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page Tag Samurai/Bulk option available asset/Object0053_checkbox bulk action i4 avail asset'))
-
-WebUI.click(findTestObject('Page Tag Samurai/Bulk option available asset/Object0051_button apply bulk action'))
+WebUI.click(findTestObject('Bulk option available asset/Object0052_button bulk action avail asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Bulk option available asset/Object0055_ya tambahkan asset ke prelist transfer bulk action'))
+WebUI.click(findTestObject('Bulk option available asset/Object0053_checkbox bulk action i4 avail asset'))
+
+WebUI.click(findTestObject('Bulk option available asset/Object0051_button apply bulk action'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Bulk option available asset/Object0055_ya tambahkan asset ke prelist transfer bulk action'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

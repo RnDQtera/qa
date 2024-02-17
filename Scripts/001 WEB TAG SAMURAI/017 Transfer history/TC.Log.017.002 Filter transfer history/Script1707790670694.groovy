@@ -23,33 +23,33 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0104_menu transfer'))
+WebUI.click(findTestObject('1 Object0104_menu transfer'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset Transfer history/Object0069_menu transfer history'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page Tag Samurai/Filter transfer history/Object0072_bt filter tf history'))
-
-WebUI.click(findTestObject('Page Tag Samurai/Filter transfer history/Object0074_dropdown filter nama tf history'))
+WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer history/Object0069_menu transfer history'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter transfer history/Object0073_checkbox dropdown filter nama i4 tf history'))
+WebUI.click(findTestObject('Filter transfer history/Object0072_bt filter tf history'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter transfer history/Object0071_apply filter tf history'))
+WebUI.click(findTestObject('Filter transfer history/Object0074_dropdown filter nama tf history'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Filter transfer history/Object0073_checkbox dropdown filter nama i4 tf history'))
+
+WebUI.click(findTestObject('Filter transfer history/Object0071_apply filter tf history'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

@@ -23,29 +23,29 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0504_menu assign fixed asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset assign prelist/Object0513_titik 3 assign prelist'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset assign prelist/Object0519_remove from assign prelist'))
+WebUI.click(findTestObject('1 Object0504_menu assign fixed asset'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset assign prelist/Object0513_titik 3 assign prelist'))
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset assign prelist/Object0519_remove from assign prelist'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset assign prelist/Object0520_ya remove from assign prelist'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset assign prelist/Object0520_ya remove from assign prelist'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

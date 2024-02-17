@@ -25,27 +25,27 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group maintenance role/Object0391_menu maintenance role'))
+WebUI.click(findTestObject('Menu setting group maintenance role/Object0391_menu maintenance role'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group maintenance role/Object0392_tambah maintenance role'))
+WebUI.click(findTestObject('Menu setting group maintenance role/Object0392_tambah maintenance role'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group maintenance role/Object0390_checkbox maintenance role 1'))
+WebUI.click(findTestObject('Menu setting group maintenance role/Object0390_checkbox maintenance role 1'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

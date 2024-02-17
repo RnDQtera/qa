@@ -23,33 +23,33 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0125_menu missing'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('1 Object0125_menu missing'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset missing reported/Object0490_bt filter missing reporte'))
+WebUI.click(findTestObject('Filter fixed asset missing reported/Object0490_bt filter missing reporte'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset missing reported/Object0491_dropdown nama fixed asset missing reported'))
+WebUI.click(findTestObject('Filter fixed asset missing reported/Object0491_dropdown nama fixed asset missing reported'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset missing reported/Object0492_checkbox filter nama missing reported'))
+WebUI.click(findTestObject('Filter fixed asset missing reported/Object0492_checkbox filter nama missing reported'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Filter fixed asset missing reported/Object0493_apply filter missing reported'))
+WebUI.click(findTestObject('Filter fixed asset missing reported/Object0493_apply filter missing reported'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

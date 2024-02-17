@@ -25,27 +25,27 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group general information/Object0375_search group'))
+WebUI.click(findTestObject('Menu setting group general information/Object0375_search group'))
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu setting group general information/Object0373_ketik search group'), 'GA')
+WebUI.setText(findTestObject('Menu setting group general information/Object0373_ketik search group'), 'GA')
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Menu setting group general information/Object0373_ketik search group'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Menu setting group general information/Object0373_ketik search group'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

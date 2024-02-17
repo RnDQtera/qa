@@ -23,31 +23,31 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0504_menu assign fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset assign asset/Object0505_bt search assign asset prelist'))
+WebUI.delay(10)
+
+WebUI.click(findTestObject('1 Object0504_menu assign fixed asset'))
+
+WebUI.click(findTestObject('Menu fixed asset assign asset/Object0505_bt search assign asset prelist'))
 
 WebUI.delay(5)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Menu fixed asset assign asset/Object0506_ketik search assign asset prelist'), 'kursi')
+WebUI.setText(findTestObject('Menu fixed asset assign asset/Object0506_ketik search assign asset prelist'), 'kursi')
 
-WebUI.sendKeys(findTestObject('Page Tag Samurai/Menu fixed asset assign asset/Object0506_ketik search assign asset prelist'), Keys.chord(
+WebUI.sendKeys(findTestObject('Menu fixed asset assign asset/Object0506_ketik search assign asset prelist'), Keys.chord(
         Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

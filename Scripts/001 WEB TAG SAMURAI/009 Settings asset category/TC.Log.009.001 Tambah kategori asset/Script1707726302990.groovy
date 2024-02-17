@@ -25,47 +25,47 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0401_menu kategori asset'))
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0401_menu kategori asset'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0407_tambah kategori asset'))
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0407_tambah kategori asset'))
 
 WebUI.delay(8)
 
-WebUI.setText(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0400_ketik nama tambah kategori asset'), '1 alat dapur')
+WebUI.setText(findTestObject('Setting asset-categories asset name/Object0400_ketik nama tambah kategori asset'), '1 alat dapur')
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0399_dropdown unit measurement'))
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0399_dropdown unit measurement'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0404_pilihan 1 unit measurement'))
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0404_pilihan 1 unit measurement'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0402_pilih kategori'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0403_pilih kategori alat kantor'))
-
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0396_apply kategori asset baru'))
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0402_pilih kategori'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting asset-categories asset name/Object0406_submit tambah kategori asset'))
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0403_pilih kategori alat kantor'))
+
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0396_apply kategori asset baru'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Setting asset-categories asset name/Object0406_submit tambah kategori asset'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

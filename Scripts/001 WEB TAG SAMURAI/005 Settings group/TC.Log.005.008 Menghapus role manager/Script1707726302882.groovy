@@ -25,27 +25,27 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group borrowing assignment role/Object0379_menu borrowing role'))
+WebUI.click(findTestObject('Menu setting group borrowing assignment role/Object0379_menu borrowing role'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group borrowing assignment role/Object0377_hapus role manager employee'))
+WebUI.click(findTestObject('Menu setting group borrowing assignment role/Object0377_hapus role manager employee'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu setting group borrowing assignment role/Object0382_ya hapus role manager'))
+WebUI.click(findTestObject('Menu setting group borrowing assignment role/Object0382_ya hapus role manager'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

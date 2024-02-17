@@ -23,29 +23,29 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0504_menu assign fixed asset'))
+WebUI.click(findTestObject('1 Object0504_menu assign fixed asset'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu fixed asset assign history/Object0551_menu assign history'))
+WebUI.click(findTestObject('Menu fixed asset assign history/Object0551_menu assign history'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset assign history/Object0552_titik 3 assign history'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset assign history/Object0552_titik 3 assign history'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 fixed asset assign history/Object0553_assign log history'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset assign history/Object0553_assign log history'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

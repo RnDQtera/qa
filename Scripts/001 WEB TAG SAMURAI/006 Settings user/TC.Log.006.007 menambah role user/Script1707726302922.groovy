@@ -25,43 +25,43 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0001_Email'), GlobalVariable.EMAIL)
+WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
-WebUI.setText(findTestObject('Page Tag Samurai/1 Object0002_Password'), GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0003_Button login'))
+WebUI.click(findTestObject('1 Object0003_Button login'))
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0004_Module Fixed Asset'))
+WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Page Tag Samurai/1 Object0159_menu atas setting'))
+WebUI.click(findTestObject('1 Object0159_menu atas setting'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Page Tag Samurai/Setting user/Object0228_Menu user'))
+WebUI.click(findTestObject('Setting user/Object0228_Menu user'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0225_Titik 3 user'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0225_Titik 3 user'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0218_detail user'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0218_detail user'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0217_detail tambah role'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0217_detail tambah role'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0219_dropdown tambah user role'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0219_dropdown tambah user role'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0222_pilihan user role 1'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0222_pilihan user role 1'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0226_x pilihan user role'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0226_x pilihan user role'))
 
-WebUI.click(findTestObject('Page Tag Samurai/Menu titik 3 setting user/Object0224_submit tambah user role'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0224_submit tambah user role'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
