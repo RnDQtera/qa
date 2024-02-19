@@ -39,7 +39,7 @@ WebUI.click(findTestObject('1 Object0104_menu transfer'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer prelist/Object0108_sortir brand tf prelist'))
+WebUI.click(findTestObject('Menu fixed asset Transfer prelist/Object0108_sortir brand tf prelist'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

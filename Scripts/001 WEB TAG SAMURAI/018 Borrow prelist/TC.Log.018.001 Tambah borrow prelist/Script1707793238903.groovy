@@ -61,7 +61,7 @@ WebUI.click(findTestObject('Menu fixed asset borrow prelist/Object0075_bt borrow
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer prelist/Object0109_ya tambahkan transfer prelist'))
+WebUI.click(findTestObject('Menu fixed asset Transfer prelist/Object0109_ya tambahkan transfer prelist'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

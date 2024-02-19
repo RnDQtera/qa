@@ -39,7 +39,7 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal prelist/Object0558_download disposal prelist'))
+WebUI.click(findTestObject('Menu fixed asset disposal prelist/Object0558_download disposal prelist'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

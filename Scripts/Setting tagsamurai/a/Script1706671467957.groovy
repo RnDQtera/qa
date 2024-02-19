@@ -37,5 +37,5 @@ WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.click(findTestObject('1 Object0104_menu transfer'))
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset transfer transaction/Object0120_menu transaction'))
+WebUI.click(findTestObject('Menu fixed asset transfer transaction/Object0120_menu transaction'))
 

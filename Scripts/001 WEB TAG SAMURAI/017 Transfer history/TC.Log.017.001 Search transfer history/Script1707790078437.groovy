@@ -37,17 +37,17 @@ WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
 WebUI.click(findTestObject('1 Object0104_menu transfer'))
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer history/Object0069_menu transfer history'))
+WebUI.click(findTestObject('Menu fixed asset Transfer history/Object0069_menu transfer history'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer history/Object0066_bt search tf history'))
+WebUI.click(findTestObject('Menu fixed asset Transfer history/Object0066_bt search tf history'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer history/Object0068_ketik search tf history'), 'kursi')
+WebUI.setText(findTestObject('Menu fixed asset Transfer history/Object0068_ketik search tf history'), 'kursi')
 
-WebUI.sendKeys(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer history/Object0068_ketik search tf history'), Keys.chord(
+WebUI.sendKeys(findTestObject('Menu fixed asset Transfer history/Object0068_ketik search tf history'), Keys.chord(
         Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

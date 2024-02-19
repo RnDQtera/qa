@@ -39,13 +39,13 @@ WebUI.click(findTestObject('1 Object0104_menu transfer'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer prelist/Object0105_bt search transfer prelist'))
+WebUI.click(findTestObject('Menu fixed asset Transfer prelist/Object0105_bt search transfer prelist'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer prelist/Object0110_ketik seach tf prelist'), 'kursi')
+WebUI.setText(findTestObject('Menu fixed asset Transfer prelist/Object0110_ketik seach tf prelist'), 'kursi')
 
-WebUI.sendKeys(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset Transfer prelist/Object0110_ketik seach tf prelist'), Keys.chord(
+WebUI.sendKeys(findTestObject('Menu fixed asset Transfer prelist/Object0110_ketik seach tf prelist'), Keys.chord(
         Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

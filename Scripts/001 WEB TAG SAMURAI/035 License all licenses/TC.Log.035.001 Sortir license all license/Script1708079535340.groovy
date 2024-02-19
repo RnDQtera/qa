@@ -37,7 +37,7 @@ WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu license all licenses/Object0654_sortir fixed asset license al'))
+WebUI.click(findTestObject('Menu license all licenses/Object0654_sortir fixed asset license al'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

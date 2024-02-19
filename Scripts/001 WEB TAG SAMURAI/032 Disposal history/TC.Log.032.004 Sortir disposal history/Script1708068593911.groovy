@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Menu fixed asset disposal history/Object0611_menu di
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Object0615_sortir nama disposal history'))
+WebUI.click(findTestObject('Menu fixed asset disposal history/Object0615_sortir nama disposal history'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

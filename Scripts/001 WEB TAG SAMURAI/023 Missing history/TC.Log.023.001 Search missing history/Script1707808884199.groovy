@@ -39,18 +39,18 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0125_menu missing'))
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset missing history/Object0129_missing history'))
+WebUI.click(findTestObject('Menu fixed asset missing history/Object0129_missing history'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset missing history/Object0126_bt search missing history'))
+WebUI.click(findTestObject('Menu fixed asset missing history/Object0126_bt search missing history'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset missing history/Object0128_ketik search missing history'), 
+WebUI.setText(findTestObject('Menu fixed asset missing history/Object0128_ketik search missing history'), 
     'found')
 
-WebUI.sendKeys(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset missing history/Object0128_ketik search missing history'), 
+WebUI.sendKeys(findTestObject('Menu fixed asset missing history/Object0128_ketik search missing history'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

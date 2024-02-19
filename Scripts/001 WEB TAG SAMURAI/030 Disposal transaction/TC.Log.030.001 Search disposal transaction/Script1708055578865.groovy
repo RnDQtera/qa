@@ -39,18 +39,18 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal transaction/Object0583_menu disposal transaction'))
+WebUI.click(findTestObject('Menu fixed asset disposal transaction/Object0583_menu disposal transaction'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal transaction/Object0585_bt search disposal transaction'))
+WebUI.click(findTestObject('Menu fixed asset disposal transaction/Object0585_bt search disposal transaction'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal transaction/Object0586_ketik search disposal transaction'), 
+WebUI.setText(findTestObject('Menu fixed asset disposal transaction/Object0586_ketik search disposal transaction'), 
     'donate')
 
-WebUI.sendKeys(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal transaction/Object0586_ketik search disposal transaction'), 
+WebUI.sendKeys(findTestObject('Menu fixed asset disposal transaction/Object0586_ketik search disposal transaction'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

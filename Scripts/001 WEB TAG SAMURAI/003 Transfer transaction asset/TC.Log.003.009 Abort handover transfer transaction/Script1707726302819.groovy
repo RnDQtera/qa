@@ -39,7 +39,7 @@ WebUI.click(findTestObject('1 Object0104_menu transfer'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset transfer transaction/Object0120_menu transaction'))
+WebUI.click(findTestObject('Menu fixed asset transfer transaction/Object0120_menu transaction'))
 
 WebUI.delay(5)
 

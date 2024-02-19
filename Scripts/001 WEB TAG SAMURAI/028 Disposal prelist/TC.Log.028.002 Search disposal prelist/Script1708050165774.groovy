@@ -41,14 +41,14 @@ WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal prelist/Object0556_bt search disposal prelist'))
+WebUI.click(findTestObject('Menu fixed asset disposal prelist/Object0556_bt search disposal prelist'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal prelist/Object0557_ketik search disposal prelist'), 
+WebUI.setText(findTestObject('Menu fixed asset disposal prelist/Object0557_ketik search disposal prelist'), 
     'kursi')
 
-WebUI.sendKeys(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal prelist/Object0557_ketik search disposal prelist'), 
+WebUI.sendKeys(findTestObject('Menu fixed asset disposal prelist/Object0557_ketik search disposal prelist'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

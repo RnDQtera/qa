@@ -58,11 +58,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0048_titik 3 available'))
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal prelist/Object0554_bt add disposal prelist'))
+WebUI.click(findTestObject('Menu fixed asset disposal prelist/Object0554_bt add disposal prelist'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu fixed asset disposal history (1)/Menu fixed asset disposal prelist/Object0555_ya tambahkan disposal prelist'))
+WebUI.click(findTestObject('Menu fixed asset disposal prelist/Object0555_ya tambahkan disposal prelist'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
