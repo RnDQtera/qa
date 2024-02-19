@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object408_confirm delete</name>
+   <name>Object428_Choose Delete for Audit Condition</name>
    <tag></tag>
-   <elementGuidId>56cad9ad-b267-4b50-aacc-869dea602ca2</elementGuidId>
+   <elementGuidId>a1df68c5-c78d-4c68-a2a0-55a0eb8f6e7a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[3]/div/button[2]</value>
+         <value>//*[@id=&quot;pv_id_5_2&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

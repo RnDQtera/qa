@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create Schedule Audit</name>
+   <name>Create Schedule Audit Existence</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c2ba8987-3dee-4f77-a938-b051f354c78f</testCaseGuid>

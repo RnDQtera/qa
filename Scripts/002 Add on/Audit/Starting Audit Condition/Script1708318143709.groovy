@@ -47,6 +47,8 @@ WebUI.click(findTestObject('Audit/Object409_select sub tab task'))
 
 WebUI.click(findTestObject('Audit/Object410_Action Start Audit'))
 
+WebUI.delay(4)
+
 WebUI.click(findTestObject('Audit/Object411_Start Audit'))
 
 WebUI.click(findTestObject('Audit/Object412_select for audit'))
