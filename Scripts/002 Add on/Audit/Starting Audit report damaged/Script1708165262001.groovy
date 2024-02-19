@@ -43,19 +43,21 @@ WebUI.delay(20)
 
 WebUI.click(findTestObject('1 Object016_Button Audit'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Audit/Object409_select sub tab task'))
 
 WebUI.click(findTestObject('Audit/Object410_Action Start Audit'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Audit/Object411_Start Audit'))
 
-WebUI.click(findTestObject('Audit/Object417_Tab Audited'))
+WebUI.click(findTestObject('Audit/Object412_select for audit'))
 
-WebUI.click(findTestObject('Audit/Object419_Report'))
+WebUI.click(findTestObject('Audit/Object413_choose audit type'))
 
-WebUI.click(findTestObject('Audit/Object420_Report by QR'))
-
-WebUI.delay(3)
+WebUI.click(findTestObject('Audit/Object414_start location audit'))
 
 WebUI.click(findTestObject('Audit/Object415_sync process'))
 
@@ -63,11 +65,23 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Audit/Object416_closed sync'))
 
+WebUI.click(findTestObject('Audit/Object412_select for audit'))
+
+WebUI.click(findTestObject('Audit/Object413_choose audit type'))
+
+WebUI.click(findTestObject('Audit/Object414_start location audit'))
+
+WebUI.delay(20)
+
+WebUI.click(findTestObject('Audit/Object417_Tab Audited'))
+
 WebUI.click(findTestObject('Audit/Object419_Report'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Audit/Object420_Report by QR'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Audit/Object421_select condition'))
 
@@ -86,4 +100,8 @@ WebUI.click(findTestObject('Audit/Object424_crop'), FailureHandling.STOP_ON_FAIL
 WebUI.setText(findTestObject('Audit/Object425_set text note'), 'Reported')
 
 WebUI.click(findTestObject('Audit/Object426_submit'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Audit/Object418_Finish Audit'))
 

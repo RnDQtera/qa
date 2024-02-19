@@ -71,23 +71,7 @@ WebUI.delay(20)
 
 WebUI.click(findTestObject('Audit/Object417_Tab Audited'))
 
-WebUI.click(findTestObject('Audit/Object419_Report'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Audit/Object420_Report by QR'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Audit/Object421_select condition'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Audit/Object422_Choose Report Damaged'))
-
-WebUI.uploadFile(findTestObject('Audit/Object423_upload file'), 'C:\\Users\\user\\Pictures\\1.png')
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Audit/Object424_crop'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Audit/Object425_set text note'), 'Reported')
+WebUI.click(findTestObject('Audit/Object418_Finish Audit'))
 
