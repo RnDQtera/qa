@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.036.010 tambah quota allocation maintenance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecf827c6-78a4-4467-a354-45a5dec70184</testCaseGuid>
+</TestCaseEntity>

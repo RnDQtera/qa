@@ -35,17 +35,21 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0693_menu license maintenance'))
+WebUI.click(findTestObject('Menu license allocation/Object0662_menu license allocation'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu license maintenance/Object0702_tambah addon asset'))
+WebUI.click(findTestObject('Menu license allocation/Object0714_quota license audit'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0703_asset i1 tambah addon maintenance'))
+WebUI.click(findTestObject('Menu license allocation/Object0715_hover atur quota license audit'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0704_apply asset addon maintenance'))
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Menu license allocation/Object0710_atur alokasi fixed asset'), '102')
+
+WebUI.click(findTestObject('Menu license allocation/Object0711_simpan atur alokasi fixed asset'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.038.009 asset addon license maintenance.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.036.011 tambah quota license allocation audit.png', FailureHandling.STOP_ON_FAILURE)
 

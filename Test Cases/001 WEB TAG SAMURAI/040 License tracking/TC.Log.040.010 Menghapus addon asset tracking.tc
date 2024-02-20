@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.040.010 Menghapus addon asset tracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac63f8e2-f2ca-4025-bbe4-5eb34c586eb7</testCaseGuid>
+</TestCaseEntity>

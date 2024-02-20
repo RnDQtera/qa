@@ -35,17 +35,23 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0693_menu license maintenance'))
+WebUI.click(findTestObject('Menu license audit/Object0723_menu license audit'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu license maintenance/Object0702_tambah addon asset'))
+WebUI.click(findTestObject('Filter license maintenance/Object0700_bt filter license maintenance'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0703_asset i1 tambah addon maintenance'))
+WebUI.click(findTestObject('Filter license maintenance/Object0698_dropdown nama filter license maintenance'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0704_apply asset addon maintenance'))
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Filter license maintenance/Object0699_checkbox nama filter license maintenance'))
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Filter license maintenance/Objet0701_apply filter license maintenance'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.038.009 asset addon license maintenance.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.039.003 filter license audit.png', FailureHandling.STOP_ON_FAILURE)
 

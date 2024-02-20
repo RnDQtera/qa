@@ -35,17 +35,16 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0693_menu license maintenance'))
-
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu license maintenance/Object0702_tambah addon asset'))
+WebUI.click(findTestObject('Menu license all licenses/Object0655_bt search license all license existing'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0703_asset i1 tambah addon maintenance'))
+WebUI.setText(findTestObject('Menu license all licenses/Object0656_ketik search license all license existing'), 'fixed')
 
-WebUI.click(findTestObject('Menu license maintenance/Object0704_apply asset addon maintenance'))
+WebUI.sendKeys(findTestObject('Menu license all licenses/Object0656_ketik search license all license existing'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.038.009 asset addon license maintenance.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.035.002 search license all licenses.png', FailureHandling.STOP_ON_FAILURE)
 

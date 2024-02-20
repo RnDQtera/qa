@@ -35,17 +35,17 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0693_menu license maintenance'))
+WebUI.click(findTestObject('Menu license tracking/Object0725_menu license tracking'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu license maintenance/Object0702_tambah addon asset'))
+WebUI.click(findTestObject('Menu titik 3 license maintenance/Object0706_titik 3 license maintenance'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0703_asset i1 tambah addon maintenance'))
+WebUI.click(findTestObject('Menu titik 3 license maintenance/Object0705_remove from addon maimntenance'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0704_apply asset addon maintenance'))
+WebUI.click(findTestObject('Menu titik 3 license maintenance/Object0707_ya hapus addon asset maintenance'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.038.009 asset addon license maintenance.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.040.010 hapus addon license tracking.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.039.011 Bulk action Menghapus addon asset audit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>973e3b31-bda3-4c02-a734-f8933c68922b</testCaseGuid>
+</TestCaseEntity>

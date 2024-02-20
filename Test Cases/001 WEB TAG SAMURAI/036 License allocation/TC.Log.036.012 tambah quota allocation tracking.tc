@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.036.012 tambah quota allocation tracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d12eb238-5af0-4207-a09e-405562f049e2</testCaseGuid>
+</TestCaseEntity>

@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
@@ -35,7 +37,9 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0693_menu license maintenance'))
+WebUI.delay(12)
+
+WebUI.click(findTestObject('Menu license audit/Object0723_menu license audit'))
 
 WebUI.delay(12)
 
@@ -47,5 +51,5 @@ WebUI.click(findTestObject('Menu license maintenance/Object0704_apply asset addo
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.038.009 asset addon license maintenance.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.039.009 asset addon license audit.png', FailureHandling.STOP_ON_FAILURE)
 

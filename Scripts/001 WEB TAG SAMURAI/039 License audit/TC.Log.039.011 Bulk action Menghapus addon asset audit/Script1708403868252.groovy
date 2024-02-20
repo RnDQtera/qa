@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.delay(10)
+
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
@@ -35,17 +37,27 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0693_menu license maintenance'))
+WebUI.delay(12)
+
+WebUI.click(findTestObject('Menu license audit/Object0723_menu license audit'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu license maintenance/Object0702_tambah addon asset'))
+WebUI.click(findTestObject('Bulk action license maintenance/Object0718_checkbox i1 maintenance'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0703_asset i1 tambah addon maintenance'))
+WebUI.click(findTestObject('Bulk action license maintenance/Object0719_bt bulk action maintenance'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0704_apply asset addon maintenance'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Bulk action license maintenance/Object0720_remove from addon maintenance'))
+
+WebUI.click(findTestObject('Bulk action license maintenance/Object0721_apply bulk action remove addon'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Bulk action license maintenance/Object0722_ya hapus dari addon'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.038.009 asset addon license maintenance.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.039.011 bulk action hapus addon license audit.png', FailureHandling.STOP_ON_FAILURE)
 

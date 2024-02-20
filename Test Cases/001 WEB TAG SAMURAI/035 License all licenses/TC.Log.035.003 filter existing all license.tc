@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.035.003 filter existing all license</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db1d2b7f-1b76-40c7-ba0b-48e40407cab1</testCaseGuid>
+</TestCaseEntity>
