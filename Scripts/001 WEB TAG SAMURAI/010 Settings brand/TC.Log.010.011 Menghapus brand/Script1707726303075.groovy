@@ -41,7 +41,15 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('Setting brand/Object0306_menu brand'))
 
+WebUI.click(findTestObject('Setting brand/Object0300_b search brand'))
+
 WebUI.delay(12)
+
+WebUI.setText(findTestObject('Setting brand/Object0305_ketik search brand'), 'edited')
+
+WebUI.sendKeys(findTestObject('Setting brand/Object0305_ketik search brand'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0327_titik 3 setting brand'))
 
