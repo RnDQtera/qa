@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.013.003 Change log transaction borrow-assign</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>297a909b-1703-4a30-a4ed-ce74f338db2f</testCaseGuid>
+</TestCaseEntity>

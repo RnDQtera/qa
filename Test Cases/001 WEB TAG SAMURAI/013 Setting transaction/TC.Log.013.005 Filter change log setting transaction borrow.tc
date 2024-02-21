@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.013.005 Filter change log setting transaction borrow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1cf34ba-2ae8-43a9-84e6-ea1e31cf56e3</testCaseGuid>
+</TestCaseEntity>

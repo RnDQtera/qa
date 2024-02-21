@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.011.011 Search change log setting custom field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b66e6714-5ee5-486d-bf8e-6237a69e4cb2</testCaseGuid>
+</TestCaseEntity>

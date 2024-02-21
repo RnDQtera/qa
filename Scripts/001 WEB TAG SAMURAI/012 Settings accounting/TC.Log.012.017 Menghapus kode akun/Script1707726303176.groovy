@@ -45,13 +45,13 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Setting accounting account code list/Object0467_menu account code list'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting acc code list/Object0478_titik 3 kode akun'))
+WebUI.click(findTestObject('Menu titik 3 setting accounting acc code list/Object0478_titik 3 kode akun'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting acc code list/Object0473_delete kode akun'))
+WebUI.click(findTestObject('Menu titik 3 setting accounting acc code list/Object0473_delete kode akun'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting acc code list/Object0479_ya hapus kode akun'), 
+WebUI.click(findTestObject('Menu titik 3 setting accounting acc code list/Object0479_ya hapus kode akun'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

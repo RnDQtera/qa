@@ -47,20 +47,20 @@ WebUI.click(findTestObject('Setting asset-categories measurement/Object0413_menu
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0434_titik 3 measurement'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories measurement/Object0434_titik 3 measurement'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0429_edit measurement'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories measurement/Object0429_edit measurement'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0432_ketik edit measurement'), 
+WebUI.setText(findTestObject('Menu titik 3 setting asset-categories measurement/Object0432_ketik edit measurement'), 
     'Edited unit')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0433_submit edit measurement'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories measurement/Object0433_submit edit measurement'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

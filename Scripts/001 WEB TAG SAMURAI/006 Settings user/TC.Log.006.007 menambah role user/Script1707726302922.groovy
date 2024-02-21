@@ -43,25 +43,25 @@ WebUI.click(findTestObject('Setting user/Object0228_Menu user'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0225_Titik 3 user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0225_Titik 3 user'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0218_detail user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0218_detail user'))
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0217_detail tambah role'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0217_detail tambah role'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0219_dropdown tambah user role'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0219_dropdown tambah user role'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0222_pilihan user role 1'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0222_pilihan user role 1'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0226_x pilihan user role'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0226_x pilihan user role'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0224_submit tambah user role'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0224_submit tambah user role'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

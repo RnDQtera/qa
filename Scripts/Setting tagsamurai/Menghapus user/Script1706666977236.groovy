@@ -41,9 +41,9 @@ WebUI.setText(findTestObject('Setting user/Object0202_Ketik search user'), 'sult
 
 WebUI.sendKeys(findTestObject('Setting user/Object0202_Ketik search user'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0225_Titik 3 user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0225_Titik 3 user'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0227_Hapus user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0227_Hapus user'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0216_Button yes delete'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0216_Button yes delete'))
 

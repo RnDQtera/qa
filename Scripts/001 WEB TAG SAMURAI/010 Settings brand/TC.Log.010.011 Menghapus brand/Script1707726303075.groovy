@@ -51,11 +51,11 @@ WebUI.sendKeys(findTestObject('Setting brand/Object0305_ketik search brand'), Ke
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0327_titik 3 setting brand'))
+WebUI.click(findTestObject('Menu titik 3 setting brand/Object0327_titik 3 setting brand'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0317_delete brand'))
+WebUI.click(findTestObject('Menu titik 3 setting brand/Object0317_delete brand'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0329_ya hapus brand'))
+WebUI.click(findTestObject('Menu titik 3 setting brand/Object0329_ya hapus brand'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.013.007 changelog setting transaction audit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6f15b7a-a914-41c8-8445-cb2d19d95ded</testCaseGuid>
+</TestCaseEntity>

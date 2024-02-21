@@ -55,15 +55,15 @@ WebUI.click(findTestObject('Filter asset-categories asset name/Object0408_apply 
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0420_edit kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0420_edit kategori asset'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0421_ketik edited text'), 'edited')
+WebUI.setText(findTestObject('Menu titik 3 setting asset-categories asset name/Object0421_ketik edited text'), 'edited')
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0426_submit edited text'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0426_submit edited text'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

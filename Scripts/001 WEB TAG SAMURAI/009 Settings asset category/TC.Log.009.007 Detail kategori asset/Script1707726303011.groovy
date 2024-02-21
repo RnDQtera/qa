@@ -55,11 +55,11 @@ WebUI.click(findTestObject('Filter asset-categories asset name/Object0408_apply 
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0417_detail kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0417_detail kategori asset'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

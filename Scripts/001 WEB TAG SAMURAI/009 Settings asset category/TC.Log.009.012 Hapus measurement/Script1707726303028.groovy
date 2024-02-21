@@ -47,15 +47,15 @@ WebUI.click(findTestObject('Setting asset-categories measurement/Object0413_menu
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0434_titik 3 measurement'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories measurement/Object0434_titik 3 measurement'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0430_hapus measurement'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories measurement/Object0430_hapus measurement'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories measurement/Object0435_ya hapus measurement'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories measurement/Object0435_ya hapus measurement'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

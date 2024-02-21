@@ -43,17 +43,17 @@ WebUI.click(findTestObject('Setting brand/Object0306_menu brand'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0327_titik 3 setting brand'))
+WebUI.click(findTestObject('Menu titik 3 setting brand/Object0327_titik 3 setting brand'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0319_edit nama brand'))
+WebUI.click(findTestObject('Menu titik 3 setting brand/Object0319_edit nama brand'))
 
 WebUI.delay(10)
 
-WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0320_ketik edit nama brand'), 'Edited')
+WebUI.setText(findTestObject('Menu titik 3 setting brand/Object0320_ketik edit nama brand'), 'Edited')
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0325_submit edit nama brand'))
+WebUI.click(findTestObject('Menu titik 3 setting brand/Object0325_submit edit nama brand'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

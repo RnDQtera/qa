@@ -85,7 +85,7 @@ WebUI.doubleClick(findTestObject('Fixed asset register asset/Object0020_color as
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Fixed asset register asset/Object0014_upload foto'), 'G:\\download\\1677040059144.jpg')
+WebUI.uploadFile(findTestObject('Fixed asset register asset/Object0014_upload foto'), 'C:\\Users\\aplikasi internal\\Downloads\\kursiolympic.jpg')
 
 WebUI.delay(5)
 

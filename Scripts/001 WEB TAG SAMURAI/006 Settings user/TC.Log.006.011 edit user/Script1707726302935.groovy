@@ -43,17 +43,17 @@ WebUI.click(findTestObject('Setting user/Object0228_Menu user'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0225_Titik 3 user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0225_Titik 3 user'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0221_edit user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0221_edit user'))
 
 WebUI.delay(8)
 
-WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0220_edit last name'), 'edited')
+WebUI.setText(findTestObject('Menu titik 3 setting user/Object0220_edit last name'), 'edited')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0223_submit edit user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0223_submit edit user'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

@@ -43,13 +43,13 @@ WebUI.click(findTestObject('Setting asset-categories asset name/Object0401_menu 
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0416_delete kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0416_delete kategori asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0428_ya hapus kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0428_ya hapus kategori asset'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

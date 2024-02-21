@@ -43,28 +43,28 @@ WebUI.click(findTestObject('Setting custom field/Object0336_menu custom field'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0369_titik 3'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0369_titik 3'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0364_edit custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0364_edit custom field'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0361_clear field edit custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0361_clear field edit custom field'))
 
-WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0366_ketik edit nama custom field'), 
+WebUI.setText(findTestObject('Menu titik 3 setting custom field/Object0366_ketik edit nama custom field'), 
     'Edited')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0365_edit tidak dibutuhkan custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0365_edit tidak dibutuhkan custom field'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0363_dropdown edit custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0363_dropdown edit custom field'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0367_pilihan 1 dropdown custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0367_pilihan 1 dropdown custom field'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0358_apply edit custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0358_apply edit custom field'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

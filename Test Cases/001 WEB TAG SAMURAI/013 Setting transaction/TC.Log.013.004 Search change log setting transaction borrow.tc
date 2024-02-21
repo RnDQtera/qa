@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.013.004 Search change log setting transaction borrow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d4c1a24-bdc3-4725-89a5-18e6ee067edd</testCaseGuid>
+</TestCaseEntity>
