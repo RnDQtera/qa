@@ -39,7 +39,7 @@ WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Menu license maintenance/Object0693_menu license maintenance'))
+WebUI.click(findTestObject('Menu license tracking/Object0725_menu license tracking'))
 
 WebUI.delay(15)
 
@@ -47,9 +47,17 @@ WebUI.click(findTestObject('Menu license maintenance/Object0695_changelog licens
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Menu license fixed asset/Object0765_download license fixed asset'))
+WebUI.click(findTestObject('Menu license fixed asset/Object0766_bt filter license fixed asset'))
+
+WebUI.click(findTestObject('Menu license fixed asset/Object0767_dropdown filter license fixed asset'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Menu license fixed asset/Object0768_checkbox filter license fixed asset'))
+
+WebUI.click(findTestObject('Menu license fixed asset/Object0769_apply filter license fixed asset'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.038.014 download Changelog license maintenance.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.040.013 filter Changelog license tracking.png', FailureHandling.STOP_ON_FAILURE)
 

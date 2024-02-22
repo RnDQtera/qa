@@ -23,8 +23,6 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(3)
-
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
@@ -33,23 +31,25 @@ WebUI.click(findTestObject('1 Object0003_Button login'))
 
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
-WebUI.delay(20)
+WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0653_menu atas license'))
 
-WebUI.delay(15)
+WebUI.click(findTestObject('Menu license audit/Object0723_menu license audit'))
 
-WebUI.click(findTestObject('Menu license maintenance/Object0693_menu license maintenance'))
-
-WebUI.delay(15)
+WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu license maintenance/Object0695_changelog license maintenance'))
 
-WebUI.delay(4)
+WebUI.click(findTestObject('Menu license fixed asset/Object0763_bt search license fixed asset'))
 
-WebUI.click(findTestObject('Menu license fixed asset/Object0765_download license fixed asset'))
+WebUI.delay(12)
+
+WebUI.setText(findTestObject('Menu license fixed asset/Object0764_ketik search license fixed asset'), 'add asset')
+
+WebUI.sendKeys(findTestObject('Menu license fixed asset/Object0764_ketik search license fixed asset'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.038.014 download Changelog license maintenance.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.039.012 search Change log license audit.png', FailureHandling.STOP_ON_FAILURE)
 
