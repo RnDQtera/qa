@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Audit/Object387_Search Group'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Audit/Object388_Search Field Text'), 'Warehouse')
+WebUI.setText(findTestObject('Audit/Object388_Search Field Text'), 'Basement')
 
 WebUI.delay(2)
 

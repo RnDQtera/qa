@@ -43,7 +43,11 @@ WebUI.delay(20)
 
 WebUI.click(findTestObject('1 Object016_Button Audit'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Audit/Object409_select sub tab task'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Audit/Object410_Action Start Audit'))
 
@@ -71,9 +75,7 @@ WebUI.click(findTestObject('Audit/Object414_start location audit'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('Audit/Object417_Tab Audited'))
+WebUI.click(findTestObject('Audit/Object429_Update Button Audited'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Audit/Object418_Finish Audit'))
+WebUI.click(findTestObject('Audit/Object430_update by RFID'))
 
