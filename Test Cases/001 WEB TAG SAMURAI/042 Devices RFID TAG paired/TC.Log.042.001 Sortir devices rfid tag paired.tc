@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.001 Sortir devices rfid tag paired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa43aef3-6143-42a7-8570-9a654ab8fb0c</testCaseGuid>
+</TestCaseEntity>

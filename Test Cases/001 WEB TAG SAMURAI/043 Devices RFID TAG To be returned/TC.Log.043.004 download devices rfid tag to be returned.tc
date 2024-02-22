@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.043.004 download devices rfid tag to be returned</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ee0d9a9-e9cc-43ec-be11-f60d71ce6836</testCaseGuid>
+</TestCaseEntity>

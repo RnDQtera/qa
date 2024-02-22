@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.043.003 filter devices rfid tag to be returned</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>caf7cac9-b8b6-46e3-add9-c80615040b9c</testCaseGuid>
+</TestCaseEntity>

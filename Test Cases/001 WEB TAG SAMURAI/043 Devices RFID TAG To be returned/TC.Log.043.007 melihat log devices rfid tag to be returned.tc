@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.043.007 melihat log devices rfid tag to be returned</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>741b2525-1f71-4807-8005-23391b401fbf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.044.001 filter devices rfid tag available</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a59a1bd0-691f-4f23-b3fe-a9af6bc4c4d5</testCaseGuid>
+</TestCaseEntity>

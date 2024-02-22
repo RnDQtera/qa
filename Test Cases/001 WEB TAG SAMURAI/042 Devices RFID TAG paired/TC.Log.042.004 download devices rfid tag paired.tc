@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.004 download devices rfid tag paired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d01d337f-b72f-45b4-ac17-8fea0b4c52c8</testCaseGuid>
+</TestCaseEntity>

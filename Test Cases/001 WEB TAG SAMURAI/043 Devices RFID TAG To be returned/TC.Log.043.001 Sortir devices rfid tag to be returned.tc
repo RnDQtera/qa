@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.043.001 Sortir devices rfid tag to be returned</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cac296a8-61ce-4929-a463-a610794ee053</testCaseGuid>
+</TestCaseEntity>
