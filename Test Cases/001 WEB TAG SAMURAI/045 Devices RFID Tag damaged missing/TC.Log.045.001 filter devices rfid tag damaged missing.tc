@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.045.001 filter devices rfid tag damaged missing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9d11050-ce72-4f53-83f9-f22854ce4af3</testCaseGuid>
+</TestCaseEntity>

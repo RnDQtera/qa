@@ -45,25 +45,19 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0802_menu rfid tag available'))
 
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0801_bt filter rfid tag available'))
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0812_bt log rfid avail'))
+
+WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0813_bt search log rfid avail'))
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0803_select group filter rfid avail'))
+WebUI.setText(findTestObject('Menu devices RFID Tag Available/Object0814_ketik search log rfid avail'), 'ac')
 
-WebUI.delay(8)
-
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0804_group 1filter rfid avail'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0805_apply group select rfid avail'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0806_apply filter rfid avail'))
+WebUI.sendKeys(findTestObject('Menu devices RFID Tag Available/Object0814_ketik search log rfid avail'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.044.001 filter devices rfid tag available.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.044.003 search devices rfid tag available.png', FailureHandling.STOP_ON_FAILURE)
 

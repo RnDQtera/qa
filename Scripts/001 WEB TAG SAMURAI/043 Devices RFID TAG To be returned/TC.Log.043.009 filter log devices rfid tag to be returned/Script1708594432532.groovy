@@ -51,16 +51,17 @@ WebUI.delay(4)
 
 WebUI.click(findTestObject('Menu devices rfid tag paired/Object0782_dl devices rfid tag'))
 
-WebUI.click(findTestObject('Menu devices rfid tag to be returned/Object0799_bt search log to be returned'))
+WebUI.click(findTestObject('Menu devices rfid tag to be returned/Object0807_bt filter rfid to be returned'))
+
+WebUI.click(findTestObject('Menu devices rfid tag to be returned/Object0808_dropdown filter rfid to be returned'))
 
 WebUI.delay(4)
 
-WebUI.setText(findTestObject('Menu devices rfid tag to be returned/Object0800_ketik search log to be returned'), 'router')
+WebUI.click(findTestObject('Menu devices rfid tag to be returned/Object0809_checkbox filter rfid to be returned'))
 
-WebUI.sendKeys(findTestObject('Menu devices rfid tag to be returned/Object0800_ketik search log to be returned'), Keys.chord(
-        Keys.ENTER))
+WebUI.click(findTestObject('Menu devices rfid tag to be returned/Object0809_checkbox filter rfid to be returned'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.043.008 search log devices rfid tag to be returned.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.043.009 filter log devices rfid tag to be returned.png', FailureHandling.STOP_ON_FAILURE)
 

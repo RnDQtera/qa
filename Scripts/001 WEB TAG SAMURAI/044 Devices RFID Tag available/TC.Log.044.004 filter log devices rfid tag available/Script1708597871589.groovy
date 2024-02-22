@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
@@ -31,13 +31,15 @@ WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('1 Object0003_Button login'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0770_menu atas devices'))
 
-WebUI.delay(10)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'))
 
@@ -45,25 +47,21 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0802_menu rfid tag available'))
 
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0801_bt filter rfid tag available'))
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0812_bt log rfid avail'))
+
+WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0816_bt filter log rfid avail'))
+
+WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0817_dropdownad log rfid avail'))
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0803_select group filter rfid avail'))
+WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0818_checkbox filter log rfid avail'))
 
-WebUI.delay(8)
-
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0804_group 1filter rfid avail'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0805_apply group select rfid avail'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0806_apply filter rfid avail'))
+WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0819_apply filter log rfid avail'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.044.001 filter devices rfid tag available.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.044.004 filter log devices rfid tag available.png', FailureHandling.STOP_ON_FAILURE)
 

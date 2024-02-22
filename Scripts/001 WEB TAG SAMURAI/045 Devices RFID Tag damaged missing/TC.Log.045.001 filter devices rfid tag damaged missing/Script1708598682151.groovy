@@ -43,7 +43,7 @@ WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0802_menu rfid tag available'))
+WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0820_menu damaged missing'))
 
 WebUI.click(findTestObject('Menu devices RFID Tag Available/Object0801_bt filter rfid tag available'))
 

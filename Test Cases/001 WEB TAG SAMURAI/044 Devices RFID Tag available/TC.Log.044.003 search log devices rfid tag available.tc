@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.044.003 search log devices rfid tag available</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91f49e79-cc91-4735-8e04-c5f9fca599b1</testCaseGuid>
+</TestCaseEntity>
