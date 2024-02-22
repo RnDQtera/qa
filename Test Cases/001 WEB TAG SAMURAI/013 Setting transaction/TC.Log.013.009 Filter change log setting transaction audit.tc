@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.013.009 Filter change log setting transaction audit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f506b34b-8845-4f03-a236-a0555e678f5d</testCaseGuid>
+</TestCaseEntity>

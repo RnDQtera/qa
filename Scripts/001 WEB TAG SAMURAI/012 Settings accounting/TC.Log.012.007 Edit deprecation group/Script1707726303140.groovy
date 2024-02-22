@@ -43,19 +43,19 @@ WebUI.click(findTestObject('Setting accounting depreciation setting/Object0431_m
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting depreciation setting/Object0462_titik 3 deprecation group'))
+WebUI.click(findTestObject('Menu titik 3 setting accounting depreciation setting/Object0462_titik 3 deprecation group'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting depreciation setting/Object0458_edit deprecation group'))
+WebUI.click(findTestObject('Menu titik 3 setting accounting depreciation setting/Object0458_edit deprecation group'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting depreciation setting/Object0460_ketik edit nama deprecation group'), 
+WebUI.setText(findTestObject('Menu titik 3 setting accounting depreciation setting/Object0460_ketik edit nama deprecation group'), 
     'EDITED')
 
-WebUI.setText(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting depreciation setting/Object0459_ketik edit durasi deprecation group'), 
+WebUI.setText(findTestObject('Menu titik 3 setting accounting depreciation setting/Object0459_ketik edit durasi deprecation group'), 
     '4')
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting depreciation setting/Object0461_submit edit deprecation group'))
+WebUI.click(findTestObject('Menu titik 3 setting accounting depreciation setting/Object0461_submit edit deprecation group'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

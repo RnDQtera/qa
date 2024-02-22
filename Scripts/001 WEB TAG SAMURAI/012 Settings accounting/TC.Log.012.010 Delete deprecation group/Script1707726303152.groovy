@@ -43,9 +43,9 @@ WebUI.click(findTestObject('Setting accounting depreciation setting/Object0431_m
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting depreciation setting/Object0462_titik 3 deprecation group'))
+WebUI.click(findTestObject('Menu titik 3 setting accounting depreciation setting/Object0462_titik 3 deprecation group'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting accounting depreciation setting/Object0457_delete deprecation group'))
+WebUI.click(findTestObject('Menu titik 3 setting accounting depreciation setting/Object0457_delete deprecation group'))
 
 WebUI.delay(3)
 

@@ -43,13 +43,13 @@ WebUI.click(findTestObject('Setting custom field/Object0336_menu custom field'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0369_titik 3'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0369_titik 3'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0362_delete custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0362_delete custom field'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0371_ya hapus custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0371_ya hapus custom field'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

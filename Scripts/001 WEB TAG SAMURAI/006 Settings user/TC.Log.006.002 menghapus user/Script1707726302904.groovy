@@ -43,11 +43,11 @@ WebUI.click(findTestObject('Setting user/Object0228_Menu user'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0225_Titik 3 user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0225_Titik 3 user'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0227_Hapus user'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0227_Hapus user'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting user/Object0216_Button yes delete'))
+WebUI.click(findTestObject('Menu titik 3 setting user/Object0216_Button yes delete'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

@@ -35,23 +35,25 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
-
 WebUI.delay(12)
 
+WebUI.click(findTestObject('1 Object0566_menu disposal fixed asset'))
+
 WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0565_titik 3 disposal prelist'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0564_prelist disposal'))
 
 WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0567_dropdown reason req disposal'))
 
-WebUI.delay(10)
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0568_checkbox reason req disposal'))
 
 WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0569_dropdown metode req disposal'))
 
-WebUI.delay(8)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0570_checkbox metode req disposal'))
 

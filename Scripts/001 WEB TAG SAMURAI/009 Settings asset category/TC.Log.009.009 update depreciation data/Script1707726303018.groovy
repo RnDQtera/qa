@@ -43,25 +43,25 @@ WebUI.click(findTestObject('Setting asset-categories asset name/Object0401_menu 
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0425_titik 3 kategori asset'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0427_update depresiasi data'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0418_dropdown depresiasi group'))
-
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0422_pilihan 1 dropdown depresiasi group'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0427_update depresiasi data'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0419_dropdown kode akun kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0418_dropdown depresiasi group'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0423_pilihan 1 dropdown kode akun kategori asset'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0422_pilihan 1 dropdown depresiasi group'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting asset-categories asset name/Object0424_save update depresiasi data'))
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0419_dropdown kode akun kategori asset'))
+
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0423_pilihan 1 dropdown kode akun kategori asset'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu titik 3 setting asset-categories asset name/Object0424_save update depresiasi data'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

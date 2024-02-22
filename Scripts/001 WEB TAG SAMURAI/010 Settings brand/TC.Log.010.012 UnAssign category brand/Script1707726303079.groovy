@@ -43,9 +43,9 @@ WebUI.click(findTestObject('Setting brand/Object0306_menu brand'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0327_titik 3 setting brand'))
+WebUI.click(findTestObject('Menu titik 3 setting brand/Object0327_titik 3 setting brand'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting brand/Object0328_unassign cat brand'))
+WebUI.click(findTestObject('Menu titik 3 setting brand/Object0328_unassign cat brand'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

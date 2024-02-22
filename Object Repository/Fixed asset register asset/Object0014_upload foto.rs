@@ -6,12 +6,12 @@
    <elementGuidId>8209d948-a2b8-42f9-af3f-bda5b896e77e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.input-trigger.d-flex.align-items-center.justify-content-center</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>/html/body/div[10]/div/div[2]/div/div[6]/div/div[2]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-trigger.d-flex.align-items-center.justify-content-center</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>efb3a15a-80ba-4ed6-884e-44f9a55cafa5</webElementGuid>
+      <webElementGuid>405ff079-a2af-410a-acd7-65feed5cf167</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-trigger d-flex align-items-center justify-content-center</value>
-      <webElementGuid>d00dd621-daff-4507-a1cf-c9d19b2f5969</webElementGuid>
+      <webElementGuid>41036eb1-49cc-4253-aa4b-5a64a6591342</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;p-overflow-hidden&quot;]/div[@class=&quot;p-dialog-mask p-component-overlay p-component-overlay-enter&quot;]/div[@class=&quot;p-dialog p-component p-ripple-disabled&quot;]/div[@class=&quot;p-dialog-content&quot;]/div[@class=&quot;row col-12 d-flex&quot;]/div[@class=&quot;form-group col-6&quot;]/div[1]/div[@class=&quot;d-flex col-12&quot;]/div[@class=&quot;input-trigger d-flex align-items-center justify-content-center&quot;]</value>
-      <webElementGuid>df51bed0-2edc-4a46-a566-f5c766e9d575</webElementGuid>
+      <webElementGuid>1f99021a-c16e-46ac-80b3-f17825aa742d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div[2]/div/div[6]/div/div/div</value>
-      <webElementGuid>cd456805-9b72-4e33-8ee9-b3e64e772d19</webElementGuid>
+      <webElementGuid>b10c3104-6e98-4e3d-9c62-123daa1344f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

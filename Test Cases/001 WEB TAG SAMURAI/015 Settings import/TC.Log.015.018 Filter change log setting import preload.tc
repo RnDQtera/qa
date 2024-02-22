@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.015.018 Filter change log setting import preload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9da46fa0-c69f-4c79-b51a-9114a95d3511</testCaseGuid>
+</TestCaseEntity>

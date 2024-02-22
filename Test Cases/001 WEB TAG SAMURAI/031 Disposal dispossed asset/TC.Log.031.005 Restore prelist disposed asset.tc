@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.031.005 Restore prelist disposed asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6c03b87-9fa1-4167-8858-33acbd12b24c</testCaseGuid>
+</TestCaseEntity>

@@ -43,17 +43,17 @@ WebUI.click(findTestObject('Setting custom field/Object0336_menu custom field'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0369_titik 3'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0369_titik 3'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0359_assign category custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0359_assign category custom field'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0360_checkbox assign category custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0360_checkbox assign category custom field'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0368_save assign category custom field'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0368_save assign category custom field'))
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting custom field/Object0370_ya assign category'))
+WebUI.click(findTestObject('Menu titik 3 setting custom field/Object0370_ya assign category'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

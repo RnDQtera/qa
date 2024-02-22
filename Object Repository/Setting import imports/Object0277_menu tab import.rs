@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pv_id_12_1_header_action&quot;]/span</value>
+         <value>/html/body/div[1]/div/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div/div[1]/div/ul/li[2]/a/span</value>
       </entry>
       <entry>
          <key>BASIC</key>

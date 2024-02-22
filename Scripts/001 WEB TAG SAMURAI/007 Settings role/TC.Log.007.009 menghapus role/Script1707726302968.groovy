@@ -57,13 +57,13 @@ WebUI.click(findTestObject('Setting role/Object0239_apply filter role'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting role/Object0261_titik 3'))
+WebUI.click(findTestObject('Menu titik 3 setting role/Object0261_titik 3'))
 
 WebUI.click(findTestObject('Setting role/Object0247_hapus role'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu titik 3 fixed asset transfer transaction/Menu titik 3 setting role/Object0262_ya hapus role'))
+WebUI.click(findTestObject('Menu titik 3 setting role/Object0262_ya hapus role'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
