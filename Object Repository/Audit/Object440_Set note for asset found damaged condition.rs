@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object401_date picker</name>
+   <name>Object440_Set note for asset found damaged condition</name>
    <tag></tag>
-   <elementGuidId>f3f8c501-efd3-4938-bee0-12439e436101</elementGuidId>
+   <elementGuidId>81cc4fca-a115-42c6-9606-27a4857bea14</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pv_id_7_panel&quot;]/div/div/div[2]/table/tbody/tr[4]/td[5]/span</value>
+         <value>/html/body/div[12]/div/div[2]/div/div/div/div[6]/textarea</value>
       </entry>
       <entry>
          <key>BASIC</key>

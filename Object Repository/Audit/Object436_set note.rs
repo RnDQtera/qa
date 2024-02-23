@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object430_update by RFID</name>
+   <name>Object436_set note</name>
    <tag></tag>
-   <elementGuidId>3b5632af-ff5c-4234-aff6-0711b1d03645</elementGuidId>
+   <elementGuidId>218b6899-8c08-4cc7-a38f-91faf2cd65c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[12]/div/button</value>
+         <value>/html/body/div[12]/div/div[2]/div/div/div/div[5]/textarea</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -73,9 +73,27 @@ WebUI.click(findTestObject('Audit/Object413_choose audit type'))
 
 WebUI.click(findTestObject('Audit/Object414_start location audit'))
 
-WebUI.delay(20)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Audit/Object431_Stop Scan RFID'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Audit/Object429_Update Button Audited'))
 
-WebUI.click(findTestObject('Audit/Object430_update by RFID'))
+WebUI.click(findTestObject('Audit/Object430_Update RFID'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Audit/Object432_Select Condition'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Audit/Object435_Tag Found Asset Missing'))
+
+WebUI.setText(findTestObject('Audit/Object442_Set note for Tag Found Asset Missing'), 'Noted')
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Audit/Object443_Submit tag found Asset Missing'), FailureHandling.STOP_ON_FAILURE)
 

@@ -59,8 +59,6 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Audit/Object393_Select Utilitas'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Audit/Object394_Select Laptop'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Audit/Object395_Apply Category'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
