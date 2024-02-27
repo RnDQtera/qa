@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.058.005 Search devices qr tag pair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01f8a5f9-c0bd-447e-9081-4c5342a48499</testCaseGuid>
+</TestCaseEntity>

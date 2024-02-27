@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.050.002 filter devices change tag history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29b199d8-38c2-4436-8bc3-bbbefab27901</testCaseGuid>
+</TestCaseEntity>

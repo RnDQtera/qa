@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.053.004 download devices replace tag type qr dan rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b88e56b9-d005-40f3-a697-32a76c1a9b71</testCaseGuid>
+</TestCaseEntity>

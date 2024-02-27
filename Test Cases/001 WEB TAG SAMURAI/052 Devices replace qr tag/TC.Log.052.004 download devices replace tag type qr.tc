@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.052.004 download devices replace tag type qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d86e8d7d-d1dd-4132-bf76-4ddc3f1cf8b8</testCaseGuid>
+</TestCaseEntity>

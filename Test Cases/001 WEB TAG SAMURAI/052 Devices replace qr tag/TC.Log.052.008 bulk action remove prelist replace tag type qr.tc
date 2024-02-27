@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.052.008 bulk action remove prelist replace tag type qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea1489e9-d357-48d5-ab6f-2e2bd1dda4c1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.053.005 search devices replace qr dan rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a95182a0-284f-4cfd-9e47-aa6c410b33cc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.050.001 Sortir devices change tag history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2993ac3-9cb5-43ef-8b39-c5133f99d1c5</testCaseGuid>
+</TestCaseEntity>

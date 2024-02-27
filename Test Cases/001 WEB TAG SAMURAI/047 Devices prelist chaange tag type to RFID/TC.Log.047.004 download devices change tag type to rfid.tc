@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.047.004 download devices change tag type to rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98807081-707e-4944-9c26-6bb5e39f5d34</testCaseGuid>
+</TestCaseEntity>

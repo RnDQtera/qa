@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
@@ -43,27 +43,44 @@ WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0820_menu damaged missing'))
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0821_bt filter damaged missing'))
+WebUI.click(findTestObject('Menu devices qr tag all/Object0884_Menu devices qr tag all'))
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0822_select group filter damaged missing'))
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0780_menu rfid tag paired'))
 
-WebUI.delay(8)
+WebUI.delay(4)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0823_select group lt 1'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0824_apply group damaged missing'))
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0788_bt search devices rfid tag paired'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0825_apply filter damaged missing'))
+WebUI.setText(findTestObject('Menu devices rfid tag paired/Object0789_ketik search devices rfid tag paired'), 'truk')
+
+WebUI.sendKeys(findTestObject('Menu devices rfid tag paired/Object0789_ketik search devices rfid tag paired'), Keys.chord(
+        Keys.ENTER))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0783_checkbox i1 devices rfid tag paired'))
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0784_bt bulk action devices rfid tag paired'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0792_i unpair bulk action devices rfid tag paired'))
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0786_apply bulk action devices rfid tag paired'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0793_submit unpair devices paired'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0794_ya unpair devices paired'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.045.001 filter devices rfid tag damaged-missing.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.056.010 bulk action unpair devices qr tag paired.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.055.003 filter devices qr tag all</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c428c781-cab9-473e-9e5b-c04c5248d43b</testCaseGuid>
+</TestCaseEntity>

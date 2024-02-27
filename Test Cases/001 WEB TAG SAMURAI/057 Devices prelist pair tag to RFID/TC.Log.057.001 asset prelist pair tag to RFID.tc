@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.057.001 asset prelist pair tag to RFID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54600921-2495-4e43-847a-e828f397fa08</testCaseGuid>
+</TestCaseEntity>

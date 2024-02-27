@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.048.004 download devices change tag type to qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68937883-2f11-4751-aa6d-6d4271dbc9ce</testCaseGuid>
+</TestCaseEntity>

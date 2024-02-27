@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.048.008 hapus prelist change tag type to qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cedeaeb9-21f5-44ac-a41d-1914d9611cfd</testCaseGuid>
+</TestCaseEntity>

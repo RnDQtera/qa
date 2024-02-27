@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.060.003 download devices pair tag history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc1061b3-a7b8-42d8-b1ec-818068b5e456</testCaseGuid>
+</TestCaseEntity>

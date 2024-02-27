@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.059.004 download devices rfid dan qr tag pair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>decdfc05-0a18-4d93-8054-028b9fd2d3ea</testCaseGuid>
+</TestCaseEntity>

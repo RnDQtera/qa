@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.053.003 filter devices replace tag type qr dan rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f30747f2-df8b-4dcd-ae4a-ec74265de82d</testCaseGuid>
+</TestCaseEntity>

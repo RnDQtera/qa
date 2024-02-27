@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.049.001 Sortir devices change tag typerfid dan qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2aea165-3db2-40f3-949c-95a6aeb8a3f1</testCaseGuid>
+</TestCaseEntity>
