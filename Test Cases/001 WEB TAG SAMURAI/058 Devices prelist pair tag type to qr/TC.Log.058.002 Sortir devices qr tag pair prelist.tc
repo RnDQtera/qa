@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.058.002 Sortir devices qr tag pair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6cecb2b-931f-4854-8b91-e116a6c7c452</testCaseGuid>
+</TestCaseEntity>

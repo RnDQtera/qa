@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.061.002 Sortir devices tag unpair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d463e68e-fd76-4441-886f-e1cce41098db</testCaseGuid>
+</TestCaseEntity>

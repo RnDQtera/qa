@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.053.008 bulk action remove prelist replace tag type qr dan rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3d2edc8-d6b4-4714-9928-465bb0879bee</testCaseGuid>
+</TestCaseEntity>

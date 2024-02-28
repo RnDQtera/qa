@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.047.005 search devices change to rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3d131f8-ea95-4503-86bf-51c11a539422</testCaseGuid>
+</TestCaseEntity>

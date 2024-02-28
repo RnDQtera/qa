@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.050.004 search devices change tag history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b113f27f-15e8-42c5-a9ea-b80067b6be15</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.061.004 filter devices tag unpair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1c76f2a-147c-477b-8ced-e1682db97fc1</testCaseGuid>
+</TestCaseEntity>

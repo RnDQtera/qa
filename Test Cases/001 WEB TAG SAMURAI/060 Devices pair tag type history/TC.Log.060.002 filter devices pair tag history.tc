@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.060.002 filter devices pair tag history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97965cdf-289f-425e-8784-5d8b2ae7a4c9</testCaseGuid>
+</TestCaseEntity>

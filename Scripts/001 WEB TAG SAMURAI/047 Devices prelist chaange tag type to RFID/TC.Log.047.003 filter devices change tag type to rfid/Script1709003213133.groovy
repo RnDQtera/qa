@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
@@ -37,33 +37,29 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0770_menu atas devices'))
 
-WebUI.delay(10)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'))
+WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0820_menu damaged missing'))
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0838_menu prelist to rfid'))
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0821_bt filter damaged missing'))
+WebUI.delay(2)
 
-WebUI.delay(4)
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0840_bt filter'))
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0822_select group filter damaged missing'))
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0841_filter nama asset'))
 
-WebUI.delay(8)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0823_select group lt 1'))
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0842_checkbox nama aset'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0824_apply group damaged missing'))
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0843_apply filter'))
 
-WebUI.delay(3)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0825_apply filter damaged missing'))
-
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.takeScreenshot('Screenshot/TC.Log.045.001 filter devices rfid tag damaged-missing.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.047.003 filter devices prelist to rfid tag.png', FailureHandling.STOP_ON_FAILURE)
 

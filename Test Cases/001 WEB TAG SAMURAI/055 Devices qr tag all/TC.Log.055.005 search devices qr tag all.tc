@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.055.005 search devices qr tag all</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c75f2324-5173-44b1-bd67-86a4c3a8d725</testCaseGuid>
+</TestCaseEntity>

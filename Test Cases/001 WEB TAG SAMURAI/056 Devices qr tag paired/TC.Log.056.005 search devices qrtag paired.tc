@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.056.005 search devices qrtag paired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f62f8e05-5f16-4cab-b746-9a5ed2f54d6a</testCaseGuid>
+</TestCaseEntity>

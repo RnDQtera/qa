@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.045.002 event log devices rfid tag damaged missing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd191f75-5875-49f9-9df1-a982aeca7a4b</testCaseGuid>
+</TestCaseEntity>

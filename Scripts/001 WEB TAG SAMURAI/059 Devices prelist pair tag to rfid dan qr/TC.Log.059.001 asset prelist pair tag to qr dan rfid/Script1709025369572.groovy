@@ -23,8 +23,6 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(5)
-
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
@@ -33,37 +31,39 @@ WebUI.click(findTestObject('1 Object0003_Button login'))
 
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
-WebUI.delay(15)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('1 Object0770_menu atas devices'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
+
+WebUI.click(findTestObject('1 Object0007_menu available fixed asset'))
+
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0041_filter menu available'))
+
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0040_dropdown menu available filter'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'))
-
-WebUI.delay(12)
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0820_menu damaged missing'))
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0821_bt filter damaged missing'))
-
-WebUI.delay(4)
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0822_select group filter damaged missing'))
-
-WebUI.delay(8)
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0823_select group lt 1'))
+WebUI.setText(findTestObject('Fixed asset transfer asset/Object0042_ketik menu filter nama available'), 'kursi')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0824_apply group damaged missing'))
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0044_pilih menu filter nama available'))
+
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0037_apply filter available'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0048_titik 3 available'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0825_apply filter damaged missing'))
+WebUI.click(findTestObject('Menu devices prelist pair tag to qr/Object0905_prelist pair to rfid dan qr'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object0887_ya tambahkan prelist tpair rfid'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.045.001 filter devices rfid tag damaged-missing.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.059.001 asset prelist pair tag to rfid dan qr.png', FailureHandling.STOP_ON_FAILURE)
 

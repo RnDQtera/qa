@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.053.001 Sortir devices replace tag type qr dan rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3478adc9-1bc9-488a-aeb1-03a3362f3706</testCaseGuid>
+</TestCaseEntity>

@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
@@ -37,33 +37,31 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0770_menu atas devices'))
 
-WebUI.delay(10)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'))
-
-WebUI.delay(12)
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0820_menu damaged missing'))
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0821_bt filter damaged missing'))
-
-WebUI.delay(4)
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0822_select group filter damaged missing'))
+WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0823_select group lt 1'))
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object0888_menu pair tag'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(12)
+
+WebUI.click(findTestObject('Menu devices prelist pair tag to qr/Object0904_menu pair qr dan rfid'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0824_apply group damaged missing'))
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object0890_bt filter'))
+
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object0891_dropdown filter nama'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0825_apply filter damaged missing'))
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object0892_checkbox 1 filter nama'))
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object0893_apply filter'))
 
-WebUI.takeScreenshot('Screenshot/TC.Log.045.001 filter devices rfid tag damaged-missing.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/TC.Log.059.003 filter devices rfid dan qr tag pair prelist.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -43,27 +43,15 @@ WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0820_menu damaged missing'))
+WebUI.click(findTestObject('Menu Devices RFID dan QR/Object0827_menu rfid dan qr'))
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0821_bt filter damaged missing'))
+WebUI.click(findTestObject('Menu Devices RFID dan QR/Object0830_unpair rfid dan qr'))
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0822_select group filter damaged missing'))
+WebUI.click(findTestObject('Menu Devices RFID dan QR/Object0831_ya unpair rfid dan qr'))
 
-WebUI.delay(8)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0823_select group lt 1'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0824_apply group damaged missing'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object0825_apply filter damaged missing'))
-
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.takeScreenshot('Screenshot/TC.Log.045.001 filter devices rfid tag damaged-missing.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.046.004 unpair devices rfid dan qr tag.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.051.007 replace tag type rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f752e813-872b-42a1-9dab-987366820e4f</testCaseGuid>
+</TestCaseEntity>

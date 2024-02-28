@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.049.008 hapus prelist change tag type to qr dan rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>142df5c5-ef7b-4eb7-a2ec-3ff919f2883e</testCaseGuid>
+</TestCaseEntity>
