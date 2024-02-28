@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.070.002 filter devices tag unpair history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36faf09f-4668-4f90-8134-12b81d72841c</testCaseGuid>
+</TestCaseEntity>

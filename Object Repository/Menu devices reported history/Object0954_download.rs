@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Object0954_download</name>
+   <tag></tag>
+   <elementGuidId>3c1194d5-94b7-49b8-90f3-ca9606fbfa17</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-tag-license&quot;]/div/div[3]/div/div/div[2]/div/div/button[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

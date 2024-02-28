@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.063.006 search devices reported qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3968df6-ed84-478d-bbf1-55c1e94e6adc</testCaseGuid>
+</TestCaseEntity>

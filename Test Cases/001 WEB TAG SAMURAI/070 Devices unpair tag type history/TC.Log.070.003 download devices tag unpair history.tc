@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.070.003 download devices tag unpair history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>834ff5c1-c54f-4735-9f37-1a75cfbb90ab</testCaseGuid>
+</TestCaseEntity>

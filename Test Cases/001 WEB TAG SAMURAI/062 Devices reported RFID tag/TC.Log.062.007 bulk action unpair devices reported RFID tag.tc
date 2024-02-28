@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.062.007 bulk action unpair devices reported RFID tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3653954-7b59-4151-aaac-eb9d481f2230</testCaseGuid>
+</TestCaseEntity>

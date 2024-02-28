@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.062.002 Sortir devices reported RFID tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e11a90a7-2362-4270-bb43-1d346aabcd7b</testCaseGuid>
+</TestCaseEntity>

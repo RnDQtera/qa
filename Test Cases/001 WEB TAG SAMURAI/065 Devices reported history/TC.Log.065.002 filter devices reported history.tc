@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.065.002 filter devices reported history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2a70da2-19f1-4cac-bf2e-45c8060c58be</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.064.005 filter devices reported rfid dan qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72df5d48-aedc-46f3-87c8-a09cd4498ea1</testCaseGuid>
+</TestCaseEntity>

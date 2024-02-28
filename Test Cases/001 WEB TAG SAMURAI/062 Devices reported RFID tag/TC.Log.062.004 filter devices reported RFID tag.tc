@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.062.004 filter devices reported RFID tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13633c36-56ae-4ecf-af6d-39438d10493f</testCaseGuid>
+</TestCaseEntity>

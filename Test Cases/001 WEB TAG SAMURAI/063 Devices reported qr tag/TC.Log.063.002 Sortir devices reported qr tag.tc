@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.063.002 Sortir devices reported qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f877515a-b389-4d28-8877-75f8e1c28242</testCaseGuid>
+</TestCaseEntity>

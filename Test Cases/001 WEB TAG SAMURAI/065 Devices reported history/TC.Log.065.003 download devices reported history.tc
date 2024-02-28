@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.065.003 download devices reported history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3c9308f-ca5a-48c0-9066-f4285c9e648f</testCaseGuid>
+</TestCaseEntity>
