@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object401_date picker</name>
+   <name>Object297_set note approval</name>
    <tag></tag>
-   <elementGuidId>f3f8c501-efd3-4938-bee0-12439e436101</elementGuidId>
+   <elementGuidId>66aa2b0d-0102-4e63-9ba8-f45d0e98eb87</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pv_id_7_panel&quot;]/div/div/div[2]/table/tbody/tr[4]/td[6]/span</value>
+         <value>/html/body/div[6]/div/div[2]/div/div[2]/div[3]/div[2]/div[1]/div[5]/textarea</value>
       </entry>
       <entry>
          <key>BASIC</key>

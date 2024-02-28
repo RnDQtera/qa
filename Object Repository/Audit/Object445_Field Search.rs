@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object401_date picker</name>
+   <name>Object445_Field Search</name>
    <tag></tag>
-   <elementGuidId>f3f8c501-efd3-4938-bee0-12439e436101</elementGuidId>
+   <elementGuidId>84a5f0b1-b690-4b2c-8290-82e2184e980a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pv_id_7_panel&quot;]/div/div/div[2]/table/tbody/tr[4]/td[6]/span</value>
+         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-asset-audit&quot;]/div/div[3]/div[2]/div/div/div[2]/div/div/div[1]/div/div[2]/div/form/input</value>
       </entry>
       <entry>
          <key>BASIC</key>

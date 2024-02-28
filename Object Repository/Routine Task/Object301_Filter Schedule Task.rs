@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object401_date picker</name>
+   <name>Object301_Filter Schedule Task</name>
    <tag></tag>
-   <elementGuidId>f3f8c501-efd3-4938-bee0-12439e436101</elementGuidId>
+   <elementGuidId>a0a21392-2707-4097-a27c-5623de05735f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pv_id_7_panel&quot;]/div/div/div[2]/table/tbody/tr[4]/td[6]/span</value>
+         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-asset-maintenances&quot;]/div/div[3]/div[2]/div/div/div[2]/div/div[2]/div[1]/div/button[4]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object401_date picker</name>
+   <name>Object342_Select Approval</name>
    <tag></tag>
-   <elementGuidId>f3f8c501-efd3-4938-bee0-12439e436101</elementGuidId>
+   <elementGuidId>8e1322ca-93fe-4923-b781-ff2bb244a1be</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pv_id_7_panel&quot;]/div/div/div[2]/table/tbody/tr[4]/td[6]/span</value>
+         <value>//*[@id=&quot;pv_id_14&quot;]/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
