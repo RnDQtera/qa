@@ -55,6 +55,26 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0930_checkbox i1'))
 
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1056_dropdown reported by'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Menu devices reported RFID tag/Object1057_ketik report'), 'emp')
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1058_checkbox reported1'))
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1059_select group'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1060_all group'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1061_apply group'))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0931_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

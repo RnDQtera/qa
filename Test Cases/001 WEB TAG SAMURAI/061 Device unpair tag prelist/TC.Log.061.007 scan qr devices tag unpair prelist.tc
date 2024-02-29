@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.061.007 scan qr devices tag unpair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49d285c3-c304-4bca-a241-d4267803f271</testCaseGuid>
+</TestCaseEntity>

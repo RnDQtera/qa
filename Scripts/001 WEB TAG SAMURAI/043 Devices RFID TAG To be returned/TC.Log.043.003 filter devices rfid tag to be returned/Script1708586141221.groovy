@@ -55,6 +55,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu device rfid tag all/Object0778_checkbox filter devices rfid tag'))
 
+WebUI.click(findTestObject('Menu device rfid tag all/Object1032_dropdown tag'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu device rfid tag all/Object1033_checkbox tag'))
+
+
 WebUI.click(findTestObject('Menu devices rfid tag to be returned/Object0797_apply filter rfid tag to be returned'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

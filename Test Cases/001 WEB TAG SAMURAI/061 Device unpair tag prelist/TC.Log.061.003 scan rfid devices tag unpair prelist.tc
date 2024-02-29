@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.061.003 scan rfid devices tag unpair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c0ea01f-1826-48bc-8663-cf6de7379d1d</testCaseGuid>
+</TestCaseEntity>

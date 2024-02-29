@@ -55,6 +55,12 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu devices unpair tag prelist/Object0913_checkbox i1'))
 
+WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1054_dropdown tag'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1055_tag 1'))
+
 WebUI.click(findTestObject('Menu devices unpair tag prelist/Object0914_apply filter'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

@@ -47,9 +47,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Menu device rfid tag all/Object1021_bt sync'))
+WebUI.click(findTestObject('Menu device rfid tag all/Object1020_scan rfid'))
 
 WebUI.delay(5)
 

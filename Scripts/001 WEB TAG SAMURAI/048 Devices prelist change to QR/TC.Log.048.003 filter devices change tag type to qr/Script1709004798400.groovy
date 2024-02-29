@@ -59,6 +59,18 @@ WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object1035_select group filter'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1038_grop lt1'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object1037_apply group'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0843_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

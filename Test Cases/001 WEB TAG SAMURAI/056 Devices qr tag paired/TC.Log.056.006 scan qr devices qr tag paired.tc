@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.056.006 scan qr devices qr tag paired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2aa2c2f3-6788-496d-ad23-19668e9ba49a</testCaseGuid>
+</TestCaseEntity>

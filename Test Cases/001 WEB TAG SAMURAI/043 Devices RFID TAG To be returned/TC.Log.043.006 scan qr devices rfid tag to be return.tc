@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.043.006 scan qr devices rfid tag to be return</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36bc35f8-bf04-411a-aabd-998353b07f86</testCaseGuid>
+</TestCaseEntity>

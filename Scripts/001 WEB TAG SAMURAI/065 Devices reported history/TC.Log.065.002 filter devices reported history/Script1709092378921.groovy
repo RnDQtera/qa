@@ -53,13 +53,41 @@ WebUI.delay(8)
 
 WebUI.click(findTestObject('Menu devices reported history/Object0956_bt filter'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Menu devices reported history/Object0957_dropdown tag filter'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu devices reported history/Object0958_checkbox rfid dan qr'))
 
-WebUI.click(findTestObject('Menu devices reported history/Objet959_apply filter'))
+WebUI.click(findTestObject('Menu devices reported history/Object1067_dropdown tag'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported history/Object1068_checkbox tag'))
+
+WebUI.click(findTestObject('Menu devices reported history/Object1069_dd reported tag'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported history/Object1070_cb reported rfid'))
+
+WebUI.click(findTestObject('Menu devices reported history/Object1071_dd reported by'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported history/Object1072_cb reported by'))
+
+WebUI.click(findTestObject('Menu devices reported history/Object1073_dd action filter'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Menu devices reported history/Object1074_ketik action'), 'decline')
+
+WebUI.click(findTestObject('Menu devices reported history/Object1075_cb action 1'))
+
+WebUI.click(findTestObject('Menu devices reported history/Object0959_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

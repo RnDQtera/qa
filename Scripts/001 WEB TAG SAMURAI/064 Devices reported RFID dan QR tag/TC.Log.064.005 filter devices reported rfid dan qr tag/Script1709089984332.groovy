@@ -59,6 +59,24 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object0948_checkbox 1 filter'))
 
+WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object1065_select user'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object1066_user 1'))
+
+WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object1062_select group'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object1063_group 2'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object1064_apply group'))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object0949_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.066.006 reject borrowing asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5b520df-457d-4837-beeb-7cbda6759948</testCaseGuid>
+</TestCaseEntity>

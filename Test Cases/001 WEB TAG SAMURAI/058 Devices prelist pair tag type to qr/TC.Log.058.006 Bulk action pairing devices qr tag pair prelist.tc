@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.058.006 Bulk action pairing devices qr tag pair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6c7512f-ff5c-46ba-984a-f8389582c90c</testCaseGuid>
+</TestCaseEntity>

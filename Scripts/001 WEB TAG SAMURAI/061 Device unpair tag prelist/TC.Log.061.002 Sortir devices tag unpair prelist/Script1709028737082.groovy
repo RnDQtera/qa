@@ -49,6 +49,8 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices unpair tag prelist/Object0910_sortir unpair tag'))
 
+WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1113_sortir nama unpair prelist'))
+
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.061.002 sortir devices tag unpair prelist.png', FailureHandling.STOP_ON_FAILURE)

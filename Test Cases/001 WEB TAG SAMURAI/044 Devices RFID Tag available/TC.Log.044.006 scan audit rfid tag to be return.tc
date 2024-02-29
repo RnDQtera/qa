@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.044.006 scan audit rfid tag to be return</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1deea66-ebd1-4fa6-b0ed-65f7f047a86d</testCaseGuid>
+</TestCaseEntity>

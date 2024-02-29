@@ -59,6 +59,16 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object0892_checkbox 1 filter nama'))
 
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object1051_select group'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object1052_group 2'))
+
+WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object1053_apply group'))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Menu devices prelist pair tag to rfid/Object0893_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

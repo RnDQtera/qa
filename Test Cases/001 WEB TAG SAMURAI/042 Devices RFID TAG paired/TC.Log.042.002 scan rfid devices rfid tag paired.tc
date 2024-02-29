@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.002 scan rfid devices rfid tag paired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>819fb5ba-cbf3-43a7-8420-dc95710f0dce</testCaseGuid>
+</TestCaseEntity>

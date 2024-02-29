@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.061.009 bulk action unpair devices tag unpair prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9d2b709-8113-4fc3-a5b1-1e5db436fb00</testCaseGuid>
+</TestCaseEntity>

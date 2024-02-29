@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.055.006 scan devices qr tag all</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3a14366-8c20-4940-95eb-3ba108b5ab2d</testCaseGuid>
+</TestCaseEntity>

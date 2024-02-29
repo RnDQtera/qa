@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.056.002 scan rfid devices qr tag paired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf38458c-928e-4395-be0b-34ecce5b5ab9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.046.002 scan qr devices rfid dan qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d6841e8-ee13-4265-9a3e-4cded4a8ef2f</testCaseGuid>
+</TestCaseEntity>

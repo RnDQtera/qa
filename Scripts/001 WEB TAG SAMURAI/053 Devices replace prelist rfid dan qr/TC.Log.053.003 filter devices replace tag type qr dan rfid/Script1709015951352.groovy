@@ -59,6 +59,18 @@ WebUI.click(findTestObject('Menu devices replace rfid prelis/Object0869_checkbox
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1048_select group filter'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1049_group lt 1'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1050_apply group'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Menu devices replace rfid prelis/Object0870'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

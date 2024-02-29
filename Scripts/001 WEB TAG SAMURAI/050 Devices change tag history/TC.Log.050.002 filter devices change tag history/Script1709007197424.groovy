@@ -59,6 +59,30 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu devices history change tag/Object0860_checkbox filter'))
 
+WebUI.click(findTestObject('Menu devices history change tag/Object1046_checkbox asset i2'))
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1043_dropdown select user'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1044_checkbox user'))
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1041_dropdown changed to'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1042_checkbox i3'))
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1045_checkbox change to'))
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1039_dropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1040_checkbox2'))
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1047_checkbox tag'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu devices history change tag/Object0861_apply filter'))

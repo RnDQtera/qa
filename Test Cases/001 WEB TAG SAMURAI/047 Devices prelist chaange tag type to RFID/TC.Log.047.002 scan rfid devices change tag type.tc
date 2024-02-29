@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.047.002 scan rfid devices change tag type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73fb52b2-2bdf-4d9a-96b5-c6165cb0e855</testCaseGuid>
+</TestCaseEntity>

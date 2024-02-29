@@ -51,6 +51,30 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Filter available asset/Object0058_checkbox filter asset name i4'))
 
+WebUI.click(findTestObject('Filter available asset/Object1026_dropdown filter'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1027_checkbox 3 brand'))
+
+WebUI.click(findTestObject('Filter available asset/Object1028_dropdown model'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1029_checkbox model'))
+
+WebUI.click(findTestObject('Filter available asset/Object1030_dropdown tag'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1031_checkbox tag'))
+
+WebUI.click(findTestObject('Filter available asset/Object1032_dropdown policy'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1033_checkbox borrow policy'))
+
 WebUI.click(findTestObject('Filter available asset/Object0056_apply filter avail asset'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.044.007 transfer rfid tag to be return</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7fae023f-059b-4940-8449-2b6b6351c0c3</testCaseGuid>
+</TestCaseEntity>

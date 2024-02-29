@@ -37,10 +37,6 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('1 Object0960_menu atas approval'))
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu approval scenario disposal/Object0961_Menu Approval scenario disposal'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu Appoval borrowing/Object0962_titik 3'), FailureHandling.STOP_ON_FAILURE)

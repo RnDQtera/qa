@@ -21,6 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl(GlobalVariable.localhost)
+
+WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(5)
@@ -45,9 +51,27 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu Devices RFID dan QR/Object0827_menu rfid dan qr'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Menu Devices RFID dan QR/Object0828_pair rfid dan qr'))
 
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu Devices RFID dan QR/Object1089_bt pair rfid dan qr'))
+
 WebUI.delay(4)
+
+WebUI.click(findTestObject('Menu Devices RFID dan QR/Object1090_sync now'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu Devices RFID dan QR/Object1091_close sync'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Menu Devices RFID dan QR/Object1089_bt pair rfid dan qr'))
+
+WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu Devices RFID dan QR/Object0829_submit pairing rfid dan qr'))
 

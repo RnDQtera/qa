@@ -41,13 +41,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(8)
+WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0923_menu reported'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0942_menu qr'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(12)
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0928_bt filter'))
 
@@ -56,6 +56,26 @@ WebUI.click(findTestObject('Menu devices reported RFID tag/Object0929_dropdown f
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0930_checkbox i1'))
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1056_dropdown reported by'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Menu devices reported RFID tag/Object1057_ketik report'), 'emp')
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1058_checkbox reported1'))
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1059_select group'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1060_all group'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1061_apply group'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0931_apply filter'))
 

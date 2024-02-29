@@ -55,6 +55,16 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0842_checkbox nama aset'))
 
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object1035_select group filter'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object1036_group lt 2'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object1037_apply group'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0843_apply filter'))
