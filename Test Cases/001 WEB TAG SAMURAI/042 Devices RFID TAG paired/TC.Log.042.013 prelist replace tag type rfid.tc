@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.013 prelist replace tag type rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd29044c-a8be-495f-a64c-e0bf0e64395f</testCaseGuid>
+</TestCaseEntity>

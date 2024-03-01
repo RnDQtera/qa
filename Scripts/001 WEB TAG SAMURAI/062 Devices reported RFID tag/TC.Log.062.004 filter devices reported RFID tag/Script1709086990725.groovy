@@ -75,6 +75,20 @@ WebUI.click(findTestObject('Menu devices reported RFID tag/Object1061_apply grou
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1178_date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1179_mundur date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1180_tgl 1'))
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1181_tgl 29'))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0931_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

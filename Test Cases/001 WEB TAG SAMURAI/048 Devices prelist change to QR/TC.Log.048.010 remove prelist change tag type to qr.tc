@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.048.010 remove prelist change tag type to qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4a695ea-d220-4250-8e75-104adeb934e9</testCaseGuid>
+</TestCaseEntity>

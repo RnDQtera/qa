@@ -83,6 +83,32 @@ WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1018_checkbox 
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu devices pair tag type history/Object1169_date'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1177_mundur date'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices pair tag type history/Object1171_tgl 1'))
+
+WebUI.click(findTestObject('Menu devices pair tag type history/Object1172_tgl 29'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices pair tag type history/Object1173_select group'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1176_lt 2'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices pair tag type history/Object1175_apply group'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1019_apply filter'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

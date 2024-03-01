@@ -87,6 +87,24 @@ WebUI.setText(findTestObject('Menu devices reported history/Object1074_ketik act
 
 WebUI.click(findTestObject('Menu devices reported history/Object1075_cb action 1'))
 
+WebUI.click(findTestObject('Menu devices reported history/Object1187_dd manager'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported history/Object1188_cb manager'))
+
+WebUI.click(findTestObject('Menu devices reported history/Object1189_date 1'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported history/Object1190_mundur date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported history/Object1191_tgl 1'))
+
+WebUI.click(findTestObject('Menu devices reported history/Object1192_tgl 29'))
+
 WebUI.click(findTestObject('Menu devices reported history/Object0959_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

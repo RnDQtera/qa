@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.049.010 remove prelist change tag type to rfid dan qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d132fdc4-c65d-493f-bb94-d75e0d3d1904</testCaseGuid>
+</TestCaseEntity>

@@ -21,6 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl(GlobalVariable.localhost)
+
+WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(3)
@@ -52,6 +60,18 @@ WebUI.click(findTestObject('Menu devices replace rfid prelis/Object0874_titik 3'
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu devices replace rfid prelis/Object0875_replace tag'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1213_scan rfid'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1216_sync now'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1217_close sync'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

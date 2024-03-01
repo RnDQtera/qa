@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.015 unpair tag type rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>745f2930-e41c-454a-b27d-7d2d38f4ca30</testCaseGuid>
+</TestCaseEntity>

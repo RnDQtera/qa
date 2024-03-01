@@ -53,7 +53,7 @@ WebUI.click(findTestObject('Menu device rfid tag all/Object0777_dropdown filter 
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu device rfid tag all/Object0778_checkbox filter devices rfid tag'))
+WebUI.click(findTestObject('Menu device rfid tag all/Object1163_checkbox 9 asset name'))
 
 WebUI.click(findTestObject('Menu device rfid tag all/Object1032_dropdown tag'))
 
@@ -61,6 +61,23 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu device rfid tag all/Object1033_checkbox tag'))
 
+WebUI.click(findTestObject('Menu device rfid tag all/Object1158_dd status'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu device rfid tag all/Object1159_paired'))
+
+WebUI.click(findTestObject('Menu device rfid tag all/Object1160_select group'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu device rfid tag all/Object1161_group 1'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu device rfid tag all/Object1162_apply filter'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu device rfid tag all/Object0779_apply filter devices rfid tag'))
 

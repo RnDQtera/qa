@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.062.011 bulk action change devices reported RFID danqr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d24fd51f-f52a-4319-8ce7-51bf49d8a461</testCaseGuid>
+</TestCaseEntity>

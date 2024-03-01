@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.053.006 scan qr devices replace tag type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ed032f7-472d-4a2c-873b-6e09d08884a8</testCaseGuid>
+</TestCaseEntity>

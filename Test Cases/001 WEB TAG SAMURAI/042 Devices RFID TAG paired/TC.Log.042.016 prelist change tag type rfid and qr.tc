@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.016 prelist change tag type rfid and qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a98d1d3a-2652-40a0-a093-a747898b6ff9</testCaseGuid>
+</TestCaseEntity>

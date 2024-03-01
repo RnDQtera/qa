@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.064.001 bulk action tolak devices reported rfid qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d643ed8-77e7-4e60-a138-07ee1f0234eb</testCaseGuid>
+</TestCaseEntity>

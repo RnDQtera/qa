@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.011 bulk action prelist change devices rfid qr tag paired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73ce8ce9-7ae8-42c5-8028-766e4b7fafc3</testCaseGuid>
+</TestCaseEntity>

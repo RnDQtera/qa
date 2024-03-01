@@ -73,6 +73,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu devices history change tag/Object1042_checkbox i3'))
 
+WebUI.click(findTestObject('Menu devices history change tag/Object1167_cb i3'))
+
 WebUI.click(findTestObject('Menu devices history change tag/Object1045_checkbox change to'))
 
 WebUI.click(findTestObject('Menu devices history change tag/Object1039_dropdown'))
@@ -82,6 +84,16 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Menu devices history change tag/Object1040_checkbox2'))
 
 WebUI.click(findTestObject('Menu devices history change tag/Object1047_checkbox tag'))
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1164_select group'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1165_select all'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1166_apply group'))
 
 WebUI.delay(2)
 

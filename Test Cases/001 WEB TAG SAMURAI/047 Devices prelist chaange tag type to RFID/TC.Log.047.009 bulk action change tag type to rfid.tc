@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.047.009 bulk action change tag type to rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7527c00-89d9-45a8-8c01-6cd6ea303185</testCaseGuid>
+</TestCaseEntity>
