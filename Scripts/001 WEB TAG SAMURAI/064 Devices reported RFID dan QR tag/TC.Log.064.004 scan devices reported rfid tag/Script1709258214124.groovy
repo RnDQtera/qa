@@ -55,7 +55,7 @@ WebUI.click(findTestObject('Menu devices reported RFID tag/Object0923_menu repor
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Menu devices reported RFID tag/Object0942_menu qr'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object0943_menu reported rfid dan qr'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(8)
 
@@ -71,11 +71,11 @@ WebUI.click(findTestObject('Menu devices reported RFID tag/Object1116_close sync
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices reported RFID tag/Object1117_scan qr'))
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1114_scan rfid'))
 
 WebUI.delay(3)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.063.004 scan devices reported qr.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.063.004 scan devices reported rfid.png', FailureHandling.STOP_ON_FAILURE)
 

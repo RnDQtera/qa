@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object0961_Menu Approval scenario disposal</name>
+   <name>Object1138_g1</name>
    <tag></tag>
-   <elementGuidId>c1a0c35f-a636-4872-b42c-f4c833c696a1</elementGuidId>
+   <elementGuidId>18fc419a-66e6-4835-afaa-b6279c773723</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-sidebar&quot;]/div/div[2]/div/div/div/ul/li[3]/div</value>
+         <value>/html/body/div[6]/div/div[2]/div[2]/div/ul/li/ul/li[5]/div/span/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

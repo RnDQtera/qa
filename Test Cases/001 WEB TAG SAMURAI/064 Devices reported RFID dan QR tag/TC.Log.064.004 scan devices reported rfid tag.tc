@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.Log.064.004 scan devices reported qr tag</name>
+   <name>TC.Log.064.004 scan devices reported rfid tag</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dcce0fb7-3750-48c3-b469-c3043f63f3a4</testCaseGuid>

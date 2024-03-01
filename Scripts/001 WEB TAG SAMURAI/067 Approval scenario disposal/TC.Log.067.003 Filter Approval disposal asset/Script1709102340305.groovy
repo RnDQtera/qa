@@ -47,6 +47,26 @@ WebUI.click(findTestObject('Menu approval scenario disposal/Object0979_bt filter
 
 WebUI.delay(8)
 
+WebUI.click(findTestObject('Menu approval scenario disposal/Object1127_date'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval scenario disposal/Object1128_mundur dat'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval scenario disposal/Object1129_tgl 1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu approval scenario disposal/Object1130_tgl 30'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval scenario disposal/Object1125_dd manager'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval scenario disposal/Object1126_cb manager'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Menu approval scenario disposal/Object0980_dropdown filter'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

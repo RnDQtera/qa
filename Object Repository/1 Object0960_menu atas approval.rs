@@ -6,12 +6,11 @@
    <elementGuidId>13559dbc-0880-40e2-8cbb-225547a5f2fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-navbar&quot;]/div/div[2]/div/div[1]/div[2]/div[2]/div/div[6]/button</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[1]/div/div[2]/div/div[1]/div[2]/div[2]/div/div[5]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

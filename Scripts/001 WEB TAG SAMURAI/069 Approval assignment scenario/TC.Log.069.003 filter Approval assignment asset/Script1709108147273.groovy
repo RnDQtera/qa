@@ -47,6 +47,24 @@ WebUI.click(findTestObject('Menu approval assignment/Object1003_bt filter'), Fai
 
 WebUI.delay(8)
 
+WebUI.click(findTestObject('Menu approval assignment/Object1151_select manager'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval assignment/Object1152_cb lau'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu approval assignment/Object1147_date'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval assignment/Object1148_mundur date'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval assignment/Object1149_tgl 1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu approval assignment/Object1150_tgl 29'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Menu approval assignment/Object1004_dropdown approve'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

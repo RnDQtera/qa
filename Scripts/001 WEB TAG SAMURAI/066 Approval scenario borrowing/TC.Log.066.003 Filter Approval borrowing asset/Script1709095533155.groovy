@@ -49,6 +49,30 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu Appoval borrowing/Object0974_checkbox finish'))
 
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1123_dd manager'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1124_cb lau'))
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1121_dd borrower'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1122_cb laur'))
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1131_date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1132_mundur date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1133_tgl 1'))
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1134_tgl 29'))
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu Appoval borrowing/Object0975_apply filter'))

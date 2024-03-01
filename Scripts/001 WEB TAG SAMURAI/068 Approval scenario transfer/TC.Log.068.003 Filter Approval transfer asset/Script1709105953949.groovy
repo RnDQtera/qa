@@ -51,7 +51,49 @@ WebUI.click(findTestObject('Menu approval transfer/Object0991_dropdown filter'),
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu approval transfer/Object0992_checkbox filter'))
+WebUI.click(findTestObject('Menu approval transfer/Object0992_checkbox filter'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1135_dd manager'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1136_cb manager'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1137_select g'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1138_g1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1139_apply group'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1140_select g d'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1141_g301'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1142_apply group'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1143_date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1144_mundur date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval transfer/Object1145_tgl 1'))
+
+WebUI.click(findTestObject('Menu approval transfer/Object1146_tgl 29'))
 
 WebUI.delay(3)
 

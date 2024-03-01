@@ -35,6 +35,8 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('1 Object0504_menu assign fixed asset'))
 
 WebUI.delay(10)
