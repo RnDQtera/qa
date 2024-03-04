@@ -97,6 +97,16 @@ WebUI.click(findTestObject('Menu devices history change tag/Object1166_apply gro
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu devices history change tag/Object1242_date'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1243_tgl 1'))
+
+WebUI.click(findTestObject('Menu devices history change tag/Object1244_tgl akhir'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Menu devices history change tag/Object0861_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)

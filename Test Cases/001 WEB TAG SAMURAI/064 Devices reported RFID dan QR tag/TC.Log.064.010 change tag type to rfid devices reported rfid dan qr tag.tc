@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.064.010 change tag type to rfid devices reported rfid dan qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54e235ce-8f90-4eb8-95ea-186b50709cd2</testCaseGuid>
+</TestCaseEntity>

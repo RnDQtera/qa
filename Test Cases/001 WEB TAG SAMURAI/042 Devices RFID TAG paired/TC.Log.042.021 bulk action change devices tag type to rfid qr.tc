@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.021 bulk action change devices tag type to rfid qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2b4c31c-daea-46db-be3f-2245e1646c31</testCaseGuid>
+</TestCaseEntity>

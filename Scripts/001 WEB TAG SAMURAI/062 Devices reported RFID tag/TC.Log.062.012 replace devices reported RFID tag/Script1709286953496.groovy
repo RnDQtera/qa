@@ -71,6 +71,10 @@ WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1217_close sy
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1213_scan rfid'))
+
+WebUI.delay(12)
+
 WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1214_submit'))
 
 WebUI.delay(2)

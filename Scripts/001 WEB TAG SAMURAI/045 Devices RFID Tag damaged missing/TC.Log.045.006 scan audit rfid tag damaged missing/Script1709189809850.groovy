@@ -73,6 +73,24 @@ WebUI.click(findTestObject('Menu devices RFID Tag Available/Object1081_start aud
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object1247_stop audit'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object1248_select action'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object1249_move to available'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object1250_submit audit'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices rfid tag damaged missing/Object1251_pindahkan audit'))
+
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.045.006 scan devices rfid tag audit.png', FailureHandling.STOP_ON_FAILURE)

@@ -21,6 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl(GlobalVariable.localhost)
+
+WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(3)
@@ -45,7 +51,23 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices rfid tag paired/Object0780_menu rfid tag paired'))
 
-WebUI.delay(4)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1076_scan rfid'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu device rfid tag all/Object1022_sync now'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu device rfid tag all/Object1023_close sync'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1076_scan rfid'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Menu devices rfid tag paired/Object0783_checkbox i1 devices rfid tag paired'))
 

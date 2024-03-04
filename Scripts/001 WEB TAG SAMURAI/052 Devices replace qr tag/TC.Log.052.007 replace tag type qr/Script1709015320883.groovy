@@ -63,21 +63,23 @@ WebUI.click(findTestObject('Menu devices replace rfid prelis/Object0875_replace 
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1213_scan rfid'))
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1262_scan rfid'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1216_sync now'))
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1263_sync'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1217_close sync'))
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1264_close sync replace'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1262_scan rfid'))
+
+WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1214_submit'))
-
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1215_ya lanjtukan'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

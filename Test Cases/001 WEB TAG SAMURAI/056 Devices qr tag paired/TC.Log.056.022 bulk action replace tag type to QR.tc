@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.056.022 bulk action replace tag type to QR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1da2c95-0ecb-4d26-a563-b358b85062ad</testCaseGuid>
+</TestCaseEntity>

@@ -63,7 +63,7 @@ WebUI.click(findTestObject('Menu devices reported RFID tag/Object0940_apply bulk
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices reported RFID tag/Object1222_ya lanjutkan'))
+WebUI.click(findTestObject('Menu devices reported RFID dan qr tag/Object1231_ya lanjutkan'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

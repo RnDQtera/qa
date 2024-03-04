@@ -49,6 +49,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu device rfid tag all/Object0772_sortir devices rfid tag'))
 
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1257_sortir qr'))
+
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.042.001 sortir devices rfid tag paired.png', FailureHandling.STOP_ON_FAILURE)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.064.011 replace qr devices reported rfid dan qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cba16b8b-0911-4afc-902b-643ff33373c3</testCaseGuid>
+</TestCaseEntity>

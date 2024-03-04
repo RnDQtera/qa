@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.064.009 tolak devices reported rfid dan qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdfcb645-ab42-42d3-812d-678b73e8a9d3</testCaseGuid>
+</TestCaseEntity>

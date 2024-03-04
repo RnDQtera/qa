@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.064.008 bulk action unpair devices reported rfid qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d88042b-7e79-4d2a-b214-3faf229cf838</testCaseGuid>
+</TestCaseEntity>

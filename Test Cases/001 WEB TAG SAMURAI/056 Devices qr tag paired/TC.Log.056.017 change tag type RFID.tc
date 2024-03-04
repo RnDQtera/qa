@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.056.017 change tag type RFID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>951e7837-e928-4173-802e-180116295651</testCaseGuid>
+</TestCaseEntity>

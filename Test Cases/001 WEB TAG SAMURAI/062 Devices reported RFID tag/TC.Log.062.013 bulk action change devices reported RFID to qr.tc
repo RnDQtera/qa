@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.062.013 bulk action change devices reported RFID to qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7108fb8-7f2f-414a-a32e-9dda06fbcc07</testCaseGuid>
+</TestCaseEntity>

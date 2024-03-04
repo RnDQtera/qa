@@ -55,7 +55,7 @@ WebUI.click(findTestObject('Menu devices unpair tag prelist/Object0908_menu unpa
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1113_sortir nama unpair prelist'))
+WebUI.click(findTestObject('Menu devices unpair tag prelist/Object1246_sortir group'))
 
 WebUI.delay(3)
 

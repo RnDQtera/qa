@@ -21,6 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl(GlobalVariable.localhost)
+
+WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(3)
@@ -49,11 +55,53 @@ WebUI.click(findTestObject('Menu devices prelist change to QR/Object0854_menu ch
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0845_bt search'))
+
+WebUI.delay(4)
+
+WebUI.setText(findTestObject('Menu devices prelist change tag to type RFID/Object0846_ketik search'), 'truk')
+
+WebUI.sendKeys(findTestObject('Menu devices prelist change tag to type RFID/Object0846_ketik search'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0847_titik 3'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0848_change to rfid'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1235_scan rfid change'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1236_sync change'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1237_close sync'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1235_scan rfid change'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1238_next verivy'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1239_ya lanjutkan'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1240_scan qr'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Menu devices prelist change to QR/Object1241_submit change'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Menu devices reported RFID tag/Object0940_apply bulk
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices reported RFID tag/Object0941_submit bulk action'))
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1273_submit unpair'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

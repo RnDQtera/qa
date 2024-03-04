@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.Log.062.010 bulk action change devices reported RFID tag</name>
+   <name>TC.Log.062.010 change devices reported RFID tag</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>70973a89-1a55-4c18-a93b-3a96337b27ec</testCaseGuid>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.042.020 bulk action change devices tag type to qr</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a264b501-cb14-40ad-ad3b-1de6446dff76</testCaseGuid>
+</TestCaseEntity>

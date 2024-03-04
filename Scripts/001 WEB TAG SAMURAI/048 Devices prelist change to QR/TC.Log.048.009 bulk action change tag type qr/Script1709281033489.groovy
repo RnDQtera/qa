@@ -87,6 +87,18 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object1210_next change'))
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1253_ya lanjutkan tanpat veriv'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1254_scan qr change tye'))
+
+WebUI.delay(12)
+
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object1255_submit change type qr'))
+
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.048.009 change to rfid tag.png', FailureHandling.STOP_ON_FAILURE)
