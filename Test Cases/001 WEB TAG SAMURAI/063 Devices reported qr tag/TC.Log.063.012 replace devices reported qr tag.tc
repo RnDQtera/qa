@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.063.012 replace devices reported qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e680ce96-ff25-492f-b976-6ddfec5e51a7</testCaseGuid>
+</TestCaseEntity>

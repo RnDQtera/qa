@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.064.015 bulk action replace devices reported qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dccf0623-88d8-475a-b16c-448fb89b34da</testCaseGuid>
+</TestCaseEntity>

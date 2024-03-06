@@ -73,5 +73,5 @@ WebUI.delay(5)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.052.006 scan devices qr replace tag type.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.053.006 scan devices qr replace tag type.png', FailureHandling.STOP_ON_FAILURE)
 

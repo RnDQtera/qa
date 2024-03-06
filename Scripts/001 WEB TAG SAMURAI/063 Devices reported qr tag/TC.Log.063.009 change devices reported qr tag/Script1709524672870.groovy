@@ -29,13 +29,15 @@ WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.S
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('1 Object0003_Button login'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 

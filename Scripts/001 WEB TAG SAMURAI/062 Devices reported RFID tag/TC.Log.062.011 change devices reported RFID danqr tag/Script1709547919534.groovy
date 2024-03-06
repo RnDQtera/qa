@@ -47,43 +47,41 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(8)
+WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0923_menu reported'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object0934_titik 3'))
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1276_change to rfid dan qr'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1268_scan qr'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1269_sync now'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1270_close sync'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1268_scan qr'))
+
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu devices reported RFID tag/Object0937_checkbox item 1'))
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1271_scan kanan'))
 
-WebUI.click(findTestObject('Menu devices reported RFID tag/Object0938_bt bulk action'))
+WebUI.delay(12)
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices reported RFID tag/Object1225_bulk change rfid qr'))
-
-WebUI.click(findTestObject('Menu devices reported RFID tag/Object0940_apply bulk action'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1213_scan rfid'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1216_sync now'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1217_close sync'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1214_submit'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1215_ya lanjtukan'))
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object1272_submit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.062.011 bulk action change devices reported rfid dan qr.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.062.011 change devices reported rfid dan qr.png', FailureHandling.STOP_ON_FAILURE)
 
