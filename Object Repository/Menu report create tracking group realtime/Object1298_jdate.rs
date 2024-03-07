@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Object1298_jdate</name>
+   <tag></tag>
+   <elementGuidId>735187f4-9195-45f1-af84-a3e5baa4efc1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-reports&quot;]/div/div[3]/div[2]/div/div/div/div[3]/div[1]/div/div/div/div[2]/div[2]/span/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

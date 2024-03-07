@@ -63,15 +63,15 @@ WebUI.click(findTestObject('Menu report/Object1441_edit report'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu report/Object1448_ketik nama laporan'), 'Laporan telah berhasil di edit')
-
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Menu report/Object1466_cb table column uom'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu report/Object1447_clear field edit'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Menu report/Object1448_ketik nama laporan'), 'Edited report')
 
 WebUI.delay(2)
 
@@ -135,6 +135,12 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu report/Object1468_cb cat'))
 
+WebUI.click(findTestObject('Menu report/Object1569_dd data type'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report/Object1570_historical'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu report/Object1442_dd schedule edit'))
@@ -145,9 +151,15 @@ WebUI.click(findTestObject('Menu report/Object1443_daily sch edit'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1513_download report'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Menu report/Object1449_submit edit report'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.071.009 edit report.png', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 

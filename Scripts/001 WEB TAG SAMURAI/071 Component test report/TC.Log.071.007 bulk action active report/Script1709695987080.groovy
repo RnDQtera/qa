@@ -43,6 +43,16 @@ WebUI.click(findTestObject('1 Object1401_report'))
 
 WebUI.delay(12)
 
+WebUI.click(findTestObject('Menu report/Object1403_bt search'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Menu report/Object1404_ketik search'), 'pertama')
+
+WebUI.sendKeys(findTestObject('Menu report/Object1404_ketik search'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Menu report/Object1433_cb 1 report'))
 
 WebUI.delay(5)

@@ -45,7 +45,7 @@ WebUI.click(findTestObject('1 Object1401_report'))
 
 WebUI.delay(12)
 
-WebUI.click(findTestObject('Menu report create/Object1469_bt create report'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1469_bt create report'))
 
 WebUI.delay(5)
 
@@ -53,111 +53,165 @@ WebUI.setText(findTestObject('Menu report/Object1448_ketik nama laporan'), 'Lapo
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu report create/Object1470_dd tipe laporan'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1470_dd tipe laporan'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create/Object1471_cb custom report'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1471_cb custom report'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu report create/Object1472_dd asset info'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1472_dd asset info'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu report create/Object1473_basic info'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1473_basic info'))
 
-WebUI.click(findTestObject('Menu report create/Object1474_dd list by'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1474_dd list by'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu report create/Object1475_cb group list'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1475_cb group list'))
 
-WebUI.click(findTestObject('Menu report create/Object1476_dd data type'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu report create/Object1477_cb realtime data'))
-
-WebUI.click(findTestObject('Menu report create/Object1478_select group create'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1476_dd data type'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create/Object1479_lantai 1 create'))
-
-WebUI.click(findTestObject('Menu report create/Object1480_lantai 2 create'))
-
-WebUI.click(findTestObject('Menu report create/Object1481_apply group'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1477_cb realtime data'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create/Object1482_select cat create'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1501_cb aset id'))
 
-WebUI.click(findTestObject('Menu report create/Object1483_all cat create'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1502_cb status'))
 
-WebUI.click(findTestObject('Menu report create/Object1484_apply cat'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu report create/Object1485_dd asset name'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1503_cb group'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create/Object1486_asset kursi'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1504_cb tag'))
 
-WebUI.click(findTestObject('Menu report create/Object1487_dd brand'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1505_cb cat'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1506_cb brand'))
 
-WebUI.click(findTestObject('Menu report create/Object1488_cb olympic'))
-
-WebUI.click(findTestObject('Menu report create/Object1489_dd model'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1507_cb model'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create/Object1490_cb chair'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1508_regist date'))
 
-WebUI.click(findTestObject('Menu report create/Object1491_cb desk'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1509_unit'))
 
-WebUI.click(findTestObject('Menu report create/Object1492_dd tag'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1510_end garansi'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu report create/Object1493_cb qr tag'))
-
-WebUI.click(findTestObject('Menu report create/Object1494_cb non tag'))
-
-WebUI.click(findTestObject('Menu report create/Object1495_dd status'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1501_cb aset id'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create/Object1496_cb avail'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1501_cb aset id'))
 
-WebUI.click(findTestObject('Menu report create/Object1497_date'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1511_tgl beli'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu report create/Object1498_mundur date'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1512_cb harga bayar'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create/Object1499_tgl 1'))
-
-WebUI.click(findTestObject('Menu report create/Object1500_tgl 29'))
-
-WebUI.click(findTestObject('Menu report create/Object1501_cb aset id'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1515_clear field filter'))
 
 WebUI.delay(2)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1478_select group create'))
 
 WebUI.delay(2)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1479_lantai 1 create'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1480_lantai 2 create'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1481_apply group'))
+
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1482_select cat create'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1483_all cat create'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1484_apply cat'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1485_dd asset name'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1486_asset kursi'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1487_dd brand'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1488_cb olympic'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1489_dd model'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1490_cb chair'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1491_cb desk'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1492_dd tag'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1493_cb qr tag'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1494_cb non tag'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1495_dd status'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1496_cb avail'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1497_date'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1498_mundur date'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1499_tgl 1'))
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1500_tgl 29'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1513_download report'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Menu report create basic info group realtime/Object1514_ketik penerima'), 'employee4@mailnesia.com')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report/Object1442_dd schedule edit'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1544_weekly sch create'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report/Object1449_submit edit report'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
