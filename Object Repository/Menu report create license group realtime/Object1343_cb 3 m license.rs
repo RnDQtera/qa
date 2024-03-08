@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>1 Object0960_menu atas approval</name>
+   <name>Object1343_cb 3 m license</name>
    <tag></tag>
-   <elementGuidId>13559dbc-0880-40e2-8cbb-225547a5f2fb</elementGuidId>
+   <elementGuidId>3b0dcd74-8e88-4181-947f-aaa826bee490</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[1]/div/div[2]/div/div[1]/div[2]/div[2]/div/div[6]/button</value>
+         <value>/html/body/div[7]/div[2]/ul/li[3]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

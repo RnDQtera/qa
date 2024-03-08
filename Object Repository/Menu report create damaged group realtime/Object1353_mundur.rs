@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>1 Object0960_menu atas approval</name>
+   <name>Object1353_mundur</name>
    <tag></tag>
-   <elementGuidId>13559dbc-0880-40e2-8cbb-225547a5f2fb</elementGuidId>
+   <elementGuidId>6bf9f256-ce5e-4079-99c4-44fd1a83560e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[1]/div/div[2]/div/div[1]/div[2]/div[2]/div/div[6]/button</value>
+         <value>//*[@id=&quot;pv_id_16_panel&quot;]/div/div/div[1]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

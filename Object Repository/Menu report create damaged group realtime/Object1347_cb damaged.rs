@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>1 Object0960_menu atas approval</name>
+   <name>Object1347_cb damaged</name>
    <tag></tag>
-   <elementGuidId>13559dbc-0880-40e2-8cbb-225547a5f2fb</elementGuidId>
+   <elementGuidId>eb9ee4e8-80be-4d55-a341-14f8b0b7bdbf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[1]/div/div[2]/div/div[1]/div[2]/div[2]/div/div[6]/button</value>
+         <value>/html/body/div[7]/div/ul/li[13]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

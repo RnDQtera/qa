@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='single-spa-application:@dev-tagsamurai/ts-mfe-console-navbar']/div/div[2]/div/div/div[2]/div[2]/div/div[6]/button/span[2]</value>
+         <value>//div[@id='single-spa-application:@dev-tagsamurai/ts-mfe-console-navbar']/div/div[2]/div/div/div[2]/div[2]/div/div[7]/button/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
