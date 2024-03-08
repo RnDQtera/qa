@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Object1375_date</name>
+   <tag></tag>
+   <elementGuidId>c4b77be2-16a6-4046-9b9e-4a9632976f5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-reports&quot;]/div/div[3]/div[2]/div/div/div/div[3]/div[1]/div/div/div/div[3]/div[2]/span/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
