@@ -73,7 +73,17 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu approval scenario disposal/Object0981_checkbox filter'))
 
+WebUI.click(findTestObject('Menu approval scenario disposal/Object1361_select g d'))
+
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval scenario disposal/Object1362_lt 4 d'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1361_apply g'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu approval scenario disposal/Object0982_apply filter'))
 
