@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Menu report create basic info group realtime/Object1
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu report/Object1448_ketik nama laporan'), 'Laporan disposal category realtime')
+WebUI.setText(findTestObject('Menu report/Object1448_ketik nama laporan'), 'Laporan tagging category historical')
 
 WebUI.delay(5)
 
@@ -59,17 +59,17 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu report create basic info group realtime/Object1471_cb custom report'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu report create basic info group realtime/Object1472_dd asset info'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create disposal group realtime/Object1308_cb disposal'))
+WebUI.click(findTestObject('Menu report create tagging group realtime/Object1326_cb tagging'))
 
 WebUI.click(findTestObject('Menu report create basic info group realtime/Object1474_dd list by'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu report create basic info group realtime/Object1367_cb cat'))
 
@@ -77,7 +77,7 @@ WebUI.click(findTestObject('Menu report create basic info group realtime/Object1
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create basic info group realtime/Object1477_cb realtime data'))
+WebUI.click(findTestObject('Menu report custom group historical/Object1376_Menu report group historical'))
 
 WebUI.delay(2)
 
@@ -103,10 +103,6 @@ WebUI.click(findTestObject('Menu report create borrow group realtime/Object1537_
 
 WebUI.click(findTestObject('Menu report create borrow group realtime/Object1538_req date'))
 
-WebUI.click(findTestObject('Menu report create borrow group realtime/Object1539_req by'))
-
-WebUI.click(findTestObject('Menu report create borrow group realtime/Object1540_cb durasi'))
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu report create transfer group realtime/Object1548_clear field filter'))
@@ -129,9 +125,7 @@ WebUI.click(findTestObject('Menu report create transfer group realtime/Object154
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Menu report create tracking group realtime/Object1292_ketik aset name'), 'kursi')
-
-WebUI.click(findTestObject('Menu report create tracking group realtime/Object1293_cb 1 asset name'))
+WebUI.click(findTestObject('Menu report create transfer group realtime/Object1550_kursi'))
 
 WebUI.delay(2)
 
@@ -171,9 +165,9 @@ WebUI.click(findTestObject('Menu report create transfer group realtime/Object155
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create assignment group realtime/Object1567_lantai 4'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1479_lantai 1 create'))
 
-WebUI.click(findTestObject('Menu report create assignment group realtime/Object1568_301'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1480_lantai 2 create'))
 
 WebUI.delay(2)
 
@@ -191,41 +185,25 @@ WebUI.click(findTestObject('Menu report create borrow group realtime/Object1524_
 
 WebUI.click(findTestObject('Menu report create borrow group realtime/Object1525_cb 3 status'))
 
+WebUI.click(findTestObject('Menu report create maintenane repair group realtime/Object1316_cb 4 result repair'))
+
 WebUI.click(findTestObject('Menu report create borrow group realtime/Object1526_req by'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create disposal group realtime/Object1309_cb 2 reason'))
-
-WebUI.click(findTestObject('Menu report create disposal group realtime/Object1310_cb 3 reason'))
+WebUI.setText(findTestObject('Menu report create tagging group realtime/Object1327_ketik manager tag'), 'laure')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create transfer group realtime/Object1562_dd manager trf'))
+WebUI.click(findTestObject('Menu report create tagging group realtime/Object1328_cb 1 manager tag'))
+
+WebUI.click(findTestObject('Menu report create tagging group realtime/Object1329_date tag'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create disposal group realtime/Object1311_cb 2 metod'))
+WebUI.click(findTestObject('Menu report create tagging group realtime/Object1330_tgl'))
 
-WebUI.click(findTestObject('Menu report create disposal group realtime/Object1312_cb 3 metod'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu report create transfer group realtime/Object1564_cb 1 manager'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu report create basic info group realtime/Object1497_date'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu report create transfer group realtime/Object1565_mundur date'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu report create basic info group realtime/Object1499_tgl 1'))
-
-WebUI.click(findTestObject('Menu report create basic info group realtime/Object1500_tgl 29'))
+WebUI.click(findTestObject('Menu report create tagging group realtime/Object1331_tgl 8'))
 
 WebUI.delay(2)
 
@@ -249,5 +227,5 @@ WebUI.click(findTestObject('Menu report/Object1449_submit edit report'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.073.007 create disposal report category realtime.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.075.010 create tagging report category historical.png', FailureHandling.STOP_ON_FAILURE)
 

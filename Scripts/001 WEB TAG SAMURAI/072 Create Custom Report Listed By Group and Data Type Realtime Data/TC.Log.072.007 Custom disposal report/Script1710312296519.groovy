@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Menu report create basic info group realtime/Object1
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu report/Object1448_ketik nama laporan'), 'Laporan disposal category realtime')
+WebUI.setText(findTestObject('Menu report/Object1448_ketik nama laporan'), 'Laporan disposal group realtime')
 
 WebUI.delay(5)
 
@@ -71,7 +71,7 @@ WebUI.click(findTestObject('Menu report create basic info group realtime/Object1
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu report create basic info group realtime/Object1367_cb cat'))
+WebUI.click(findTestObject('Menu report create basic info group realtime/Object1475_cb group list'))
 
 WebUI.click(findTestObject('Menu report create basic info group realtime/Object1476_dd data type'))
 
@@ -249,5 +249,5 @@ WebUI.click(findTestObject('Menu report/Object1449_submit edit report'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.073.007 create disposal report category realtime.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.072.007 create disposal report group realtime.png', FailureHandling.STOP_ON_FAILURE)
 
