@@ -49,6 +49,10 @@ WebUI.click(findTestObject('Menu device rfid tag all/Object0777_dropdown filter 
 
 WebUI.delay(3)
 
+WebUI.setText(findTestObject('Menu device rfid tag all/Object1377_ketik asset name'), 'truk')
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Menu device rfid tag all/Object0778_checkbox filter devices rfid tag'))
 
 WebUI.click(findTestObject('Menu device rfid tag all/Object1032_dropdown tag'))

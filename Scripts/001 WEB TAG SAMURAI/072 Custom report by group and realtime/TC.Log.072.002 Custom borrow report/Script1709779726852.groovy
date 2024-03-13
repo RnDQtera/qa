@@ -193,7 +193,7 @@ WebUI.click(findTestObject('Menu report create basic info group realtime/Object1
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Menu report create borrow group realtime/Object1532_ketik status'), 're')
+WebUI.setText(findTestObject('Menu report create borrow group realtime/Object1532_ketik status'), 'ed')
 
 WebUI.delay(2)
 
@@ -220,6 +220,50 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Menu report create borrow group realtime/Object1527_req jane doe cb'))
 
 WebUI.setText(findTestObject('Menu report create borrow group realtime/Object1528_ketik durasi'), '5')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1368_date'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1369_mundur'))
+
+WebUI.doubleClick(findTestObject('Menu report create borrow group realtime/Object1369_mundur'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1370_tgl 1'))
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1371_tgl 31'))
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1372_date'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1373_mundur'))
+
+WebUI.doubleClick(findTestObject('Menu report create borrow group realtime/Object1373_mundur'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1370_tgl 1'))
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1371_tgl 31'))
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1375_date'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1374_mundur'))
+
+WebUI.doubleClick(findTestObject('Menu report create borrow group realtime/Object1374_mundur'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1370_tgl 1'))
+
+WebUI.click(findTestObject('Menu report create borrow group realtime/Object1371_tgl 31'))
 
 WebUI.delay(2)
 

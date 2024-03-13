@@ -57,7 +57,9 @@ WebUI.click(findTestObject('Menu device rfid tag all/Object0777_dropdown filter 
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu device rfid tag all/Object1163_checkbox 9 asset name'))
+WebUI.setText(findTestObject('Menu device rfid tag all/Object1377_ketik asset name'), 'truk')
+
+WebUI.click(findTestObject('Menu device rfid tag all/Object0778_checkbox filter devices rfid tag'))
 
 WebUI.click(findTestObject('Menu device rfid tag all/Object1032_dropdown tag'))
 
@@ -68,6 +70,8 @@ WebUI.click(findTestObject('Menu device rfid tag all/Object1033_checkbox tag'))
 WebUI.click(findTestObject('Menu devices rfid tag paired/Object1153_dd status'))
 
 WebUI.delay(3)
+
+WebUI.setText(findTestObject('Menu devices rfid tag paired/Object1378_ketik status'), 'avail')
 
 WebUI.click(findTestObject('Menu devices rfid tag paired/Object1154_cb status'))
 

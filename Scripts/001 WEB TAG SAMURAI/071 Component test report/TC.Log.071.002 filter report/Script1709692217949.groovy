@@ -77,6 +77,12 @@ WebUI.click(findTestObject('Menu report/Object1417_date'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Menu report/Object1380_tgl filter'))
+
+WebUI.click(findTestObject('Menu report/Object1381_tgl 31 mar'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Menu report/Object1418_dd mod by'))
 
 WebUI.delay(2)

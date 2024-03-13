@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.Log.041.002 scan devices rfid tag all - Copy</name>
+   <name>TC.Log.041.002 scan devices rfid tag all</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>50a62947-d9c1-4598-ba0a-695c65973a0e</testCaseGuid>

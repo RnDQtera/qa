@@ -57,9 +57,11 @@ WebUI.click(findTestObject('Menu devices history change tag/Object0859_dropdown 
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu devices history change tag/Object0860_checkbox filter'))
+WebUI.setText(findTestObject('Menu devices history change tag/Object1379_ketik search name'), 'truk')
 
-WebUI.click(findTestObject('Menu devices history change tag/Object1046_checkbox asset i2'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu devices history change tag/Object0860_checkbox filter'))
 
 WebUI.click(findTestObject('Menu devices history change tag/Object1043_dropdown select user'))
 
