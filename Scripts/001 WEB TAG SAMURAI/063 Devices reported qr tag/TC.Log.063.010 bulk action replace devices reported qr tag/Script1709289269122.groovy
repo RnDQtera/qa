@@ -47,11 +47,15 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(8)
+WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0923_menu reported'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(12)
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Menu devices reported RFID tag/Object0942_menu qr'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Menu devices reported RFID tag/Object0937_checkbox item 1'))
 
@@ -79,13 +83,9 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1213_scan rfid'))
 
-WebUI.delay(3)
+WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1214_submit'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu devices replace rfid prelis/Object1215_ya lanjtukan'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

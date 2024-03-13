@@ -51,5 +51,5 @@ WebUI.click(findTestObject('Komponen change log fixed asset/Object0740_download 
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.006.14 Download changelog available asset.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.006.014 Download changelog available asset.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -77,5 +77,5 @@ WebUI.click(findTestObject('Menu Devices RFID dan QR/Object0829_submit pairing r
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.046.006 pairing devices rfid dan qr tag.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.046.003 pairing devices rfid dan qr tag.png', FailureHandling.STOP_ON_FAILURE)
 

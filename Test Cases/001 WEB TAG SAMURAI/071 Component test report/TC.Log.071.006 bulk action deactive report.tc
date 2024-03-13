@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.071.006 bulk action deactive report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0703d25-28ac-4fa5-bf80-9073c93338ef</testCaseGuid>
+</TestCaseEntity>

@@ -51,9 +51,16 @@ WebUI.delay(12)
 
 WebUI.click(findTestObject('Menu devices rfid tag paired/Object0780_menu rfid tag paired'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
-WebUI.click(findTestObject('Menu devices rfid tag paired/Object1257_sortir qr'))
+WebUI.click(findTestObject('Menu devices rfid tag paired/Object0788_bt search devices rfid tag paired'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Menu devices rfid tag paired/Object0789_ketik search devices rfid tag paired'), 'cctv')
+
+WebUI.sendKeys(findTestObject('Menu devices rfid tag paired/Object0789_ketik search devices rfid tag paired'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.delay(4)
 

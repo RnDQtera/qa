@@ -73,6 +73,16 @@ WebUI.click(findTestObject('Menu Appoval borrowing/Object1133_tgl 1'))
 
 WebUI.click(findTestObject('Menu Appoval borrowing/Object1134_tgl 29'))
 
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1360_select group b'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1359_lt 4 g'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu Appoval borrowing/Object1361_apply g'))
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu Appoval borrowing/Object0975_apply filter'))

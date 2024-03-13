@@ -23,11 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('1 Object0003_Button login'))
 

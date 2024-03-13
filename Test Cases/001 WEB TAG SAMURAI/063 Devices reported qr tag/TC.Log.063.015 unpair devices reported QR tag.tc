@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.063.015 unpair devices reported QR tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7a7a966-663d-458c-846b-791c78a3f297</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.064.020 unpair devices reported rfid qr tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd186914-89cf-4dae-8f99-579a1f3315e0</testCaseGuid>
+</TestCaseEntity>

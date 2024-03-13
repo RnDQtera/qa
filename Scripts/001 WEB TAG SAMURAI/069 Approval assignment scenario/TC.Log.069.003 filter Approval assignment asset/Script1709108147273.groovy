@@ -71,6 +71,16 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu approval assignment/Object1005_checkbox1'))
 
+WebUI.click(findTestObject('Menu approval assignment/Object1364_select g'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval assignment/Object1365_apply g'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu approval assignment/Object1366_apply g a'))
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Menu approval assignment/Object1006_aply filter'))
