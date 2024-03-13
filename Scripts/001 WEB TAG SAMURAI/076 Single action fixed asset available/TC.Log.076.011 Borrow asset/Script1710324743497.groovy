@@ -79,5 +79,5 @@ WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0140_submi
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.019.005 Borrow asset.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.076.011 Borrow asset.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object0060_button menu available asset</name>
+   <name>Object1386_change to rfid p</name>
    <tag></tag>
-   <elementGuidId>45d26a88-4332-409f-88c5-456d57281d9a</elementGuidId>
+   <elementGuidId>65f93de9-8fe0-4c66-8832-c43b7033255a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div[1]/div/div[2]/div/div[1]/div[2]/ul/li[2]/div/a/span</value>
+         <value>/html/body/div[10]/ul/li[5]/div/a/span[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -27,17 +27,23 @@ WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('1 Object0003_Button login'))
 
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.click(findTestObject('1 Object0007_menu available fixed asset'))
+WebUI.delay(15)
 
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0041_filter menu available'))
+WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
+
+WebUI.delay(12)
+
+WebUI.click(findTestObject('Filter available asset/Object0057_button filter asset'))
 
 WebUI.delay(3)
 
@@ -47,37 +53,33 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Filter available asset/Object1031_checkbox tag'))
 
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0040_dropdown menu available filter'))
-
-WebUI.delay(10)
-
-WebUI.setText(findTestObject('Fixed asset transfer asset/Object0042_ketik menu filter nama available'), 'kursi')
+WebUI.click(findTestObject('Filter available asset/Object0059_dropdown filter asset name'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0044_pilih menu filter nama available'))
+WebUI.setText(findTestObject('Menu single action fixed asset available/Object1382_ketik filter nama asset'), 'kursi')
 
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0037_apply filter available'))
+WebUI.delay(3)
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1384_cb 1 nama asset'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object0056_apply filter avail asset'))
+
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0048_titik 3 available'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0133_bt borrow available'))
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1394_unpair tag p'))
 
-WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0138_select user borrow transaction'))
+WebUI.delay(3)
 
-WebUI.doubleClick(findTestObject('Menu fixed asset borrow transaction/Object0136_pilih select user borrow transaction'))
-
-WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0131_apply select user bt'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0140_submit borrow transaction'))
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1385_tambahkan asset'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.019.005 Borrow asset.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.076.010 unpair tag asset Prelist.png', FailureHandling.STOP_ON_FAILURE)
 

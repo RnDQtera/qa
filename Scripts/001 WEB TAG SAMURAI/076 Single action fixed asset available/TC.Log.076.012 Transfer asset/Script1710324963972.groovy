@@ -65,19 +65,19 @@ WebUI.click(findTestObject('Fixed asset transfer asset/Object0048_titik 3 availa
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0133_bt borrow available'))
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1395_tf'))
 
-WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0138_select user borrow transaction'))
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0046_select group transfer'))
 
-WebUI.doubleClick(findTestObject('Menu fixed asset borrow transaction/Object0136_pilih select user borrow transaction'))
+WebUI.doubleClick(findTestObject('Fixed asset transfer asset/Object0050_transfer group index 4'))
 
-WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0131_apply select user bt'))
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0036_apply asset transfer'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object0140_submit borrow transaction'))
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0047_submit asset transfer'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.019.005 Borrow asset.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.076.012 Transfer asset.png', FailureHandling.STOP_ON_FAILURE)
 

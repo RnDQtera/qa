@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object0060_button menu available asset</name>
+   <name>Object1394_unpair tag p</name>
    <tag></tag>
-   <elementGuidId>45d26a88-4332-409f-88c5-456d57281d9a</elementGuidId>
+   <elementGuidId>5b0937bc-b8ee-4a87-b0a3-1132ce3ae50b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div[1]/div/div[2]/div/div[1]/div[2]/ul/li[2]/div/a/span</value>
+         <value>/html/body/div[10]/ul/li[17]/div/a/span[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

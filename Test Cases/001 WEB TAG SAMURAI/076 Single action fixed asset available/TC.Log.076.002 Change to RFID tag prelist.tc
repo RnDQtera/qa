@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.076.002 Change to RFID tag prelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0de0cf1-9d2a-4a60-a428-435fefcf005d</testCaseGuid>
+</TestCaseEntity>
