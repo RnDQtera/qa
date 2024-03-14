@@ -129,7 +129,9 @@ WebUI.click(findTestObject('Menu report create transfer group realtime/Object154
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu report create transfer group realtime/Object1550_kursi'))
+WebUI.setText(findTestObject('Menu report create tracking group realtime/Object1292_ketik aset name'), 'kursi')
+
+WebUI.click(findTestObject('Menu report create tracking group realtime/Object1293_cb 1 asset name'))
 
 WebUI.delay(2)
 

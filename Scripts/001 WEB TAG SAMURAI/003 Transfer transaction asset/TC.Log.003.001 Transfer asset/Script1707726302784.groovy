@@ -39,6 +39,14 @@ WebUI.click(findTestObject('1 Object0007_menu available fixed asset'))
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0041_filter menu available'))
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1030_dropdown tag'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1031_checkbox tag'))
+
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0040_dropdown menu available filter'))
 
 WebUI.delay(10)
