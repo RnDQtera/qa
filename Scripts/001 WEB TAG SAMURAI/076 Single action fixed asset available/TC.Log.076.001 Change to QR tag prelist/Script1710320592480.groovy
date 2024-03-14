@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.delay(10)
+
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
@@ -31,17 +33,19 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('1 Object0003_Button login'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Filter available asset/Object0057_button filter asset'))
 

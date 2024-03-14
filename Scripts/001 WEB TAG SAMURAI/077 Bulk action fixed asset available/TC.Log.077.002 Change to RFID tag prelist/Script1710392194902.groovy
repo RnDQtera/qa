@@ -37,11 +37,11 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Filter available asset/Object0057_button filter asset'))
 
