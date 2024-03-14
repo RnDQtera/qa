@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.077.024 disposal no salvage value and destroy asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdaae1e9-b6dd-4ed7-80f0-ec9eabeea054</testCaseGuid>
+</TestCaseEntity>

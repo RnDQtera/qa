@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
@@ -31,41 +33,23 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('1 Object0003_Button login'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
+WebUI.click(findTestObject('1 Object0007_menu available fixed asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Filter available asset/Object0057_button filter asset'))
-
-WebUI.click(findTestObject('Filter available asset/Object0059_dropdown filter asset name'))
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0041_filter menu available'))
 
 WebUI.delay(3)
-
-WebUI.setText(findTestObject('Menu single action fixed asset available/Object1382_ketik filter nama asset'), 'kursi')
-
-WebUI.click(findTestObject('Menu single action fixed asset available/Object1384_cb 1 nama asset'))
-
-WebUI.click(findTestObject('Filter available asset/Object1026_dropdown filter'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Menu available asset/Object1590_ketik filter bran'), 'olymp')
-
-WebUI.click(findTestObject('Menu available asset/Object1591_i1 brand'))
-
-WebUI.click(findTestObject('Filter available asset/Object1028_dropdown model'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Filter available asset/Object1029_checkbox model'))
 
 WebUI.click(findTestObject('Filter available asset/Object1030_dropdown tag'))
 
@@ -73,19 +57,43 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Filter available asset/Object1031_checkbox tag'))
 
-WebUI.click(findTestObject('Menu single action fixed asset available/Object1397_rfid tag'))
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0040_dropdown menu available filter'))
 
-WebUI.click(findTestObject('Menu single action fixed asset available/Object1571_cb qr tag'))
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Filter available asset/Object1032_dropdown policy'))
+WebUI.setText(findTestObject('Fixed asset transfer asset/Object0042_ketik menu filter nama available'), 'kursi')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Filter available asset/Object1033_checkbox borrow policy'))
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0044_pilih menu filter nama available'))
 
-WebUI.click(findTestObject('Filter available asset/Object0056_apply filter avail asset'))
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0037_apply filter available'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Fixed asset transfer asset/Object0048_titik 3 available'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1573_disposal'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0567_dropdown reason req disposal'))
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0752_checkbox reason req disposal 3'))
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0569_dropdown metode req disposal'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0753_checkbox metode req disposal 3'))
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0571_submit req disposal'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.001.006 filter available asset.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.076.024 disposal no salvage value and destroy.png', FailureHandling.STOP_ON_FAILURE)
 

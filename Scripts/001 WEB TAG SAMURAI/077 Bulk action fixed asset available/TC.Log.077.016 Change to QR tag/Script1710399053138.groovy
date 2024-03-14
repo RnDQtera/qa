@@ -27,51 +27,69 @@ WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAI
 
 WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.URL)
-
 WebUI.delay(3)
+
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('1 Object0003_Button login'))
 
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
-WebUI.delay(15)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('1 Object0770_menu atas devices'))
+WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Filter available asset/Object0057_button filter asset'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('1 Object0771_devices rfid qr tag'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Filter available asset/Object1030_dropdown tag'))
 
-WebUI.delay(12)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0838_menu prelist to rfid'))
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1397_rfid tag'))
 
-WebUI.click(findTestObject('Menu devices prelist change to QR/Object0854_menu change to qr'))
+WebUI.click(findTestObject('Filter available asset/Object0059_dropdown filter asset name'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0845_bt search'))
+WebUI.setText(findTestObject('Menu single action fixed asset available/Object1382_ketik filter nama asset'), 'kursi')
 
-WebUI.delay(4)
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu devices prelist change tag to type RFID/Object0846_ketik search'), 'truk')
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1384_cb 1 nama asset'))
 
-WebUI.sendKeys(findTestObject('Menu devices prelist change tag to type RFID/Object0846_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.delay(3)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Filter available asset/Object0056_apply filter avail asset'))
 
-WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0847_titik 3'))
+WebUI.delay(3)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu devices prelist change tag to type RFID/Object0848_change to rfid'))
+WebUI.click(findTestObject('Bulk option available asset/Object0054_checkbox i1 avail asset'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Bulk option available asset/Object0052_button bulk action avail asset'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu bulk action fixed asset available/Object1586_change to qr'))
+
+WebUI.click(findTestObject('Bulk option available asset/Object0051_button apply bulk action'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Menu devices prelist change to QR/Object1235_scan rfid change'))
 
@@ -103,7 +121,7 @@ WebUI.delay(8)
 
 WebUI.click(findTestObject('Menu devices prelist change to QR/Object1241_submit change'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.048.007 change to qr tag.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.077.016 bulk Change tag to QR.png', FailureHandling.STOP_ON_FAILURE)
 

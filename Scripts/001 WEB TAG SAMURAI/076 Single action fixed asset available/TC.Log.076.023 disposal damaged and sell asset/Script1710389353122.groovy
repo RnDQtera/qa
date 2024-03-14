@@ -23,11 +23,17 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('1 Object0003_Button login'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
@@ -35,7 +41,11 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('1 Object0007_menu available fixed asset'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0041_filter menu available'))
 
@@ -65,19 +75,29 @@ WebUI.click(findTestObject('Fixed asset transfer asset/Object0048_titik 3 availa
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0038_available transfer'))
-
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0046_select group transfer'))
-
-WebUI.doubleClick(findTestObject('Fixed asset transfer asset/Object0050_transfer group index 4'))
-
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0036_apply asset transfer'))
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1573_disposal'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0047_submit asset transfer'))
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0567_dropdown reason req disposal'))
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0751_checkbox reason req disposal 2'))
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0569_dropdown metode req disposal'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0754_checkbox metode req disposal 2'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0755_isi nama penerima disposal asset'), 'PT B')
+
+WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0571_submit req disposal'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.076.012 Transfer asset.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.076.023 disposal damaged and sell.png', FailureHandling.STOP_ON_FAILURE)
 

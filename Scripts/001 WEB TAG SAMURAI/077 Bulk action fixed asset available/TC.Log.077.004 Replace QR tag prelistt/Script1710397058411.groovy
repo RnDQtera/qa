@@ -37,13 +37,21 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Menu available asset/Object0060_button menu available asset'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Filter available asset/Object0057_button filter asset'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1030_dropdown tag'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu single action fixed asset available/Object1571_cb qr tag'))
 
 WebUI.click(findTestObject('Filter available asset/Object0059_dropdown filter asset name'))
 
@@ -51,41 +59,31 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('Menu single action fixed asset available/Object1382_ketik filter nama asset'), 'kursi')
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Menu single action fixed asset available/Object1384_cb 1 nama asset'))
 
-WebUI.click(findTestObject('Filter available asset/Object1026_dropdown filter'))
-
 WebUI.delay(3)
-
-WebUI.setText(findTestObject('Menu available asset/Object1590_ketik filter bran'), 'olymp')
-
-WebUI.click(findTestObject('Menu available asset/Object1591_i1 brand'))
-
-WebUI.click(findTestObject('Filter available asset/Object1028_dropdown model'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Filter available asset/Object1029_checkbox model'))
-
-WebUI.click(findTestObject('Filter available asset/Object1030_dropdown tag'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Filter available asset/Object1031_checkbox tag'))
-
-WebUI.click(findTestObject('Menu single action fixed asset available/Object1397_rfid tag'))
-
-WebUI.click(findTestObject('Menu single action fixed asset available/Object1571_cb qr tag'))
-
-WebUI.click(findTestObject('Filter available asset/Object1032_dropdown policy'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Filter available asset/Object1033_checkbox borrow policy'))
 
 WebUI.click(findTestObject('Filter available asset/Object0056_apply filter avail asset'))
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Bulk option available asset/Object0054_checkbox i1 avail asset'))
+
+WebUI.click(findTestObject('Bulk option available asset/Object0052_button bulk action avail asset'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu bulk action fixed asset available/Object1577_replace tag'))
+
+WebUI.click(findTestObject('Bulk option available asset/Object0051_button apply bulk action'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Bulk option available asset/Object0055_ya tambahkan asset ke prelist transfer bulk action'))
+
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.001.006 filter available asset.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.077.004 Replace to qr tag Prelist.png', FailureHandling.STOP_ON_FAILURE)
 
