@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.078.010 bulk deactivate asset task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09fcb1c1-14f0-4b75-9adf-2d1763b00b54</testCaseGuid>
+</TestCaseEntity>
