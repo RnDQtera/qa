@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.079.010 bulk action delete task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c110cd80-52f7-46d5-ab56-738c59a4d045</testCaseGuid>
+</TestCaseEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>8c28f624-4ac5-46a2-8b07-d8dc44765243</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/div[1]/input</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;taskName&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

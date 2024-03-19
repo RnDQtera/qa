@@ -45,6 +45,16 @@ WebUI.click(findTestObject('Menu maintenance task/Object1633_tab task'))
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('Menu maintenance task/Object1673_search'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Menu maintenance task/Object1674_ketik search'), 'automate')
+
+WebUI.sendKeys(findTestObject('Menu maintenance task/Object1674_ketik search'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Menu maintenance task/Object1703_titik'))
 
 WebUI.delay(3)
@@ -52,8 +62,6 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Menu maintenance task/Object1704_act edit'))
 
 WebUI.delay(3)
-
-WebUI.setText(findTestObject('Menu maintenance task/Object1705_nama'), 'automate edited')
 
 WebUI.click(findTestObject('Menu maintenance task/Object1719_tambah id'), FailureHandling.STOP_ON_FAILURE)
 
@@ -97,7 +105,13 @@ WebUI.click(findTestObject('Menu maintenance task/Object1717_save indi'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu maintenance task/Object1718_save edit'))
+WebUI.setText(findTestObject('Menu maintenance task/Object1705_nama'), 'automate edited')
+
+WebUI.setText(findTestObject('Menu maintenance task/Object1720_durasi'), '2')
+
+WebUI.delay(3)
+
+WebUI.doubleClick(findTestObject('Menu maintenance task/Object1718_save edit'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

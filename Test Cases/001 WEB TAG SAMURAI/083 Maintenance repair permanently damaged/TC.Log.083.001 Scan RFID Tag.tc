@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.083.001 Scan RFID Tag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9202375-c2ef-404c-a7f0-f39ccb6610fa</testCaseGuid>
+</TestCaseEntity>

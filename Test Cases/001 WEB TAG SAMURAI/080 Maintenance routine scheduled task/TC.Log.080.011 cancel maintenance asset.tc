@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.080.011 cancel maintenance asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c26a5ef1-b7af-45ac-82f5-18987e9505b5</testCaseGuid>
+</TestCaseEntity>
