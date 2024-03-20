@@ -41,28 +41,59 @@ WebUI.click(findTestObject('1 Object1592_maintenance'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1815_repair'))
+WebUI.click(findTestObject('Menu maintenance service center list/Object1920_service center'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1884_perm dmg'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1892_changelog'))
-
-WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1613_search log'))
+WebUI.click(findTestObject('Menu maintenance service center list/Object1943_filter'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), 'truk')
+WebUI.click(findTestObject('Menu maintenance service center list/Object1944_dd keaktifan'))
 
 WebUI.delay(3)
 
-'bug'
-WebUI.sendKeys(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu maintenance service center list/Object1945_aktif'))
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1946_dd city'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1947_cb city'))
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1948_select cat'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1949_cb furn'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1950_apply cat'))
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1951_dd br'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1956_cb 1'))
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1957_date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1958_tgl 1'))
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1959_tgl 31'))
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1960_dd mod by'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1961_cb 1 m'))
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1962_apply filter'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.083.005 Search log.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.085.003 filter service center.png', FailureHandling.STOP_ON_FAILURE)
 

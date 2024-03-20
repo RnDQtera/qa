@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.085.013 action delete service center</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfd551bd-0abd-4aeb-b6f3-7e60fb4fc263</testCaseGuid>
+</TestCaseEntity>

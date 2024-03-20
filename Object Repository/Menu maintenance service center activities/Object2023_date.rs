@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object1609_cb active</name>
+   <name>Object2023_date</name>
    <tag></tag>
-   <elementGuidId>15c74909-0614-40cc-943f-9bedbb5ae760</elementGuidId>
+   <elementGuidId>2a3e5f13-bf23-4ae8-8750-f0f5fdac2740</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[10]/div[2]/ul/li[1]/span</value>
+         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-asset-maintenances&quot;]/div/div[3]/div[2]/div/div/div[2]/div/div[3]/div/div[7]/span/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

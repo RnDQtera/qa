@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
@@ -41,28 +41,21 @@ WebUI.click(findTestObject('1 Object1592_maintenance'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1815_repair'))
+WebUI.click(findTestObject('Menu maintenance service center list/Object1920_service center'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1884_perm dmg'))
+WebUI.click(findTestObject('Menu maintenance service center activities/Object2006_activities'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1892_changelog'))
-
-WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1613_search log'))
+WebUI.click(findTestObject('Menu maintenance service center activities/Object2030_titik 3'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), 'truk')
-
-WebUI.delay(3)
-
-'bug'
-WebUI.sendKeys(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu maintenance service center activities/Object2031_detail'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.083.005 Search log.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.086.004 detail service center activites.png', FailureHandling.STOP_ON_FAILURE)
 

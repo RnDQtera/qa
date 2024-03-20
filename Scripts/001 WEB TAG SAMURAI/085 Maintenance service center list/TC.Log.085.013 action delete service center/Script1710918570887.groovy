@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
@@ -41,28 +41,31 @@ WebUI.click(findTestObject('1 Object1592_maintenance'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1815_repair'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1884_perm dmg'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1892_changelog'))
-
-WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1613_search log'))
+WebUI.click(findTestObject('Menu maintenance service center list/Object1920_service center'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), 'truk')
+WebUI.click(findTestObject('Menu maintenance service center list/Object1941_search'))
 
 WebUI.delay(3)
 
-'bug'
-WebUI.sendKeys(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Menu maintenance service center list/Object1942_ketik search'), 'piala')
+
+WebUI.sendKeys(findTestObject('Menu maintenance service center list/Object1942_ketik search'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object1986_titik 3'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object2004_delet'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance service center list/Object2005_ya del'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.083.005 Search log.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.085.013 action delete service center.png', FailureHandling.STOP_ON_FAILURE)
 

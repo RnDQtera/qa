@@ -51,18 +51,44 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1892_changelog'))
 
-WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1613_search log'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1615_filter log'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), 'truk')
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1616_sate'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1893_tgl 1'))
+
+WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1894_tgl 31'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1622_dd mod by'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1623_cb 1'))
 
 'bug'
-WebUI.sendKeys(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1617_action'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1619_nama'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1620_ketik nama'), 'truk')
+
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1621_cb 1'))
+
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1624_apply filter log'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.083.005 Search log.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.083.006 filter log.png', FailureHandling.STOP_ON_FAILURE)
 

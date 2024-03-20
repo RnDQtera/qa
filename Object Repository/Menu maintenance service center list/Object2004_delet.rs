@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object1609_cb active</name>
+   <name>Object2004_delet</name>
    <tag></tag>
-   <elementGuidId>15c74909-0614-40cc-943f-9bedbb5ae760</elementGuidId>
+   <elementGuidId>d11f2fd9-702f-4256-a8bc-10b5b99742a2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[10]/div[2]/ul/li[1]/span</value>
+         <value>/html/body/div[6]/ul/li[3]/div/a/span[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

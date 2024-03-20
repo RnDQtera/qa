@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.083.010 bulk move back to damaged report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0c11c93-ecb7-4fac-afc4-6b2baec9f8cd</testCaseGuid>
+</TestCaseEntity>

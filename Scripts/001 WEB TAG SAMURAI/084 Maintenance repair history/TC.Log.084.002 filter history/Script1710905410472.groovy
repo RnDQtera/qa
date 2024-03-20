@@ -45,24 +45,65 @@ WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1815_re
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1884_perm dmg'))
+WebUI.click(findTestObject('Menu maintenance repair history/Object1906_history'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1892_changelog'))
-
-WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1613_search log'))
+WebUI.click(findTestObject('Menu maintenance repair history/Object1910_filter'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), 'truk')
+WebUI.click(findTestObject('Menu maintenance routine history/Object1796_dd nama'))
 
 WebUI.delay(3)
 
-'bug'
-WebUI.sendKeys(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Menu maintenance routine history/Object1797_ketik nama'), 'truk')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1798_cb 1'))
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1799_dd brand'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1800_cb 2 br'))
+
+WebUI.click(findTestObject('Menu maintenance repair history/Object1911_cb 1status'))
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1801_dd model'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair history/Object1912_cb 1 hand'))
+
+WebUI.click(findTestObject('Menu maintenance repair history/Object1913_dd result'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair history/Object1914_cb result'))
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1806_dd status'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1807_select al'))
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1808_date'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1809_tgl 1'))
+
+WebUI.click(findTestObject('Menu maintenance routine history/Object1810_tgl 31'))
+
+WebUI.setText(findTestObject('Menu maintenance repair history/Object1915_input dt'), '1')
+
+WebUI.setText(findTestObject('Menu maintenance repair history/Object1916_input dt2'), '360')
+
+WebUI.click(findTestObject('Menu maintenance repair history/Object1917_apply filter'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.083.005 Search log.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.084.002 filter history.png', FailureHandling.STOP_ON_FAILURE)
 

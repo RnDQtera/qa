@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.085.010 bulk action delete service center</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c59a274-5872-4004-b3e2-caa9c1c97aa7</testCaseGuid>
+</TestCaseEntity>

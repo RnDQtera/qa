@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object1609_cb active</name>
+   <name>Object1984_act</name>
    <tag></tag>
-   <elementGuidId>15c74909-0614-40cc-943f-9bedbb5ae760</elementGuidId>
+   <elementGuidId>62d962b9-c98b-4d44-b27c-9d81cb95dda6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[10]/div[2]/ul/li[1]/span</value>
+         <value>/html/body/div[6]/ul/li[1]/div/div/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

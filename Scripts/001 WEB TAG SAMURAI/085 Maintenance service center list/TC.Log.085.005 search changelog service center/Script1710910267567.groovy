@@ -41,28 +41,23 @@ WebUI.click(findTestObject('1 Object1592_maintenance'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1815_repair'))
+WebUI.click(findTestObject('Menu maintenance service center list/Object1920_service center'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1884_perm dmg'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1892_changelog'))
-
-WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1613_search log'))
+WebUI.click(findTestObject('Menu maintenance service center list/Object1964_changelog'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), 'truk')
+WebUI.click(findTestObject('Menu maintenance service center list/Object1965_search'))
 
 WebUI.delay(3)
 
-'bug'
-WebUI.sendKeys(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Menu maintenance service center list/Object1966_ketik serach'), 'maju')
+
+WebUI.sendKeys(findTestObject('Menu maintenance service center list/Object1966_ketik serach'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.083.005 Search log.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.085.005 search changelogA service center.png', FailureHandling.STOP_ON_FAILURE)
 

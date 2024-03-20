@@ -45,24 +45,17 @@ WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1815_re
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1884_perm dmg'))
+WebUI.click(findTestObject('Menu maintenance repair history/Object1906_history'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1892_changelog'))
-
-WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1613_search log'))
+WebUI.click(findTestObject('Menu maintenance repair history/Object1918_titik 3'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), 'truk')
-
-WebUI.delay(3)
-
-'bug'
-WebUI.sendKeys(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu maintenance repair history/Object1919_maintenance log'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.083.005 Search log.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.084.004 maintenance log history.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
@@ -49,20 +49,47 @@ WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object18
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1892_changelog'))
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1599_filter'))
 
-WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1613_search log'))
+WebUI.delay(10)
 
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), 'truk')
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1608_dd status'))
 
 WebUI.delay(3)
 
-'bug'
-WebUI.sendKeys(findTestObject('Menu maintenance maintenable asset/Object1614_ketik search log'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1609_cb active'))
+
+WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1597_search'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1891_submit filter'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1901_cb 1'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1902_bulk action'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1905_cb 1 perm'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1904_apply bulk'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Menu maintenance repair permanently damaged/Object1899_note disposal'), 'dinyatakan hilangggggg')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu maintenance repair permanently damaged/Object1898_submit disposal'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.083.005 Search log.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.083.011 report disposal.png', FailureHandling.STOP_ON_FAILURE)
 
