@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.087.002 Create Schedule Audit Existing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce2a2418-edd8-4238-a7a2-17390ad9ecf3</testCaseGuid>
+</TestCaseEntity>

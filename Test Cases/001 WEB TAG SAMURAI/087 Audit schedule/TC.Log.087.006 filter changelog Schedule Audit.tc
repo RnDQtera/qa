@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.087.006 filter changelog Schedule Audit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b474ac36-ea18-4d34-9dc9-de9459f36eeb</testCaseGuid>
+</TestCaseEntity>

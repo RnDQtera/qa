@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.087.011 bulk action active schedule Audit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebd7bae2-126b-4265-9ad6-87107aec582c</testCaseGuid>
+</TestCaseEntity>
