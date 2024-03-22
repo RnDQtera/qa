@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object2085_tgl 21</name>
+   <name>Object2153_update qr</name>
    <tag></tag>
-   <elementGuidId>0de4d38a-dbee-4bea-80de-8efb39dc3f6e</elementGuidId>
+   <elementGuidId>d9689fb1-5339-477e-a385-9e4c489f8bb3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div/div[2]/table/tbody/tr[4]/td[6]/span</value>
+         <value>/html/body/div[18]/div/button/span[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

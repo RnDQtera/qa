@@ -63,15 +63,13 @@ WebUI.click(findTestObject('Menu audit task dan history/Object2120_action audit'
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2127_search'))
+WebUI.click(findTestObject('Menu audit condition/Object2158_tab audited'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu audit condition/Object2128_ketik search'), 'chair')
-
-WebUI.sendKeys(findTestObject('Menu audit condition/Object2128_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu audit condition/Object2170_event log'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.089.002 search audit condition.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.089.009 log audited condition.png', FailureHandling.STOP_ON_FAILURE)
 

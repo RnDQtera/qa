@@ -21,6 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
+WebUI.navigateToUrl(GlobalVariable.localhost)
+
+WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('1 Object001_email'), GlobalVariable.email)
@@ -63,61 +69,87 @@ WebUI.click(findTestObject('Menu audit task dan history/Object2120_action audit'
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2129_bt filter'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2122_button audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2130_nama asset'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2123_audit tag'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2131_cb 1 aset'))
-
-WebUI.click(findTestObject('Menu audit condition/Object2132_dd status'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2124_start audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2133_cb 2 stts'))
-
-WebUI.click(findTestObject('Menu audit condition/Object2134_select group'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2125_sync'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2135_sub lt 3'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2126_close sync'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2136_raudit'))
+WebUI.click(findTestObject('Menu audit condition/Object2152_bt update'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2137_apply f'))
+WebUI.click(findTestObject('Menu audit condition/Object2153_update qr'))
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Menu audit condition/Object2154_dd condition'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu audit condition/Object2175_condition normal'))
+
+WebUI.setText(findTestObject('Menu audit condition/Object2156_ketik missing'), 'layak pakai')
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2138_date'))
+WebUI.click(findTestObject('Menu audit condition/Object2157_submit update'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2139_tgl 1'))
-
-WebUI.click(findTestObject('Menu audit condition/Object2140_tgl 31'))
-
-WebUI.click(findTestObject('Menu audit condition/Object2143_dd model'))
+WebUI.click(findTestObject('Menu audit condition/Object2152_bt update'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2144_cb 1 modl'))
+WebUI.click(findTestObject('Menu audit condition/Object2153_update qr'))
 
-WebUI.click(findTestObject('Menu audit condition/Object2141_dd brand'))
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Menu audit condition/Object2154_dd condition'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu audit condition/Object2179_cb dmg edit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2142_cb 1 br'))
+WebUI.setText(findTestObject('Menu audit condition/Object2192_ketik note dmg'), 'belah dua')
 
-WebUI.click(findTestObject('Menu audit condition/Object2145_apply filter'))
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.uploadFile(findTestObject('Menu audit condition/Object2193_upload foto'), 'C:\\Users\\aplikasi internal\\Pictures\\Saved Pictures\\kursiolympic.jpg')
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2194_apply aplof'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2195_submit dmg'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2158_tab audited'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2184_finish audit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.089.003 filter audit condition.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.089.013 Update audit normal dan damaged.png', FailureHandling.STOP_ON_FAILURE)
 

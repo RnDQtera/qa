@@ -81,7 +81,10 @@ WebUI.click(findTestObject('Audit/Object400_select date'), FailureHandling.STOP_
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
+'tanggal berubah sewaktu waktu/ harus update'
 WebUI.click(findTestObject('Menu audit schedule/Object2038_tgl 21'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Audit/Object402_select audit frequency'), FailureHandling.STOP_ON_FAILURE)
 

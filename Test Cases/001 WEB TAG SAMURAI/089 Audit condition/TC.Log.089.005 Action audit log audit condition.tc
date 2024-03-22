@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.089.005 Action audit log audit condition</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd4adaf2-2798-4e55-8be8-a8e6bb1214a7</testCaseGuid>
+</TestCaseEntity>

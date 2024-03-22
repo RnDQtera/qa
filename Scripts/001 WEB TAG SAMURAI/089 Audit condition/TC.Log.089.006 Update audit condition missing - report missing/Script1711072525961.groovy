@@ -21,6 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
+WebUI.navigateToUrl(GlobalVariable.localhost)
+
+WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('1 Object001_email'), GlobalVariable.email)
@@ -63,15 +69,63 @@ WebUI.click(findTestObject('Menu audit task dan history/Object2120_action audit'
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2127_search'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2122_button audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu audit condition/Object2128_ketik search'), 'chair')
+WebUI.click(findTestObject('Menu audit task dan history/Object2123_audit tag'))
 
-WebUI.sendKeys(findTestObject('Menu audit condition/Object2128_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit task dan history/Object2124_start audit'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit task dan history/Object2125_sync'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit task dan history/Object2126_close sync'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2152_bt update'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2153_update qr'))
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Menu audit condition/Object2154_dd condition'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Menu audit condition/Object2155_missing'))
+
+WebUI.setText(findTestObject('Menu audit condition/Object2156_ketik missing'), 'Hilang')
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2157_submit update'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2147_titik 3'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2149_report missing'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Menu audit condition/Object2150_ketik kenapa hilang'), 'asset not found')
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2151_submit report miss'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.089.002 search audit condition.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.089.006 Update audit missing dan report missing.png', FailureHandling.STOP_ON_FAILURE)
 

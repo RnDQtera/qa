@@ -43,35 +43,47 @@ WebUI.click(findTestObject('Audit/Object409_select sub tab task'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2078_search'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2080_bt filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu audit task dan history/Object2079_ketik search'), 'auditor')
+WebUI.click(findTestObject('Menu audit task dan history/Object2081_dd audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Menu audit task dan history/Object2079_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu audit task dan history/Object2082_cb 1 tipe'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Audit/Object410_Action Start Audit'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2089_dd status'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2120_action audit'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2090_cb 2'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2127_search'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2093_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu audit condition/Object2128_ketik search'), 'chair')
+WebUI.click(findTestObject('Menu Audit existence/Object2196_titik 3'))
 
-WebUI.sendKeys(findTestObject('Menu audit condition/Object2128_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2197_act audit'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2198_search'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Menu Audit existence/Object2199_ketik search'), 'chair')
+
+WebUI.sendKeys(findTestObject('Menu Audit existence/Object2199_ketik search'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.089.002 search audit condition.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.090.001 search audit existence.png', FailureHandling.STOP_ON_FAILURE)
 

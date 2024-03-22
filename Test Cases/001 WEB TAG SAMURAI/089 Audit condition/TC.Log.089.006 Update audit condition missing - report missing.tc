@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.089.006 Update audit condition missing - report missing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0345f16-8646-4304-a48a-035e95c070d3</testCaseGuid>
+</TestCaseEntity>

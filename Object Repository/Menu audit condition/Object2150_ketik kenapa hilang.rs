@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object2085_tgl 21</name>
+   <name>Object2150_ketik kenapa hilang</name>
    <tag></tag>
-   <elementGuidId>0de4d38a-dbee-4bea-80de-8efb39dc3f6e</elementGuidId>
+   <elementGuidId>ddf643eb-7d7a-4141-bcc2-873c71c73296</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div/div[2]/table/tbody/tr[4]/td[6]/span</value>
+         <value>/html/body/div[18]/div/div[2]/div/div/div[3]/textarea</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

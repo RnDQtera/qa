@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object2085_tgl 21</name>
+   <name>Object2162_cb 1 status</name>
    <tag></tag>
-   <elementGuidId>0de4d38a-dbee-4bea-80de-8efb39dc3f6e</elementGuidId>
+   <elementGuidId>560b15ed-ba74-4b38-a176-071f7f36dcad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div/div[2]/table/tbody/tr[4]/td[6]/span</value>
+         <value>/html/body/div[18]/div[2]/ul/li[1]/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
