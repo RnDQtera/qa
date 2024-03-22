@@ -59,6 +59,8 @@ WebUI.click(findTestObject('Menu audit task dan history/Object2089_dd status'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Menu Audit existence/Object2203_grace period status'))
+
 WebUI.click(findTestObject('Menu audit task dan history/Object2090_cb 2'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
@@ -75,15 +77,31 @@ WebUI.click(findTestObject('Menu Audit existence/Object2197_act audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu Audit existence/Object2198_search'))
+WebUI.click(findTestObject('Menu Audit existence/Object2200_bt filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu Audit existence/Object2199_ketik search'), '4')
+WebUI.click(findTestObject('Menu audit condition/Object2130_nama asset'))
 
-WebUI.sendKeys(findTestObject('Menu Audit existence/Object2199_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2131_cb 1 aset'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2143_dd model'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2144_cb 1 modl'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2141_dd brand'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2142_cb 1 br'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2145_apply filter'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.090.001 search audit existence.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.090.002 filter audit existence.png', FailureHandling.STOP_ON_FAILURE)
 

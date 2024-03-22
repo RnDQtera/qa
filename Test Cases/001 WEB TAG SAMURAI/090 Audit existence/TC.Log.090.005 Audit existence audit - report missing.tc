@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.090.005 Audit existence audit - report missing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20819ebc-b5cc-496c-b986-71370f6b6b41</testCaseGuid>
+</TestCaseEntity>

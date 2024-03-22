@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.090.010 Audited existence update damaged - edit missing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27e69ed8-ca80-4956-847b-d792e04c6d1d</testCaseGuid>
+</TestCaseEntity>

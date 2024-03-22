@@ -75,15 +75,68 @@ WebUI.click(findTestObject('Menu Audit existence/Object2197_act audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu Audit existence/Object2198_search'))
+WebUI.click(findTestObject('Menu audit condition/Object2158_tab audited'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu Audit existence/Object2199_ketik search'), '4')
+WebUI.click(findTestObject('Menu audit condition/Object2161_bt filter'))
 
-WebUI.sendKeys(findTestObject('Menu Audit existence/Object2199_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2130_nama asset'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2131_cb 1 aset'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2132_dd status'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2162_cb 1 status'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2133_cb 2 stts'))
+
+'tidak bug, tidak pakai karena target tidak tertulis location found nya'
+WebUI.click(findTestObject('Menu audit condition/Object2134_select group'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2137_apply f'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2143_dd model'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2144_cb 1 modl'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2169_cb 2 model'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2141_dd brand'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2142_cb 1 br'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2163_date'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2164_tgl 1'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2165_tgl 31'))
+
+WebUI.click(findTestObject('Menu audit condition/Object2166_dd condi'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2167_select all dond'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2168_apply filter'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.090.001 search audit existence.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.090.007 filter audited existence.png', FailureHandling.STOP_ON_FAILURE)
 

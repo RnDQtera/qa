@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.090.003 Audit existence log</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3426b2c-af7b-4988-8c8b-636593e80582</testCaseGuid>
+</TestCaseEntity>

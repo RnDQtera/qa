@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.090.007 Audited existence filter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd9014e4-ad33-477f-b6df-b6efebb8cd73</testCaseGuid>
+</TestCaseEntity>

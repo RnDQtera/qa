@@ -49,23 +49,35 @@ WebUI.click(findTestObject('Audit/Object409_select sub tab task'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2078_search'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2080_bt filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu audit task dan history/Object2079_ketik search'), 'auditor')
+WebUI.click(findTestObject('Menu audit task dan history/Object2081_dd audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Menu audit task dan history/Object2079_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu audit task dan history/Object2082_cb 1 tipe'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Audit/Object410_Action Start Audit'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2089_dd status'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2120_action audit'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2090_cb 2'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit task dan history/Object2093_apply filter'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2196_titik 3'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2197_act audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -101,55 +113,55 @@ WebUI.click(findTestObject('Menu audit condition/Object2174_scan qr'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Menu audit condition/Object2154_dd condition'))
+WebUI.click(findTestObject('Menu Audit existence/Object2215_dd condition'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2175_condition normal'))
+WebUI.click(findTestObject('Menu Audit existence/Object2216_cb 1 cd'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu audit condition/Object2156_ketik missing'), 'aman')
+WebUI.setText(findTestObject('Menu Audit existence/Object2219_ketik notes'), 'minus dikit, kaki meja ilang satu')
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2157_submit update'))
+WebUI.uploadFile(findTestObject('Menu Audit existence/Object2217_upload report dmg'), 'C:\\Users\\aplikasi internal\\Pictures\\Saved Pictures\\kursiolympic.jpg')
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2171_titik 3'))
+WebUI.click(findTestObject('Menu Audit existence/Object2218_apply foto'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2176_edit condi'))
+WebUI.click(findTestObject('Menu Audit existence/Object2220_submit report'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2177_qr veriv'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Menu audit condition/Object2178_dd condi edit'))
+WebUI.click(findTestObject('Menu Audit existence/Object2213_titik 3'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2179_cb dmg edit'))
+WebUI.click(findTestObject('Menu Audit existence/Object2221_edit cond'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu audit condition/Object2180_ketik note'), 'minus dikit, kaki meja ilang satu')
+WebUI.click(findTestObject('Menu Audit existence/Object2222_qr veriv'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.uploadFile(findTestObject('Menu audit condition/Object2181_upload foto dmg'), 'C:\\Users\\aplikasi internal\\Pictures\\Saved Pictures\\kursiolympic.jpg')
+WebUI.click(findTestObject('Menu Audit existence/Object2223_dd condition'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2182_apply foto'))
+WebUI.click(findTestObject('Menu Audit existence/Object2224_cb missing'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2183_submit edit cond'))
+WebUI.setText(findTestObject('Menu Audit existence/Object2225_ketik notes'), 'not found')
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2226_submit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -157,5 +169,5 @@ WebUI.click(findTestObject('Menu audit condition/Object2184_finish audit'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.089.011 audited condition update normal - edit damaged.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.090.010 audited condition update damaged - edit missing.png', FailureHandling.STOP_ON_FAILURE)
 

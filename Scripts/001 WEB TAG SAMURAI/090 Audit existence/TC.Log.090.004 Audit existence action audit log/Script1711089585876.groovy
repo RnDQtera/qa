@@ -75,15 +75,13 @@ WebUI.click(findTestObject('Menu Audit existence/Object2197_act audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu Audit existence/Object2198_search'))
+WebUI.click(findTestObject('Menu Audit existence/Object2205_titik 3'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu Audit existence/Object2199_ketik search'), '4')
-
-WebUI.sendKeys(findTestObject('Menu Audit existence/Object2199_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu Audit existence/Object2206_audit log'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.090.001 search audit existence.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.090.004 audit log audit existence.png', FailureHandling.STOP_ON_FAILURE)
 
