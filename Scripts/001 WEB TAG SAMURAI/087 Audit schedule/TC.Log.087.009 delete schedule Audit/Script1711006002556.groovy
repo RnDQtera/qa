@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Audit/Object444_Search Audit Schedule'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Audit/Object445_Field Search'), 'SAUD-240321-000')
+WebUI.setText(findTestObject('Audit/Object445_Field Search'), 'SAUD-240322-000')
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

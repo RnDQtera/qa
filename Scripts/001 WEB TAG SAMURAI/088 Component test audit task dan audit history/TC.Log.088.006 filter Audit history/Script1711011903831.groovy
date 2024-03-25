@@ -54,7 +54,6 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Menu audit task dan history/Object2082_cb 1 tipe'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Menu audit task dan history/Object2083_date'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
@@ -62,6 +61,16 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Menu audit task dan history/Object2084_tgl 1'))
 
 WebUI.click(findTestObject('Menu audit task dan history/Object2085_tgl 21'))
+
+WebUI.click(findTestObject('Menu audit task dan history/Object2114_date'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit task dan history/Object2115_tgl 1'))
+
+WebUI.click(findTestObject('Menu audit task dan history/Object2116_tgl 21'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Menu audit task dan history/Object2086_select cat'))
 
@@ -75,23 +84,15 @@ WebUI.click(findTestObject('Menu audit task dan history/Object2088_apply cat'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Menu audit task dan history/Object2117_ketik dt 1'), '1')
+
+WebUI.setText(findTestObject('Menu audit task dan history/Object2118_ketik dt 2'), '2')
+
 WebUI.click(findTestObject('Menu audit task dan history/Object2089_dd status'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Menu audit task dan history/Object2121_cb status'))
-
-WebUI.click(findTestObject('Menu audit task dan history/Object2114_date'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu audit task dan history/Object2115_tgl 1'))
-
-WebUI.click(findTestObject('Menu audit task dan history/Object2116_tgl 21'))
-
-WebUI.setText(findTestObject('Menu audit task dan history/Object2117_ketik dt 1'), '1')
-
-WebUI.setText(findTestObject('Menu audit task dan history/Object2118_ketik dt 2'), '1')
 
 WebUI.click(findTestObject('Menu audit task dan history/Object2119_apply filter'))
 

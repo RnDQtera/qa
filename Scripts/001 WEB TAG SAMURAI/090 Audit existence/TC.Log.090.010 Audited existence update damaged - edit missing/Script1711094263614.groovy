@@ -105,6 +105,34 @@ WebUI.click(findTestObject('Menu audit condition/Object2158_tab audited'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Menu Audit existence/Object2213_titik 3'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2221_edit cond'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2222_qr veriv'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2223_dd condition'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2224_cb missing'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Menu Audit existence/Object2225_ketik notes'), 'not found')
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2226_submit'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Menu audit condition/Object2173_bt update'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
@@ -134,34 +162,6 @@ WebUI.click(findTestObject('Menu Audit existence/Object2218_apply foto'))
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Menu Audit existence/Object2220_submit report'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu Audit existence/Object2213_titik 3'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu Audit existence/Object2221_edit cond'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu Audit existence/Object2222_qr veriv'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu Audit existence/Object2223_dd condition'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu Audit existence/Object2224_cb missing'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Menu Audit existence/Object2225_ketik notes'), 'not found')
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu Audit existence/Object2226_submit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

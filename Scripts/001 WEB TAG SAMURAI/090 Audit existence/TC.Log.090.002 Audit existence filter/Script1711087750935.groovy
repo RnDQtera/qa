@@ -99,6 +99,7 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Menu audit condition/Object2142_cb 1 br'))
 
+'sesuai figma hanya ini opsi filternya\r\n'
 WebUI.click(findTestObject('Menu audit condition/Object2145_apply filter'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

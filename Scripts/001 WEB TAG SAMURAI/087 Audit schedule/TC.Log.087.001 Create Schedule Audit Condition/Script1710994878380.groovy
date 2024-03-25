@@ -63,7 +63,7 @@ WebUI.click(findTestObject('Audit/Object395_Apply Category'), FailureHandling.ST
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Audit/Object396_Select Tag Type'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Menu audit schedule/Object2227_dd tag type'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Menu audit schedule/Object2037_qr tag'), FailureHandling.STOP_ON_FAILURE)
 
