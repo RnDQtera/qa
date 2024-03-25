@@ -29,6 +29,8 @@ WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('1 Object0003_Button login'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
@@ -47,10 +49,9 @@ WebUI.click(findTestObject('Menu fixed asset borrow borrowed/Object0088_search b
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Menu fixed asset borrow borrowed/Object0086_ketik search borrow borrowed'), 'returned')
+WebUI.setText(findTestObject('Menu fixed asset borrow borrowed/Object0086_ketik search borrow borrowed'), 'kursi')
 
-WebUI.sendKeys(findTestObject('Menu fixed asset borrow borrowed/Object0086_ketik search borrow borrowed'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Menu fixed asset borrow borrowed/Object0086_ketik search borrow borrowed'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

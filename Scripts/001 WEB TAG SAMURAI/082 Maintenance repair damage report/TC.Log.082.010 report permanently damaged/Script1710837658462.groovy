@@ -43,6 +43,7 @@ WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
+'sebelum menjalankan test case ini, jalankan kembali tc.log.082.008\r\n'
 WebUI.click(findTestObject('1 Object1592_maintenance'))
 
 WebUI.delay(10)
@@ -128,4 +129,14 @@ WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1875_ya
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.082.010 report permanently damaged.png', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.082.010 report permanently damaged.png', FailureHandling.STOP_ON_FAILURE)
+
+
 

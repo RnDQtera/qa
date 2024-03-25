@@ -91,11 +91,19 @@ WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1858_dd
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1859_cb 1'))
+WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1862_cb 2 stts'))
 
 WebUI.click(findTestObject('Menu maintenance repair damaged report/Object1860_submit repair'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.082.008 third party repair.png', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.082.008 third party repair.png', FailureHandling.STOP_ON_FAILURE)
 

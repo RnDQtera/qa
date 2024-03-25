@@ -81,3 +81,15 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.076.011 Borrow asset.png', FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2229_show all notif'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.076.011 Borrow asset.png', FailureHandling.STOP_ON_FAILURE)
+

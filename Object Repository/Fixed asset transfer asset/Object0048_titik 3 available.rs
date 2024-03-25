@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;single-spa-application:@dev-tagsamurai/ts-mfe-console-assets&quot;]/div/div[3]/div[2]/div/div/div/div/div[3]/div/div[1]/table/tbody/tr[2]/td[11]/button/span[1]</value>
+         <value>/html/body/div[1]/div/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div/div[3]/div/div[1]/table/tbody/tr[1]/td[11]/button/span[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -29,6 +29,8 @@ WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('1 Object0003_Button login'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
@@ -45,7 +47,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Menu titik 3 fixed asset borrow transaction/Object0145_titik 3 borrow transaction'))
 
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Menu titik 3 fixed asset borrow transaction/Object0144_handover borrow transaction'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu fixed asset borrow transaction/Object2230_submit handover'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 

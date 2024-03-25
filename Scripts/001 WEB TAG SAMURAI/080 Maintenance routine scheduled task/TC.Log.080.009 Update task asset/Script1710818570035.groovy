@@ -63,7 +63,7 @@ WebUI.click(findTestObject('Menu maintenance maintenable asset/Object1595_close'
 
 WebUI.delay(3)
 
-'untuk test antara QR TRUK 14, RFID 16 20 21 BERSTATUS UNDER MAINTENANCE'
+'untuk test, RFID 16 20 21. TASK review only.. jika ada task diatas bekas sebelumnya, bisa cancel maintenance terlebih dahulu'
 WebUI.click(findTestObject('Menu maintenance routine scheduled task/Object1731_scan rfid'))
 
 WebUI.delay(8)
@@ -145,4 +145,12 @@ WebUI.click(findTestObject('Menu maintenance routine scheduled task/Object1781_y
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.080.009 update task.png', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.080.009 update task.png', FailureHandling.STOP_ON_FAILURE)
 

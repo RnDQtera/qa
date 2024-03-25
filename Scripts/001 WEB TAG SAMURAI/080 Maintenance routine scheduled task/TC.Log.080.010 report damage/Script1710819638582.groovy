@@ -88,7 +88,7 @@ WebUI.click(findTestObject('Menu maintenance routine scheduled task/Object1787_a
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Menu maintenance routine scheduled task/Object1785_add note'), 'updateeeeeeeee')
+WebUI.setText(findTestObject('Menu maintenance routine scheduled task/Object1785_add note'), 'udah ancur ancuran')
 
 WebUI.delay(3)
 
@@ -101,4 +101,12 @@ WebUI.click(findTestObject('Menu maintenance routine scheduled task/Object1788_y
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.080.010 report damaged.png', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.080.010 report damaged.png', FailureHandling.STOP_ON_FAILURE)
 

@@ -39,6 +39,14 @@ WebUI.click(findTestObject('1 Object0007_menu available fixed asset'))
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0041_filter menu available'))
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1030_dropdown tag'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Filter available asset/Object1031_checkbox tag'))
+
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0040_dropdown menu available filter'))
 
 WebUI.delay(10)
@@ -67,8 +75,16 @@ WebUI.setText(findTestObject('Fixed asset report missing/Object0486_ketik report
 WebUI.doubleClick(findTestObject('Fixed asset report missing/Object0485_submit report missing'))
 
 WebUI.doubleClick(findTestObject('Fixed asset report missing/Object0487_ya submit report missing'))
-
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.022.001 Report missing.png', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.022.001 Report missing.png', FailureHandling.STOP_ON_FAILURE)
+
 
