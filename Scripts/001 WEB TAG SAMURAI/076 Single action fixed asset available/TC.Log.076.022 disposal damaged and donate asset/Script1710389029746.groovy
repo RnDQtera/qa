@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
 
@@ -41,11 +41,11 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('1 Object0007_menu available fixed asset'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0041_filter menu available'))
 
@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Filter available asset/Object1031_checkbox tag'))
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0040_dropdown menu available filter'))
 
-WebUI.delay(10)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Fixed asset transfer asset/Object0042_ketik menu filter nama available'), 'kursi')
 
@@ -69,7 +69,7 @@ WebUI.click(findTestObject('Fixed asset transfer asset/Object0044_pilih menu fil
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0037_apply filter available'))
 
-WebUI.delay(10)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Fixed asset transfer asset/Object0048_titik 3 available'))
 
@@ -100,4 +100,12 @@ WebUI.click(findTestObject('Menu titik 3 fixed asset disposal prelist/Object0571
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.076.022 disposal damaged and donate.png', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.076.022 disposal damaged and donate.png', FailureHandling.STOP_ON_FAILURE)
 

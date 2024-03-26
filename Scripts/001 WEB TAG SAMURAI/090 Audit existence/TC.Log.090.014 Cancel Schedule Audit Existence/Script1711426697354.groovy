@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Menu audit schedule/Object2033_sub lt 3'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Menu audit schedule/Object2034_raudit'))
+WebUI.click(findTestObject('Menu audit schedule/Object2035_regal'))
 
 WebUI.delay(2)
 
@@ -73,7 +73,7 @@ WebUI.click(findTestObject('Audit/Object398_Select Audit Type'), FailureHandling
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Audit/Object427_Choose Condition'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Audit/Object399_Choose Existence'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -82,7 +82,7 @@ WebUI.click(findTestObject('Audit/Object400_select date'), FailureHandling.STOP_
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 'tanggal berubah sewaktu waktu/ harus update'
-WebUI.click(findTestObject('Menu audit schedule/Object2038_tgl 21'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Menu audit schedule/Object2241_tgl 31 mar'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -98,9 +98,25 @@ WebUI.sendKeys(findTestObject('Audit/Object404_enter audit date'), Keys.chord(Ke
 
 WebUI.click(findTestObject('Audit/Object405_submit form audit'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Audit/Object409_select sub tab task'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Audit/Object410_Action Start Audit'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit schedule/Object2242_cancel audit'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit schedule/Object2243_ya cancel'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.087.001 create audit schedule condition.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.090.014 cancel audit schedule existence.png', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -108,5 +124,9 @@ WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_F
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.087.001 create audit schedule condition.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1 Object2229_show all notif'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.090.014 cancel audit schedule existence.png', FailureHandling.STOP_ON_FAILURE)
 

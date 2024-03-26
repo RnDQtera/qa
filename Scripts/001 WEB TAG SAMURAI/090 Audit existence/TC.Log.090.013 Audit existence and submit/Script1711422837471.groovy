@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'jika ingin automation testing test case ini, harus menjalankan test case 087.001 yaitu membuat schedule kembali\r\n'
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
@@ -50,35 +49,63 @@ WebUI.click(findTestObject('Audit/Object409_select sub tab task'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2078_search'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2080_bt filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Menu audit task dan history/Object2079_ketik search'), 'auditor')
+WebUI.click(findTestObject('Menu audit task dan history/Object2081_dd audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Menu audit task dan history/Object2079_ketik search'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Menu audit task dan history/Object2082_cb 1 tipe'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Audit/Object410_Action Start Audit'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2089_dd status'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2120_action audit'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2090_cb 2'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2122_button audit'))
+WebUI.click(findTestObject('Menu audit task dan history/Object2093_apply filter'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2123_audit tag'))
+WebUI.click(findTestObject('Menu Audit existence/Object2196_titik 3'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit task dan history/Object2124_start audit'))
+WebUI.click(findTestObject('Menu Audit existence/Object2197_act audit'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2205_titik 3'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2210_act report missing'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Menu audit condition/Object2150_ketik kenapa hilang'), 'not found')
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu audit condition/Object2151_submit report miss'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2207_bt audit'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2208_audit tag'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2209_start audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -90,69 +117,31 @@ WebUI.click(findTestObject('Menu audit task dan history/Object2126_close sync'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2152_bt update'))
+WebUI.click(findTestObject('Menu Audit existence/Object2207_bt audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2153_update qr'))
-
-WebUI.delay(8)
-
-WebUI.click(findTestObject('Menu audit condition/Object2154_dd condition'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu audit condition/Object2175_condition normal'))
-
-WebUI.setText(findTestObject('Menu audit condition/Object2156_ketik missing'), 'layak pakai')
+WebUI.click(findTestObject('Menu Audit existence/Object2208_audit tag'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2157_submit update'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Menu Audit existence/Object2209_start audit'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Menu Audit existence/Object2211_stop scan'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2152_bt update'))
+WebUI.click(findTestObject('Menu audit condition/Object2158_tab audited'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Menu audit condition/Object2153_update qr'))
-
-WebUI.delay(8)
-
-WebUI.click(findTestObject('Menu audit condition/Object2154_dd condition'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Menu audit condition/Object2179_cb dmg edit'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Menu audit condition/Object2192_ketik note dmg'), 'belah dua')
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.uploadFile(findTestObject('Menu audit condition/Object2193_upload foto'), 'C:\\Users\\aplikasi internal\\Pictures\\Saved Pictures\\kursiolympic.jpg')
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu audit condition/Object2194_apply aplof'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu audit condition/Object2195_submit dmg'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu audit condition/Object2158_tab audited'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Menu audit condition/Object2184_finish audit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Menu audit condition/Object2184_finish audit'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.089.013 Update audit normal dan damaged.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.090.013 audit existence.png', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -160,5 +149,4 @@ WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_F
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.089.013 Update audit normal dan damaged.png', FailureHandling.STOP_ON_FAILURE)
-
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.090.013 audit existence.png', FailureHandling.STOP_ON_FAILURE)
