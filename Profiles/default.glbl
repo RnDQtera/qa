@@ -54,4 +54,9 @@
       <initValue>'Moderator12@'</initValue>
       <name>pw</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'user666@mailnesia.com'</initValue>
+      <name>email_milos</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

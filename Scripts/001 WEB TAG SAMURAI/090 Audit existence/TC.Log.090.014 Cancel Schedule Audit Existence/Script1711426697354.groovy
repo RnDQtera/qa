@@ -23,7 +23,7 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('1 Object001_email'), GlobalVariable.email)
+WebUI.setText(findTestObject('1 Object001_email'), GlobalVariable.EMAIL)
 
 WebUI.setText(findTestObject('1 Object002_pw'), GlobalVariable.pw)
 
