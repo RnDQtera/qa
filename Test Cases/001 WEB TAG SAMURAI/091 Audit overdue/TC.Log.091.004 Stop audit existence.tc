@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.091.004 Stop audit existence</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48d2693d-9729-40b8-9bb4-12029f153ae0</testCaseGuid>
+</TestCaseEntity>

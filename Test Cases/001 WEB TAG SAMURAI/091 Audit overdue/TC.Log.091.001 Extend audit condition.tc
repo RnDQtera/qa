@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.091.001 Extend audit condition</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82c0e3fc-600d-48a4-aec2-cad403f59db3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.091.002 Stop audit condition</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ab4a6d9-ddf2-4641-b0c0-fcad9e8bdd11</testCaseGuid>
+</TestCaseEntity>
