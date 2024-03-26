@@ -53,5 +53,12 @@ WebUI.click(findTestObject('Menu titik 3 fixed asset disposal transaction/Object
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.030.007 Melihat log disposal transaction.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/TC.Log.030.007 Restore asset.png', FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.030.007 Restore asset.png', FailureHandling.STOP_ON_FAILURE)
