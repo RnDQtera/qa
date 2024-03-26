@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.092.001 Report missing on tracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4fbd912-a6fc-411a-aaab-ea2594cacd0a</testCaseGuid>
+</TestCaseEntity>

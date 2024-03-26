@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.092.003 report permanently missing on tracking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f341a2db-9b3a-4423-8bac-722b5862bdf0</testCaseGuid>
+</TestCaseEntity>
