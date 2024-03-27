@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Object2081_dd audit</name>
+   <name>1 Object2293_audit</name>
    <tag></tag>
-   <elementGuidId>6503e0c5-9738-471d-a702-e61af35efd1e</elementGuidId>
+   <elementGuidId>5330bdee-d5a5-408e-958c-34c83b4558bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div[2]/div</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[7]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

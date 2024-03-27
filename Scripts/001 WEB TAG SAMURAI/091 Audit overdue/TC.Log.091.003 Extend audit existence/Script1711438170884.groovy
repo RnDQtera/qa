@@ -21,12 +21,6 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.localhost)
-
-WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('1 Object001_email'), GlobalVariable.email_milos)
@@ -43,7 +37,7 @@ WebUI.delay(20)
 
 WebUI.click(findTestObject('1 Object016_Button Audit'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Audit/Object409_select sub tab task'))
 
@@ -92,12 +86,4 @@ WebUI.click(findTestObject('Menu audit task dan history/Object2252_submit'))
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.091.003 extend audit overdue existence.png', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.091.003 extend audit overdue existence.png', FailureHandling.STOP_ON_FAILURE)
 

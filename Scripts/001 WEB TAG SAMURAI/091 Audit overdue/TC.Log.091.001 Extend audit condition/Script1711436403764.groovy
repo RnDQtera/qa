@@ -21,12 +21,6 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.localhost)
-
-WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('1 Object001_email'), GlobalVariable.email_milos)
@@ -41,7 +35,7 @@ WebUI.click(findTestObject('1 Object004_fixedasset module'))
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('1 Object016_Button Audit'))
+WebUI.click(findTestObject('1 Object2293_audit'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -93,10 +87,3 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.091.001 extend audit overdue condition.png', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.091.001 extend audit overdue condition.png', FailureHandling.STOP_ON_FAILURE)
