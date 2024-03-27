@@ -21,6 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl(GlobalVariable.localhost)
+
+WebUI.click(findTestObject('1 localhost - advance'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 localhost - process localhost'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('1 Object0001_Email'), GlobalVariable.EMAIL)
@@ -29,58 +37,65 @@ WebUI.setText(findTestObject('1 Object0002_Password'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('1 Object0003_Button login'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('1 Object0004_Module Fixed Asset'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('1 Object0005_Menu atas fixed asset'))
+WebUI.click(findTestObject('1 Object015_button Tracking'))
 
-WebUI.click(findTestObject('1 Object0007_menu available fixed asset'))
+WebUI.delay(20)
 
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0041_filter menu available'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Filter available asset/Object1030_dropdown tag'))
+WebUI.click(findTestObject('Menu tracking/Object2256_tracking global'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Menu single action fixed asset available/Object1571_cb qr tag'))
-
-WebUI.click(findTestObject('Menu single action fixed asset available/Object1397_rfid tag'))
-
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0040_dropdown menu available filter'))
+WebUI.click(findTestObject('Menu tracking/Object2260_select group'))
 
 WebUI.delay(3)
 
-'truk / gitar'
-WebUI.setText(findTestObject('Fixed asset transfer asset/Object0042_ketik menu filter nama available'), 'truk tanah')
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0044_pilih menu filter nama available'))
-
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0037_apply filter available'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Fixed asset transfer asset/Object0048_titik 3 available'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Menu tracking/Object2255_report missing tracking'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Fixed asset report missing/Object0486_ketik report missing'), 'test hilang')
-
-WebUI.doubleClick(findTestObject('Fixed asset report missing/Object0485_submit report missing'))
-
-WebUI.doubleClick(findTestObject('Fixed asset report missing/Object0487_ya submit report missing'))
+WebUI.click(findTestObject('Menu tracking/Object2261_lt 2'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/TC.Log.092.001 Report missingon tracking.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Menu tracking/Object2262_apply group'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu tracking/Object2257_scan qr glb'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu tracking/Object2258_syncing'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Menu tracking/Object2259_close sync'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu tracking/Object2274_scan rfid on track'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu tracking/Object2260_select group'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Menu tracking/Object2261_lt 2'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu tracking/Object2262_apply group'))
+
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Menu tracking/Object2257_scan qr glb'))
+
+WebUI.delay(10)
+
+WebUI.takeScreenshot('Screenshot/TC.Log.092.004 SCAN RFID tracking.png', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -88,5 +103,5 @@ WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_F
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.092.001 Report missingon tracking.png', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.092.004 SCAN RFID tracking.png', FailureHandling.STOP_ON_FAILURE)
 

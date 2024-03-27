@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.Log.092.007 Update missing tracked asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9ea2ba2-7f15-4f35-bde2-04755b6cc53f</testCaseGuid>
+</TestCaseEntity>
