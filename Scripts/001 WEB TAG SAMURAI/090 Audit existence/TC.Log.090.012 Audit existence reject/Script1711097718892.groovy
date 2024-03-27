@@ -69,3 +69,10 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/TC.Log.090.012 approval reject audit asset.png', FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.090.012 approval reject audit asset.png', FailureHandling.STOP_ON_FAILURE)

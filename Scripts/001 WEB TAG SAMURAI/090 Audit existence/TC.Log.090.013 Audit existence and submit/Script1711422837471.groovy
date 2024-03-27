@@ -67,6 +67,8 @@ WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Menu audit task dan history/Object2090_cb 2'))
 
+WebUI.click(findTestObject('Menu Audit existence/Object2203_grace period status'))
+
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Menu audit task dan history/Object2093_apply filter'))
@@ -150,3 +152,4 @@ WebUI.click(findTestObject('1 Object2228_notifikasi'), FailureHandling.STOP_ON_F
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('Screenshot/Notifikasi/TC.Log.090.013 audit existence.png', FailureHandling.STOP_ON_FAILURE)
+
